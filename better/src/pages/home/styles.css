@@ -126,17 +126,26 @@ p > span {
 }
 
 .traço {
+    display: flex;
     width: 5rem;
+    margin-top: 10px;
+    margin-left: 150px;
 }
 
 .titulodestaque{
+    margin-top: 70px;
     font-size:2.25rem;
     font-weight: 900;
     color: #001489;
 }
 
 .subtitulodestaque {
+    width: 450px;
     font-size: 1.5rem;
     font-weight: 700;
     color: #001489;
+}
+
+#mariaOdete{
+    margin-right: 100px;
 }

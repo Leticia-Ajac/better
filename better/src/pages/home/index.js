@@ -47,7 +47,7 @@ const Home = () => {
                 <img className="linha-vertical2" src={mais} alt="linha azul"/>
             </div>
             <div className="destaque">
-                <div>
+                <div id="certificados">
                     <p className="titulodestaque">Destaque no ENEM</p>
                     <img id="tracodestaque" src={traço} alt="linha azul"/>
                     <p className="subtitulodestaque">Certificados com a UNESCO, CMDCA, UPF e CEBAS</p>
