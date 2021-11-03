@@ -1,6 +1,8 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
 
+import logo_branca from '../../assets/logo-branca.png'
+
 import linha from '../../assets/linha.png';
 import linha2 from '../../assets/linha2.png';
 import mais2 from '../../assets/mais2.png';
@@ -15,7 +17,8 @@ const Home = () => {
     return(
         <div id='page-home'>
             <header>
-                <img class="topicos" id="logogerminare" src="./imagens/logo_branca.png" alt="logo germinare"/>
+                <img class="topicos" id="logogerminare" src={logo_branca} alt="logo germinare"/>
+
                 <ul id="listatopicos">
                     
                     <a href="">
