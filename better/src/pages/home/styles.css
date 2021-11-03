@@ -129,6 +129,20 @@ p > span {
     width: 5rem;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+.titulodestaque{
+    font-size: 35px;
+    color: #001489;
+    font-weight: 800px;
+}
+
+.subtitulodestaque{
+    font-size: 24px;
+    color: #001489;
+    font-weight: 600px;
+}
+>>>>>>> 13298bf6921a04ecfa36bc227242767bb37e99b3
