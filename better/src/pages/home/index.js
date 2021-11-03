@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import linha from '../../assets/linha.png';
 import linha2 from '../../assets/linha2.png';
 import mais2 from '../../assets/mais2.png';
-import mais from '../../assets/mais.png'
-import traço from '../../assets/traço.png'
-import odete from '../../assets/odete.png'
-import traço_canto from '../../assets/traço-canto.png'
+import mais from '../../assets/mais.png';
+import traço from '../../assets/traço.png';
+import odete from '../../assets/odete.png';
+import traço_canto from '../../assets/traço-canto.png';
+import div1 from '../../assets/div-titulo.png';
+import div2 from '../../assets/div-titulo2.png';
 
 const Home = () => {
     return(
