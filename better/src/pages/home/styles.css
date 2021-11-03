@@ -1,7 +1,7 @@
 header{
     background-color: #010D52;
     height: 7.5rem;
-    width:100%;
+    width:100vw;
     display: flex;
     align-items: center;
 }
@@ -20,14 +20,15 @@ header{
     white-space: nowrap;
     height: fit-content;
     transition: all ease-in-out 0.2s;
-    
-    
+    text-decoration: none;
+    list-style: none;    
 }
 #listatopicos > a > .topicos{
     width: 0.75rem;
     color: white;
     border-bottom: 0.125rem solid white;
     transition: all ease-in-out 0.2s;
+    list-style: none;
 }
 
 #listatopicos > a:hover > .topicos{
@@ -48,14 +49,23 @@ header{
     border-radius: 12.5rem;
     transition: all ease-in-out 0.5s;
     padding: 0.625rem;
+    text-decoration: none;
 }
-
-#portal_aluno:hover{
-    background: rgba(170, 170, 170, 0.501);
+#portal_aluno > li{
     color: white;
+    text-decoration: none;
+    list-style: none;
+}
+#portal_aluno:hover{
+    background: white;
+    color: black;
 }
 
-
+#portal_aluno:hover > li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
 
 
 
@@ -135,6 +145,74 @@ p > span {
     margin-top: -320px;
     margin-left: -50px ;
 }
+
+
+
+.inscricoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+}
+
+.elements > video {
+    width: 40%;
+    margin-bottom: 35px;
+}
+
+.elements > h1 {
+    flex-direction: column;
+    align-self: center;
+    margin-right: 1.5rem;
+    text-align: right;
+    color: #001489;
+    font-weight: 700;
+    font-size: 36px;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+
+.second-content > h1 {
+    color: #001489;
+    font-weight: 700;
+    font-size: 36px;
+    margin-left: 43px;
+    margin-right: 22px;
+}
+.second-content > p {
+    color: #3C3C3C;
+    font-weight: 600;
+    font-size: 18px;
+    align-self: center;
+}
+
+.second-content {
+    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha-emcima {
+    position: absolute;
+    display: flex;
+    margin-left: -50px;
+    margin-top: -30px;
+}
+
+.linha-embaixo {
+    position: absolute;
+    display: flex;
+    margin-left: 260px;
+    margin-top: 165px;
+}
+
+
+
 .protocolo{
     display: flex;
     flex-direction: column;

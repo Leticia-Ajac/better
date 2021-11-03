@@ -13,6 +13,10 @@ import traço_canto from '../../assets/traço-canto.png';
 import div1 from '../../assets/div-titulo.png';
 import div2 from '../../assets/div-titulo2.png';
 
+import video_inscricoes from '../../assets/Instituto Germinare_360P (1).mp4';
+import linha_cima from '../../assets/linha-em-cima.png';
+import linha_baixo from '../../assets/linha-em-baixo.png';
+
 const Home = () => {
     return(
         <div id='page-home'>
@@ -30,11 +34,13 @@ const Home = () => {
                     <a href="">
                         <li class="topicos">Nossa Cultura</li>
                     </a>
-                    <a href="" id="portal_aluno" style="width: 200px;">
-                        <li >Portal do aluno</li>
+                    <a href="" id="portal_aluno"style={{width: '200px'}}>
+                        <li>Portal do aluno</li>
                     </a>
                 </ul>
             </header>
+
+
             <div className="missao">
                 <h1>MISSÃO</h1>
                 <div className="content-from-img">
@@ -53,6 +59,34 @@ const Home = () => {
             <Link to="Qulture">
                 <button className="btn-home">SAIBA MAIS DA NOSSA CULTURA</button>
             </Link>
+
+            <div className="inscricoes">
+                <div className="elements">
+                    <h1>Inscrições Abertas</h1>
+                    <img className="linha-emcima" src={linha_cima} alt="linha azul"/>
+                    <video classwidth="400" controls>
+                        <source src={video_inscricoes} type="video/mp4"/>
+                    </video>
+                    <img className="linha-embaixo" src={linha_baixo} alt="linha azul"/>
+                </div>
+            </div>
+            <div class="inline-content">
+                <div class="second-content">
+                    <h1>.1</h1>
+                    <p>Inscrição</p>
+                    <h1>.2</h1>
+                    <p>Pesquisa de Perfil</p>
+                    <p>Avaliação cognitiva</p>
+                    <h1>.3</h1>
+                    <p>Entrevista</p>
+                    <h1>.4</h1>
+                    <p>Resultado</p>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="#"><button class="btn-content">Inscreva-se</button></a>
+            </div>
+            
             
             <div className="protocolo-covid">
                 <img className="linha-vertical1" src={mais2} alt="linha azul"/>
