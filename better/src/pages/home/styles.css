@@ -149,3 +149,60 @@ p > span {
 #mariaOdete{
     margin-right: 100px;
 }
+
+header{
+    background-color: #010D52;
+    height: 7.5rem;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+#listatopicos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    margin-left: 7.5rem;
+    width: 60%;
+}
+
+#listatopicos > a{
+    width: 3.125rem;
+    white-space: nowrap;
+    height: fit-content;
+    transition: all ease-in-out 0.2s;
+    
+    
+}
+#listatopicos > a > .topicos{
+    width: 0.75rem;
+    color: white;
+    border-bottom: 0.125rem solid white;
+    transition: all ease-in-out 0.2s;
+}
+
+#listatopicos > a:hover > .topicos{
+    width: 2.812rem;
+}
+
+#logogerminare{
+    width: 12.312rem;
+    margin-left: 3.125rem;
+
+
+}
+
+#portal_aluno{
+    text-align: center;
+    color: white;
+    border: white solid 0.187rem;
+    border-radius: 12.5rem;
+    transition: all ease-in-out 0.5s;
+    padding: 0.625rem;
+}
+
+#portal_aluno:hover{
+    background: rgba(170, 170, 170, 0.501);
+    color: white;
+}
