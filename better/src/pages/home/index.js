@@ -14,24 +14,24 @@ import div2 from '../../assets/div-titulo2.png';
 const Home = () => {
     return(
         <div id='page-home'>
-              <header>
-        <img class="topicos" id="logogerminare" src="./imagens/logo_branca.png" alt="logo germinare">
-        <ul id="listatopicos">
-            
-            <a href="">
-                <li class="topicos">Admissão</li>
-            </a>
-            <a href="">
-                <li class="topicos">Novidades</li>
-            </a>
-            <a href="">
-                <li class="topicos">Nossa Cultura</li>
-            </a>
-            <a href="" id="portal_aluno" style="width: 200px;">
-                <li >Portal do aluno</li>
-            </a>
-        </ul>
-    </header>
+            <header>
+                <img class="topicos" id="logogerminare" src="./imagens/logo_branca.png" alt="logo germinare"/>
+                <ul id="listatopicos">
+                    
+                    <a href="">
+                        <li class="topicos">Admissão</li>
+                    </a>
+                    <a href="">
+                        <li class="topicos">Novidades</li>
+                    </a>
+                    <a href="">
+                        <li class="topicos">Nossa Cultura</li>
+                    </a>
+                    <a href="" id="portal_aluno" style="width: 200px;">
+                        <li >Portal do aluno</li>
+                    </a>
+                </ul>
+            </header>
             <div className="missao">
                 <h1>MISSÃO</h1>
                 <div className="content-from-img">
