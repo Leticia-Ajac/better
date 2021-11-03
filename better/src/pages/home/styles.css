@@ -1,0 +1,8 @@
+.ligado{
+    color: rgb(47, 57, 197);
+    transition: color 0.3s ease-in-out;
+}
+
+.ligado:hover{
+    color: rgb(110, 117, 216);
+}
