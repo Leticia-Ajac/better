@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: white;
+    
     display: flex;
     justify-content: center;
     text-align: center;
@@ -27,7 +27,7 @@ p > span {
     font-weight: 700;
     color: #001489;
 }
-.missao > button {
+.btn-home {
     margin-top: 30px;
     width: 321.22px;
     height: 54.74px;
@@ -41,6 +41,12 @@ p > span {
     align-items: center;
     text-align: center;
     color: #001489;
+    cursor: pointer;
+}
+
+.btn-home:hover{
+    color: rgb(61, 47, 47);
+    border-color: rgb(61, 47, 47);
 }
 
 .content-from-image > img {
@@ -70,33 +76,74 @@ p > span {
 }
 
 .protocolo-covid {
-    position: absolute;
     display: flex;
     align-items: center;
-    margin-top: 500px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
 .linha-vertical1{
-    margin-top: -400px ;
-
+    margin-top: 320px;
+    margin-right: -50px;
 }
 
+.linha-vertical2{
+    margin-top: -320px;
+    margin-left: -50px ;
+}
 .protocolo{
-    position: absolute;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background: url("./imagens/background.png") no-repeat; 
+    width: 591px;
+    height: 280px;
 }
 
 .protocolo > h1 {
-    color: #001489;
-    font-weight: 800;
-    font-size: 32px;
-    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    white-space: nowrap;
+    margin-bottom: 30px;
 }
 
 .protocolo > p {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    width: 300px;
+}
+
+.protocolo > a {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.protocolo > a > p:hover{
+    color: rgb(61, 47, 47);;
+}
+
+.destaque{
+    margin-top: 100px;
+}
+
+.inscricoes > h1 {
     color: #001489;
-    font-weight: 800;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 40px;
+}
+.second-content > p {
+    color: #3C3C3C;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.second-content {
+    display: inline-flex;
 }
