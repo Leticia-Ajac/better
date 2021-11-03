@@ -128,3 +128,15 @@ p > span {
 .traço {
     width: 5rem;
 }
+
+.titulodestaque{
+    font-size: 35px;
+    color: #001489;
+    font-weight: 800px;
+}
+
+.subtitulodestaque{
+    font-size: 24px;
+    color: #001489;
+    font-weight: 600px;
+}
