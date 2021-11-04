@@ -251,13 +251,13 @@ p > span {
 
 .linha-emcima {
     position: absolute;
-    margin-top: -5.5rem;
+    margin-top: -20rem;
     margin-left: 33rem;
 }
 
 .linha-embaixo{
     position: absolute;
-    margin-top: 9.5rem;
+    margin-top: -5rem;
     margin-left: 57rem;
 }
 
@@ -319,10 +319,9 @@ p > span {
 }
 
 .traço {
-    display: flex;
-    width: 5rem;
-    margin-top: 10px;
-    margin-left: 150px;
+    position: absolute;
+    top: 154.5rem;
+    left: 53.2rem;
 }
 
 .titulodestaque{
@@ -348,3 +347,268 @@ p > span {
     margin: auto;
 }
 
+.academias > h1 {
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    color: #001489;
+    font-size: 1.95rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.academias > div >#linhas-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+
+#linha-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14.1rem;
+    width: 17.2rem;
+    flex-wrap: nowrap;
+}
+
+#linha-2{
+    display: flex;
+    justify-content: flex-end;
+    width: 17.2rem;
+    margin-right: 13.1rem;
+    margin-top: 1.1rem;
+    float: right;
+    flex-wrap: nowrap;
+}
+
+.cards-academias{
+    row-gap: 1.1rem;
+    margin-top: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 9.3rem;
+    height: 14rem;
+    margin: auto;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    border-radius: 0.6rem;
+}
+
+.format-card{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.6rem;
+    transition: ease-in-out 0.6s;
+}
+
+#picpay {
+    background-image: linear-gradient(to bottom, #44DA74, #30A060);
+    position: relative;
+    
+}
+#picpay > .format-card{
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+
+#picpay > .format-card > p{
+    font-size: 0.62rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4.5rem 0.5rem auto;
+    color: #fff;
+    font-weight: 300;
+    transition: ease-out 0.2s;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+}
+
+#picpay > .format-card > img{
+    width: 7.8rem;
+    height: 2.4rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+#original {
+    background-image: linear-gradient(to left bottom, #000, #002D16, #00C55F);
+    position: relative;
+    
+}
+
+#original > .format-card > p{
+    font-size: 0.62rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4.5rem  0.5rem auto;
+    color: #fff;
+    font-weight: 300;
+    transition: ease-out 0.2s;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+}
+
+#original > .format-card > img{
+    width: 7.7rem;
+    height: 2.4rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+#seara-e-flora {
+    background-image: linear-gradient(to bottom, #EE7026, #01547C);
+}
+
+#seara-e-flora > .format-card > p{
+    font-size: 0.62rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4.5rem 0.5rem auto;
+    color: #fff;
+    font-weight: 300;
+    transition: ease-out 0.2s;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+}
+
+#seara-e-flora > .format-card >#img-seara{
+    width: 7.2rem;
+    height: 4.6rem;
+    margin-bottom: 8.1rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+#seara-e-flora > .format-card >#img-flora{
+    width: 5rem;
+    height: 4.6rem;
+    margin-top: 8.1rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+#seara-e-flora > .format-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#swift {
+    background-image: linear-gradient(to bottom, #ffc800ce, #FFC700);
+    position: relative;
+    
+}
+
+#swift > .format-card > p{
+    font-size: 0.62rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4.5rem 0.5rem auto;
+    color: #fff;
+    font-weight: 300;
+    transition: ease-out 0.2s;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+}
+
+#swift > .format-card > img{
+    width: 7.7rem;
+    height: 4.8rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+#friboi {
+    background-image: linear-gradient(to bottom, #ED1C24, #9C090F);
+    position: relative;
+}
+
+#friboi > .format-card > p{
+    font-size: 0.62rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4.5rem 0.5rem auto;
+    color: #fff;
+    font-weight: 300;
+    transition: ease-out 0.2s;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+}
+
+#friboi > .format-card > img{
+    width: 8.3rem;
+    height: 5.6rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+.format-card:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+.format-card:hover > img{
+    transform: translateY(-4rem)
+
+}
+
+
+#picpay > .format-card:hover > p{
+    opacity: 1;
+}
+
+#original > .format-card:hover > p{
+    opacity: 1;
+}
+
+#seara-e-flora > .format-card:hover > p{
+    opacity: 1;
+}
+
+#swift > .format-card:hover > p{
+    opacity: 1;
+}
+
+#friboi > .format-card:hover > p{
+    opacity: 1;
+}
+
+#seara-e-flora > .format-card:hover > img{
+    transform: translateY(0rem)
+    scale(55%)
+}
+
+#swift > .format-card:hover > img{
+    transform: translateY(-4.3rem)
+    scale(60%)
+}
+
+#friboi > .format-card:hover > img{
+    transform: translateY(-4.3rem)
+    scale(70%)
+}

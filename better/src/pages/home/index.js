@@ -11,6 +11,7 @@ import carousel_facul from '../../assets/carousel-facul.png'
 import carousel_cultura from '../../assets/carousel-cultura.png';
 import dividi_carousel from '../../assets/divisor.png'
 
+
 import logo_branca from '../../assets/logo-branca.png'
 import linha from '../../assets/linha.png';
 import linha2 from '../../assets/linha2.png';
@@ -20,8 +21,12 @@ import traço from '../../assets/traço.png';
 import odete from '../../assets/odete.png';
 import traço_canto from '../../assets/traço-canto.png';
 
-import div1 from '../../assets/div-titulo.png';
-import div2 from '../../assets/div-titulo2.png';
+import L_picpay from '../../assets/picpay.png';
+import L_original from '../../assets/original.png';
+import L_seara from '../../assets/seara.png';
+import L_flora from '../../assets/flora.png';
+import L_swift from '../../assets/swift.png';
+import L_friboi from '../../assets/friboi.png';
 
 import video_inscricoes from '../../assets/Instituto Germinare_360P (1).mp4';
 import linha_cima from '../../assets/linha-em-cima.png';
@@ -132,37 +137,37 @@ const Home = () => {
 
 
 
-        <div className="container-inscrições">
-            <div className="elements">
-                <h1>Inscrições Abertas </h1>
-                <video width="400" controls>
-                    <source src={video_inscricoes} type="video/mp4"/>
-                </video>
+            <div className="container-inscrições">
+                <div className="elements">
+                    <h1>Inscrições Abertas </h1>
+                    <video width="400" controls>
+                        <source src={video_inscricoes} type="video/mp4"/>
+                    </video>
+                </div>
+                <div className="inline-content">
+                    <div className="container">
+                        <h1>.1</h1>
+                        <p>Inscrição</p>
+                    </div>
+                    <div className="container">
+                        <h1>.2</h1>
+                        <p className="break">Pesquisa de Perfil Avaliação cognitiva</p>
+                    </div>
+                    <div className="container">
+                        <h1>.3</h1>
+                        <p>Entrevista</p>
+                    </div>
+                    <div className="container">
+                        <h1>.4</h1>
+                        <p>Resultado</p>
+                    </div>
+                </div>
+                <div>
+                    <Link className="btn-home">Inscreva-se</Link>
+                </div>
             </div>
-            <div className="inline-content">
-                <div className="container">
-                    <h1>.1</h1>
-                    <p>Inscrição</p>
-                </div>
-                <div className="container">
-                    <h1>.2</h1>
-                    <p className="break">Pesquisa de Perfil Avaliação cognitiva</p>
-                </div>
-                <div className="container">
-                    <h1>.3</h1>
-                    <p>Entrevista</p>
-                </div>
-                <div className="container">
-                    <h1>.4</h1>
-                    <p>Resultado</p>
-                </div>
-            </div>
-            <div>
-                <Link className="btn-home">Inscreva-se</Link>
-            </div>
-        </div>
-        <img className="linha-emcima" src={linha_cima} alt="linha azul"/>
-        <img className="linha-embaixo" src={linha_baixo} alt="linha azul"/>
+            <img className="linha-emcima" src={linha_cima} alt="linha azul"/>
+            <img className="linha-embaixo" src={linha_baixo} alt="linha azul"/>
 
 
 
@@ -200,7 +205,64 @@ const Home = () => {
             <img className="traço" src={traço_canto}/>
 
 
-            
+
+
+
+
+
+
+
+
+
+            <div className='academias'>
+                <h1>ACADEMIAS</h1>
+                <div>
+                    <img src={linha} alt="linha azul" id="linha-1" className="linhas"/>
+
+                    <div className="cards-academias">
+                        <div className="card" id="picpay">
+                            <div className="format-card">
+                                <img src={L_picpay} alt="picpay"/>
+                                <p>Uma nova experiência entre você e o seu dinheiro Uma nova experiência entre você e o seu dinheiro Uma nova experiência entre você e o seu dinheiro Uma nova experiência entre você e o seu dinheiro </p>
+                            </div>  
+                        </div>
+
+                        <div className="card" id="original">
+                            <div className="format-card">
+                                <img src={L_original} alt="original"/>
+                                <p>texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal </p>
+                            </div>
+                            
+                        </div>
+
+                        <div className="card" id="seara-e-flora">
+                            <div className="format-card">
+                                <img src={L_seara} alt="seara" id="img-seara"/>
+                                <p>texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal </p>
+                                <img src={L_flora} alt="flora" id="img-flora"/>
+                            </div>
+                            
+                            
+                        </div>
+
+                        <div className="card" id="swift">
+                            <div className="format-card">
+                                <img src={L_swift} alt="swift"/>
+                                <p>texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal </p>
+                            </div>
+                            
+                        </div>
+
+                        <div className="card" id="friboi">
+                            <div className="format-card">
+                                <img src={L_friboi} alt="friboi"/>
+                                <p>texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src={linha2} alt="linha azul" className="linhas" id="linha-2"/>
+                </div>
+            </div>
 
 
 
