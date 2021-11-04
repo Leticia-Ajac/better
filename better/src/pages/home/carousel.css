@@ -6150,14 +6150,53 @@ textarea.form-control-lg {
 }
 
 .carousel-caption {
-  position: absolute;
-  right: 15%;
-  bottom: 1.25rem;
-  left: 15%;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  color: #fff;
-  text-align: center;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    top: 5rem;
+}
+
+.carousel-caption > h3 {
+    text-align: left;
+    color: #fff;
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+
+.carousel-caption > img {
+    margin-left: -36rem;
+}
+
+.carousel-caption > p {
+    margin-top: 1.3rem;
+    color: #fff;
+    max-width: 50vw;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+.btn-carousel {
+    margin-top: 30px;
+    width: 321.22px;
+    height: 54.74px;
+    position: absolute;
+    margin-left: -28.7rem;
+
+    max-width: 16.9rem;
+    max-height: 108px;
+
+    border: 0.2rem solid #2E3092;
+    background-color: rgba(46, 48, 146, 0.6);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2.8809px 2.8809px rgba(0, 0, 0, 0.25));
+    border-radius: 7.20225px;
+    font-weight: 800;
+    font-size: 15;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
 }
 
 .carousel-dark .carousel-control-prev-icon,

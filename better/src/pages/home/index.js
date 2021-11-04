@@ -8,7 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import carousel_adm from '../../assets/carousel-adm.png'
 import carousel_facul from '../../assets/carousel-facul.png'
-import carousel_cultura from '../../assets/carousel-cultura.png'
+import carousel_cultura from '../../assets/carousel-cultura.png';
+import dividi_carousel from '../../assets/divisor.png'
 
 import logo_branca from '../../assets/logo-branca.png'
 import linha from '../../assets/linha.png';
@@ -65,8 +66,12 @@ const Home = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Processo de Admissão <br/> 2021/2022</h3>
+                        <img src={dividi_carousel} />
+                        <p>Inscrições válidas para alunos no 5° ano do fundamental. Do dia 09 a 27 de maio. <br/> <br/> #SeuFuturoComeçaAqui</p>
+                        <Link to=''>
+                            <button className='btn-carousel'>Inscreva-se</button>
+                        </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -77,8 +82,12 @@ const Home = () => {
                     />
 
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Faculdade Germinare <br/>2022/2023</h3>
+                        <img src={dividi_carousel} />
+                        <p>Venha construir o seu sucesso conosco, está na hora de despertar o profissional que existe em você! <br/> <br/>Em breve poderemos caminhar juntos em direção ao seu sonho!</p>
+                        <Link to=''>
+                            <button className='btn-carousel'>Pré-Inscrição</button>
+                        </Link>
                     </Carousel.Caption>
                 </Carousel.Item>    
                 <Carousel.Item>
@@ -88,8 +97,12 @@ const Home = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Nossa cultura</h3>
+                        <img src={dividi_carousel} />
+                        <p>Nossa Instituição acredita que a eduacação de qualidade, baseada em ética e liderança, é capaz de mudar o mundo. <br/> <br/>Nós te convidamos a saber mais sobre nossas crenças, missão e valores.</p>
+                        <Link to=''>
+                            <button className='btn-carousel'>Saiba mais</button>
+                        </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
@@ -181,10 +194,10 @@ const Home = () => {
                     <div className="img-destaque">
                         <img id="mariaOdete" src={odete} alt="Maria Odete"/>
                         <p className="legenda">Maria Odete, Diretora Pedagógica</p>
-                        <img className="traço" src={traço_canto}/>
                     </div>
                 </div>
             </div>
+            <img className="traço" src={traço_canto}/>
 
 
             

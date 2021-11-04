@@ -241,6 +241,7 @@ p > span {
     color: #001489;
     cursor: pointer;
     padding: 19px 49px 19px 49px;
+    text-decoration: none;
 }
 
 .btn-home:hover{
@@ -250,14 +251,14 @@ p > span {
 
 .linha-emcima {
     position: absolute;
-    margin-top: 20px;
-    margin-left: -65px;
+    margin-top: -5.5rem;
+    margin-left: 33rem;
 }
 
 .linha-embaixo{
     position: absolute;
-    margin-top: 250px;
-    margin-left: 300px;
+    margin-top: 9.5rem;
+    margin-left: 57rem;
 }
 
 
