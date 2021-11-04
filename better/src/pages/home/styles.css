@@ -79,7 +79,9 @@ header{
 }
 
 
-
+.missao{
+    margin-top: 5rem;
+}
 
 .missao > h1 {
     color: #001489;
@@ -91,7 +93,7 @@ p > span {
     font-weight: 700;
     color: #001489;
 }
-.btn-home {
+.btn-saiba {
     margin-top: 30px;
     width: 321.22px;
     height: 54.74px;
@@ -112,7 +114,7 @@ p > span {
     cursor: pointer;
 }
 
-.btn-home:hover{
+.btn-saiba:hover{
     color: rgb(61, 47, 47);
     border-color: rgb(61, 47, 47);
 }
@@ -162,80 +164,104 @@ p > span {
 
 
 
-.inscricoes{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-.elements {
-    display: flex;
-    justify-content: space-around;
-}
-
-.elements > video {
-    width: 40%;
-    margin-bottom: 35px;
+.container-inscrições{
+    margin-top: 5rem;
 }
 
 .elements > h1 {
-    width: 3rem;
-    flex-direction: column;
-    align-self: center;
-    margin-right: 1.5rem;
-    margin-left: auto;
-    color: #001489;
-    font-weight: 700;
-    font-size: 36px;
-}
-
-.inline-content{
-    margin-bottom: 2rem;
-}
-
-.under {
     display: flex;
-}
-
-.under > h1 {
-    color: #001489;
-    font-weight: 700;
-    font-size: 36px;
-    margin-left: 43px;
-    margin-right: 22px;
-}
-.under > p {
-    color: #3C3C3C;
-    font-weight: 600;
-    font-size: 18px;
-    align-self: center;
-}
-
-.second-content {
-    display: inline-flex;
+    width: 200px;
+    text-align: right;
+    height: 226.41px;
     justify-content: center;
     align-items: center;
-    margin-top: 2.2rem;
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36.734px;
+    line-height: 45px;
+    color: #001489;
+}
+
+.elements{
+    margin-top: 50px;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.inline-content {
+    margin-top: 40px;
+    display: inline-flex;
+}
+
+.container {
+    display: inline-flex;
+    margin-bottom: 70px;
+}
+
+.container > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #001489;
+    margin-left: 42px;
+    margin-right: 21px;
+
+}
+
+.container > p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #3C3C3C;
+}
+
+.break {
+    width: 200px;
+    flex-direction: column;
+}
+
+.btn-home {
+    border: 8px solid #2E3092;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #001489;
+    cursor: pointer;
+    padding: 19px 49px 19px 49px;
+}
+
+.btn-home:hover{
+    color: rgb(61, 47, 47);
+    border-color: rgb(61, 47, 47);
 }
 
 .linha-emcima {
     position: absolute;
-    display: flex;
-    margin-left: -50px;
-    margin-top: -30px;
+    margin-top: 20px;
+    margin-left: -65px;
 }
 
-.linha-embaixo {
+.linha-embaixo{
     position: absolute;
-    display: flex;
-    margin-left: 260px;
-    margin-top: 165px;
+    margin-top: 250px;
+    margin-left: 300px;
 }
 
-.btn > a {
-    margin-top: 2rem;
-    padding: 1rem 2rem;
-}
+
+
 
 
 

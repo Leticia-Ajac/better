@@ -113,57 +113,43 @@ const Home = () => {
                 <img className="img-2" src={linha2} alt="linha azul"/>
             </div>
             <Link to="Qulture">
-                <button className="btn-home">SAIBA MAIS DA NOSSA CULTURA</button>
+                <button className="btn-saiba">SAIBA MAIS DA NOSSA CULTURA</button>
             </Link>
 
 
 
 
-
-
-            <div className='container-inscrições'>
-                <div className="inscricoes">
-                    <div className="elements">
-                        <h1>Inscrições</h1>
-                        <h1>Abertas</h1>
-                        <img className="linha-emcima" src={linha_cima} alt="linha azul"/>
-                        <video classwidth="400" controls>
-                            <source src={video_inscricoes} type="video/mp4"/>
-                        </video>
-                        <img className="linha-embaixo" src={linha_baixo} alt="linha azul"/>
-                    </div>
+        <div className="container-inscrições">
+            <div className="elements">
+                <h1>Inscrições Abertas </h1>
+                <video width="400" controls>
+                    <source src={video_inscricoes} type="video/mp4"/>
+                </video>
+            </div>
+            <div className="inline-content">
+                <div className="container">
+                    <h1>.1</h1>
+                    <p>Inscrição</p>
                 </div>
-                <div class="inline-content">
-                    <div class="second-content">
-                        <div className='under'>
-                            <h1>.1</h1>
-                            <p>Inscrição</p>
-                        </div>
-                        <div className='under'>
-                            <h1>.2</h1>
-                            <>
-                                <p>Pesquisa de Perfil</p>
-                                <p>Avaliação cognitiva</p>
-                            </>
-                        </div>
-                        <div className='under'>
-                            <h1>.3</h1>
-                            <p>Entrevista</p>
-                        </div>
-                        <div className='under'>
-                            <h1>.4</h1>
-                            <p>Resultado</p>
-                        </div>
-
-                    </div>
+                <div className="container">
+                    <h1>.2</h1>
+                    <p className="break">Pesquisa de Perfil Avaliação cognitiva</p>
                 </div>
-                <div class="btn">
-                    <Link className="btn-home">Inscreva-se</Link>
+                <div className="container">
+                    <h1>.3</h1>
+                    <p>Entrevista</p>
+                </div>
+                <div className="container">
+                    <h1>.4</h1>
+                    <p>Resultado</p>
                 </div>
             </div>
-
-
-
+            <div>
+                <Link className="btn-home">Inscreva-se</Link>
+            </div>
+        </div>
+        <img className="linha-emcima" src={linha_cima} alt="linha azul"/>
+        <img className="linha-embaixo" src={linha_baixo} alt="linha azul"/>
 
 
 
@@ -201,6 +187,7 @@ const Home = () => {
             </div>
 
 
+            
 
 
 
