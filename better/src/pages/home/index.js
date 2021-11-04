@@ -32,6 +32,11 @@ import video_inscricoes from '../../assets/Instituto Germinare_360P (1).mp4';
 import linha_cima from '../../assets/linha-em-cima.png';
 import linha_baixo from '../../assets/linha-em-baixo.png';
 
+import './footer.css'
+import barra from '../../assets/barra.png'
+
+
+
 const Home = () => {
     return(
         <div id='page-home'>
@@ -223,14 +228,14 @@ const Home = () => {
                         <div className="card" id="picpay">
                             <div className="format-card">
                                 <img src={L_picpay} alt="picpay"/>
-                                <p>Uma nova experiência entre você e o seu dinheiro Uma nova experiência entre você e o seu dinheiro Uma nova experiência entre você e o seu dinheiro Uma nova experiência entre você e o seu dinheiro </p>
+                                <p>Nossa Academia de Tecnologia foi desenvolvida para atender a demanda dos alunos e do mercado de trabalho atual em relação ao desenvolvimento, pesquisa e aplicação de tecnologias.</p>
                             </div>  
                         </div>
 
                         <div className="card" id="original">
                             <div className="format-card">
                                 <img src={L_original} alt="original"/>
-                                <p>texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal </p>
+                                <p>A Academia de Finanças foi criada para formar profissionais com alto nivel de conhecimento contábil e econômico, principalmente através de atividades práticas na bolsa de valores.</p>
                             </div>
                             
                         </div>
@@ -238,7 +243,7 @@ const Home = () => {
                         <div className="card" id="seara-e-flora">
                             <div className="format-card">
                                 <img src={L_seara} alt="seara" id="img-seara"/>
-                                <p>texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal </p>
+                                <p>A Academia tem como objetivo formar profissionais ligados ao varejo.</p>
                                 <img src={L_flora} alt="flora" id="img-flora"/>
                             </div>
                             
@@ -248,7 +253,7 @@ const Home = () => {
                         <div className="card" id="swift">
                             <div className="format-card">
                                 <img src={L_swift} alt="swift"/>
-                                <p>texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal </p>
+                                <p>A Academia de Bens de Consumo busca formar tocadores de negócios, propondo como instrumento de aprendizagem o entendimento da estrutura organizacional e conhecimento de mercado.</p>
                             </div>
                             
                         </div>
@@ -256,7 +261,7 @@ const Home = () => {
                         <div className="card" id="friboi">
                             <div className="format-card">
                                 <img src={L_friboi} alt="friboi"/>
-                                <p>texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal texto legal </p>
+                                <p>A Academia Friboi tem como objetivo fomentar a curiosidade dos alunos em relação aos processos produtivos e a cadeia de garantia da qualidade.</p>
                             </div>
                         </div>
                     </div>
@@ -265,6 +270,64 @@ const Home = () => {
             </div>
 
 
+
+            <div className="footer-div">
+                <div className="parent">
+                    <img className="line-1" src={barra}/>
+                    <div className="fale-conosco">
+                        <div className="content-1">
+                            <h1>Fale Conosco</h1>
+                        </div>
+                        <div className="content-2">
+                            <h2 className="telefone">Telefone</h2>
+                            <p className="number">+55 (11) 3623-6000</p>
+                            <h2 className="localização">Localização</h2>
+                            <p className="local">Rua Irineu José Bordon, 335<br/>
+                            05120-060 - Vila Jaguara - São Paulo</p>
+                        </div>
+                        <div className="content-3">
+                            <h2>Emails</h2>
+                            <p>
+                                ouvidoria@germinare.org.br<br/>
+                                admissao@germinare.org.br<br/>
+                                comunicacao@germinare.org.br<br/>
+                                instituto@germinare.org.br
+                            </p>
+                        </div>
+                        <div className="social-media-icons">
+                            <div className="wrapper">
+                                <div className="icon facebook">
+                                    <div className="tooltip">
+                                        Facebook
+                                    </div>
+                                    <span><i className="fab fa-facebook-f"></i></span>
+                                </div>
+                                <div className="icon twitter">
+                                    <div className="tooltip">
+                                        Twitter
+                                    </div>
+                                    <span><i className="fab fa-twitter"></i></span>
+                                </div>
+                                <div className="icon instagram">
+                                    <div className="tooltip">
+                                        Instagram
+                                    </div>
+                                    <span><i className="fab fa-instagram"></i></span>
+                                </div>
+                                <div className="icon youtube">
+                                    <div className="tooltip">
+                                        YouTube
+                                    </div>
+                                    <span><i className="fab fa-youtube"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="footer-creditos">
+                    <p>Escola Germinare – Escola de Negócios © 2021</p>
+                </div>
+            </div>
 
         </div>
     );

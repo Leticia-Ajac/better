@@ -8,6 +8,8 @@
 
 body {
     background-image: linear-gradient(to right, rgba(170, 170, 170, 0.9), rgba(255,255,255   ,1));
+    overflow-x: hidden;
+    width: 100vw;
 }
 
 body {
