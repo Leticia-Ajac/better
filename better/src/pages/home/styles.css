@@ -1,3 +1,11 @@
+#page-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
 header{
     background-color: #010D52;
     height: 7.5rem;
@@ -5,6 +13,8 @@ header{
     display: flex;
     align-items: center;
 }
+
+
 
 #listatopicos{
     display: flex;
@@ -50,6 +60,7 @@ header{
     transition: all ease-in-out 0.5s;
     padding: 0.625rem;
     text-decoration: none;
+    font-weight: 500;
 }
 #portal_aluno > li{
     color: white;
@@ -84,6 +95,10 @@ p > span {
     margin-top: 30px;
     width: 321.22px;
     height: 54.74px;
+
+    max-width: 642px;
+    max-height: 108px;
+
     border: 6.48202px solid #2E3092;
     box-sizing: border-box;
     filter: drop-shadow(0px 2.8809px 2.8809px rgba(0, 0, 0, 0.25));
@@ -133,7 +148,6 @@ p > span {
     display: flex;
     align-items: center;
     margin-top: 100px;
-    margin-left: 50px;
 }
 
 .linha-vertical1{
@@ -156,7 +170,7 @@ p > span {
 
 .elements {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .elements > video {
@@ -165,25 +179,32 @@ p > span {
 }
 
 .elements > h1 {
+    width: 3rem;
     flex-direction: column;
     align-self: center;
     margin-right: 1.5rem;
-    text-align: right;
+    margin-left: auto;
     color: #001489;
     font-weight: 700;
     font-size: 36px;
-    white-space: nowrap;
-    margin-bottom: 30px;
 }
 
-.second-content > h1 {
+.inline-content{
+    margin-bottom: 2rem;
+}
+
+.under {
+    display: flex;
+}
+
+.under > h1 {
     color: #001489;
     font-weight: 700;
     font-size: 36px;
     margin-left: 43px;
     margin-right: 22px;
 }
-.second-content > p {
+.under > p {
     color: #3C3C3C;
     font-weight: 600;
     font-size: 18px;
@@ -192,9 +213,9 @@ p > span {
 
 .second-content {
     display: inline-flex;
-    display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2.2rem;
 }
 
 .linha-emcima {
@@ -209,6 +230,11 @@ p > span {
     display: flex;
     margin-left: 260px;
     margin-top: 165px;
+}
+
+.btn > a {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
 }
 
 
@@ -288,5 +314,10 @@ p > span {
 
 #mariaOdete{
     margin-right: 100px;
+}
+
+
+.ajuste {
+    margin: auto;
 }
 

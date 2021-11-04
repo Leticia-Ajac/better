@@ -10,6 +10,7 @@ import mais from '../../assets/mais.png';
 import traço from '../../assets/traço.png';
 import odete from '../../assets/odete.png';
 import traço_canto from '../../assets/traço-canto.png';
+
 import div1 from '../../assets/div-titulo.png';
 import div2 from '../../assets/div-titulo2.png';
 
@@ -21,23 +22,28 @@ const Home = () => {
     return(
         <div id='page-home'>
             <header>
-                <img class="topicos" id="logogerminare" src={logo_branca} alt="logo germinare"/>
+            
+                    <img class="topicos" id="logogerminare" src={logo_branca} alt="logo germinare"/>
 
-                <ul id="listatopicos">
-                    
-                    <a href="">
-                        <li class="topicos">Admissão</li>
-                    </a>
-                    <a href="">
-                        <li class="topicos">Novidades</li>
-                    </a>
-                    <a href="">
-                        <li class="topicos">Nossa Cultura</li>
-                    </a>
-                    <a href="" id="portal_aluno"style={{width: '200px'}}>
-                        <li>Portal do aluno</li>
-                    </a>
-                </ul>
+                    <ul id="listatopicos">
+                        
+                        <Link>
+                            <li class="topicos">Admissão</li>
+                        </Link>
+                        <Link>
+                            <li class="topicos">Academias</li>
+                        </Link>
+                        <Link>
+                            <li class="topicos">Nossa Cultura</li>
+                        </Link>
+                        <Link>
+                            <li class="topicos">Novidades</li>
+                        </Link>
+                        <Link to='' id="portal_aluno"style={{width: '200px'}}>
+                            <li>Portal do aluno</li>
+                        </Link>
+                    </ul>
+
             </header>
 
 
@@ -60,61 +66,78 @@ const Home = () => {
                 <button className="btn-home">SAIBA MAIS DA NOSSA CULTURA</button>
             </Link>
 
-            <div className="inscricoes">
-                <div className="elements">
-                    <h1>Inscrições Abertas</h1>
-                    <img className="linha-emcima" src={linha_cima} alt="linha azul"/>
-                    <video classwidth="400" controls>
-                        <source src={video_inscricoes} type="video/mp4"/>
-                    </video>
-                    <img className="linha-embaixo" src={linha_baixo} alt="linha azul"/>
-                </div>
-            </div>
-            <div class="inline-content">
-                <div class="second-content">
-                    <h1>.1</h1>
-                    <p>Inscrição</p>
-                    <h1>.2</h1>
-                    <p>Pesquisa de Perfil</p>
-                    <p>Avaliação cognitiva</p>
-                    <h1>.3</h1>
-                    <p>Entrevista</p>
-                    <h1>.4</h1>
-                    <p>Resultado</p>
-                </div>
-            </div>
-            <div class="btn">
-                <a href="#"><button class="btn-content">Inscreva-se</button></a>
-            </div>
-            
-            
-            <div className="protocolo-covid">
-                <img className="linha-vertical1" src={mais2} alt="linha azul"/>
-                <div className="protocolo">
-                    <h1>Protocolo Covid 19</h1>
-                    <p>
-                        A escola segue todos os protocolos contra a covid 19 indicados pelas organizações mundiais
-                    </p>
-                    <div to="Qulture" className="procolo-mais">
-                        <p>#JuntosVenceremosEssa</p>
+            <div className='container-inscrições'>
+                <div className="inscricoes">
+                    <div className="elements">
+                        <h1>Inscrições</h1>
+                        <h1>Abertas</h1>
+                        <img className="linha-emcima" src={linha_cima} alt="linha azul"/>
+                        <video classwidth="400" controls>
+                            <source src={video_inscricoes} type="video/mp4"/>
+                        </video>
+                        <img className="linha-embaixo" src={linha_baixo} alt="linha azul"/>
                     </div>
                 </div>
-                <img className="linha-vertical2" src={mais} alt="linha azul"/>
-            </div>
-            <div className="destaque">
-                <div id="certificados">
-                    <p className="titulodestaque">Destaque no ENEM</p>
-                    <img id="tracodestaque" src={traço} alt="linha azul"/>
-                    <p className="subtitulodestaque">Certificados com a UNESCO, CMDCA, UPF e CEBAS</p>
+                <div class="inline-content">
+                    <div class="second-content">
+                        <div className='under'>
+                            <h1>.1</h1>
+                            <p>Inscrição</p>
+                        </div>
+                        <div className='under'>
+                            <h1>.2</h1>
+                            <>
+                                <p>Pesquisa de Perfil</p>
+                                <p>Avaliação cognitiva</p>
+                            </>
+                        </div>
+                        <div className='under'>
+                            <h1>.3</h1>
+                            <p>Entrevista</p>
+                        </div>
+                        <div className='under'>
+                            <h1>.4</h1>
+                            <p>Resultado</p>
+                        </div>
+
+                    </div>
                 </div>
-                
-                <div className="img-destaque">
-                    <img id="mariaOdete" src={odete} alt="Maria Odete"/>
-                    <p className="legenda">Maria Odete, Diretora Pedagógica</p>
-                    <img className="traço" src={traço_canto}/>
+                <div class="btn">
+                    <Link className="btn-home">Inscreva-se</Link>
+                </div>
+            </div>
+            
+            <div className='ajuste'>
+                <div className="protocolo-covid">
+                    <img className="linha-vertical1" src={mais2} alt="linha azul"/>
+                    <div className="protocolo">
+                        <h1>Protocolo Covid 19</h1>
+                        <p>
+                            A escola segue todos os protocolos contra a covid 19 indicados pelas organizações mundiais
+                        </p>
+                        <div to="Qulture" className="procolo-mais">
+                            <p>#JuntosVenceremosEssa</p>
+                        </div>
+                    </div>
+                    <img className="linha-vertical2" src={mais} alt="linha azul"/>
                 </div>
             </div>
 
+            <div className='ajuste'>
+                <div className="destaque">
+                    <div id="certificados">
+                        <p className="titulodestaque">Destaque no ENEM</p>
+                        <img id="tracodestaque" src={traço} alt="linha azul"/>
+                        <p className="subtitulodestaque">Certificados com a UNESCO, CMDCA, UPF e CEBAS</p>
+                    </div>
+                    
+                    <div className="img-destaque">
+                        <img id="mariaOdete" src={odete} alt="Maria Odete"/>
+                        <p className="legenda">Maria Odete, Diretora Pedagógica</p>
+                        <img className="traço" src={traço_canto}/>
+                    </div>
+                </div>
+            </div>
 
         </div>
     );
