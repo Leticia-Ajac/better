@@ -1,8 +1,16 @@
 import './styles.css';
+import './carousel.css'
 import { Link } from 'react-router-dom';
 
-import logo_branca from '../../assets/logo-branca.png'
 
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import carousel_adm from '../../assets/carousel-adm.png'
+import carousel_facul from '../../assets/carousel-facul.png'
+import carousel_cultura from '../../assets/carousel-cultura.png'
+
+import logo_branca from '../../assets/logo-branca.png'
 import linha from '../../assets/linha.png';
 import linha2 from '../../assets/linha2.png';
 import mais2 from '../../assets/mais2.png';
@@ -21,30 +29,72 @@ import linha_baixo from '../../assets/linha-em-baixo.png';
 const Home = () => {
     return(
         <div id='page-home'>
+
             <header>
             
-                    <img class="topicos" id="logogerminare" src={logo_branca} alt="logo germinare"/>
+                <img class="topicos" id="logogerminare" src={logo_branca} alt="logo germinare"/>
 
-                    <ul id="listatopicos">
-                        
-                        <Link>
-                            <li class="topicos">Admissão</li>
-                        </Link>
-                        <Link>
-                            <li class="topicos">Academias</li>
-                        </Link>
-                        <Link>
-                            <li class="topicos">Nossa Cultura</li>
-                        </Link>
-                        <Link>
-                            <li class="topicos">Novidades</li>
-                        </Link>
-                        <Link to='' id="portal_aluno"style={{width: '200px'}}>
-                            <li>Portal do aluno</li>
-                        </Link>
-                    </ul>
+                <ul id="listatopicos">
+                    
+                    <Link>
+                        <li class="topicos">Admissão</li>
+                    </Link>
+                    <Link>
+                        <li class="topicos">Academias</li>
+                    </Link>
+                    <Link>
+                        <li class="topicos">Nossa Cultura</li>
+                    </Link>
+                    <Link>
+                        <li class="topicos">Novidades</li>
+                    </Link>
+                    <Link to='' id="portal_aluno"style={{width: '200px'}}>
+                        <li>Portal do aluno</li>
+                    </Link>
+                </ul>
 
             </header>
+
+
+
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={carousel_adm}
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={carousel_facul}
+                    alt="Second slide"
+                    />
+
+                    <Carousel.Caption>
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>    
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={carousel_cultura}
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+
+
 
 
             <div className="missao">
@@ -65,6 +115,11 @@ const Home = () => {
             <Link to="Qulture">
                 <button className="btn-home">SAIBA MAIS DA NOSSA CULTURA</button>
             </Link>
+
+
+
+
+
 
             <div className='container-inscrições'>
                 <div className="inscricoes">
@@ -106,6 +161,12 @@ const Home = () => {
                     <Link className="btn-home">Inscreva-se</Link>
                 </div>
             </div>
+
+
+
+
+
+
             
             <div className='ajuste'>
                 <div className="protocolo-covid">
@@ -138,6 +199,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+
+
+
 
         </div>
     );
