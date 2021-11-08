@@ -42,12 +42,10 @@ const Home = () => {
         <div id='page-home'>
 
             <header>
-            
                 <img class="topicos" id="logogerminare" src={logo_branca} alt="logo germinare"/>
-
                 <ul id="listatopicos">
                     
-                    <Link>
+                    <Link to="/adimissão">
                         <li class="topicos">Admissão</li>
                     </Link>
                     <Link>
