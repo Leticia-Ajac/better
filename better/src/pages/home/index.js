@@ -296,30 +296,30 @@ const Home = () => {
                         </div>
                         <div className="social-media-icons">
                             <div className="wrapper">
+                                <a href="https://www.facebook.com/germinareoficial/" target="_blank">
                                 <div className="icon facebook">
                                     <div className="tooltip">
                                         Facebook
                                     </div>
                                     <span><i className="fab fa-facebook-f"></i></span>
                                 </div>
-                                <div className="icon twitter">
-                                    <div className="tooltip">
-                                        Twitter
-                                    </div>
-                                    <span><i className="fab fa-twitter"></i></span>
-                                </div>
+                                </a>
+                                <a href="https://www.instagram.com/escolagerminare/" target="_blank">
                                 <div className="icon instagram">
                                     <div className="tooltip">
                                         Instagram
                                     </div>
                                     <span><i className="fab fa-instagram"></i></span>
                                 </div>
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCtfT0wIFhW2jyCMR0ZtBuzg" target="_blank">
                                 <div className="icon youtube">
                                     <div className="tooltip">
                                         YouTube
                                     </div>
                                     <span><i className="fab fa-youtube"></i></span>
                                 </div>
+                                </a>
                             </div>
                         </div>
                     </div>
