@@ -269,6 +269,27 @@ const Home = () => {
                 </div>
             </div>
 
+            <div className="container-noticias">
+                    <div className="noticias-title">
+                        <h1>NOTICIAS</h1>
+                    </div>
+                    <div className="grid-noticias">
+                        <div className="card-grid">
+                            <p></p>
+                            <img/>
+                        </div>
+                        <div className="card-grid">
+                            <p></p>
+                            <img/>
+                        </div>
+                        <div className="card-grid">
+                            <p></p>
+                            <img/>
+                        </div>
+                    </div>
+
+            </div>
+
 
 
             <div className="footer-div">
