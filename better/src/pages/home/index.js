@@ -69,7 +69,7 @@ const Home = () => {
 
 
             <Carousel>
-                <Carousel.Item>
+                <Carousel.Item interval={7000}>
                     <img
                     className="d-block w-100"
                     src={carousel_adm}
@@ -183,7 +183,7 @@ const Home = () => {
                     <div className="protocolo">
                         <h1>Protocolo Covid 19</h1>
                         <p>
-                            A escola segue todos os protocolos contra a covid 19 indicados pelas organizações mundiais
+                            A escola segue todos os protocolos contra a covid 19 indicados pela organização mundial da saúde
                         </p>
                         <div to="Qulture" className="procolo-mais">
                             <p>#JuntosVenceremosEssa</p>
