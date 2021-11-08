@@ -1,0 +1,30 @@
+#titulo{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    line-height: 100%;
+    align-items: center;
+    vertical-align: middle;
+    color: #001489;
+}
+
+#miniHeader{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: row;
+}
+#tituloimg, #tituloimg2, #titulo{
+    display: inline-block;
+}
+
+#tituloimg, #tituloimg2{
+    height: 5.09px;
+}
+
+#titulo{
+    margin: 0 16px 0 16px;
+}
