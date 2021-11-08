@@ -28,3 +28,58 @@
 #titulo{
     margin: 0 16px 0 16px;
 }
+
+#admissaoDiv{
+    margin-top: 86px;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    vertical-align: middle;
+    
+}
+
+#admissaoDiv > p{
+    font-size: 24px;
+    margin-right: 20px;
+    margin-top: 50px;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    text-align: right;
+
+}
+
+.btn-Admissao {
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    align-items: center;
+    border: 7px solid #2E3092;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #001489;
+    cursor: pointer;
+    padding: 15px 35px 15px 35px;
+    margin-top: 10px;
+    width: 255px;
+    height: 55px;
+    text-decoration: none;
+}
+
+.btn-Admissao:hover{
+    color: rgb(61, 47, 47);
+    border-color: rgb(61, 47, 47);
+}
+
+.toBold{
+    font-weight: 700;
+}
+
+.criancasAdmissao{
+    width: 400px;
+    height: 230px;
+    margin-top: 30px;
+}

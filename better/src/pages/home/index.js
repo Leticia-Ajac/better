@@ -45,7 +45,7 @@ const Home = () => {
                 <img class="topicos" id="logogerminare" src={logo_branca} alt="logo germinare"/>
                 <ul id="listatopicos">
                     
-                    <Link to="/adimissão">
+                    <Link to="/admissão">
                         <li class="topicos">Admissão</li>
                     </Link>
                     <Link>
@@ -77,7 +77,7 @@ const Home = () => {
                         <h3>Processo de Admissão <br/> 2021/2022</h3>
                         <img src={dividi_carousel} />
                         <p>Inscrições válidas para alunos no 5° ano do fundamental. Do dia 09 a 27 de maio. <br/> <br/> #SeuFuturoComeçaAqui</p>
-                        <Link to=''>
+                        <Link to='/admissão'>
                             <button className='btn-carousel'>Inscreva-se</button>
                         </Link>
                     </Carousel.Caption>

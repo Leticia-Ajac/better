@@ -15,7 +15,7 @@ const adimissão = () => {
 
                 <ul id="listatopicos">
                     
-                    <Link to="/adimissão">
+                    <Link to="/admissão">
                         <li class="topicos">Admissão</li>
                     </Link>
                     <Link>
@@ -38,15 +38,14 @@ const adimissão = () => {
 
         <div id='miniHeader'>
             <img id="tituloimg" src={imgtitulo}/>
-            <h1 id="titulo">Processo de Adimissão</h1>
+            <h1 id="titulo">Processo de Admissão</h1>
             <img id="tituloimg2" src={imgtitulo2}/>
         </div>
-        <div>
-          <img className="criancasAdimissao" src={criançasadmissão}/>
-          <p>A lista de convocados para a segunda etapa do 
-             <spam class="toBold">Processo de Admissão está disponível!</spam></p>
+        <div id="admissaoDiv">
+        <p>A lista de convocados para a segunda etapa do 
+          <spam class="toBold">Processo de Admissão está disponível!</spam><button className='btn-Admissao'>Veja os resultados</button></p>
+          <img className="criancasAdmissao" src={criançasadmissão}/>
         </div>
-        <button>Veja os resultados</button>
     </div>
     );
 };
