@@ -102,9 +102,14 @@
     justify-content: center;
 }
 
-.textinho > a > h2{
+.textinho > h2 > a{
     color: #001489;
 }
+
+.textinho > h2 > a:hover{
+    color: #798bf0;
+}
+
 
 #img1, #img2{
     height: 4px;
