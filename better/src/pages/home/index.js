@@ -53,7 +53,7 @@ const Home = () => {
                     </Link>
                     <Link>
                         <li class="topicos">Nossa Cultura</li>
-                    </Link>
+                    </Link>   
                     <Link>
                         <li class="topicos">Novidades</li>
                     </Link>
@@ -82,7 +82,7 @@ const Home = () => {
                         </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={7000}>
                     <img
                     className="d-block w-100"
                     src={carousel_facul}
@@ -98,7 +98,7 @@ const Home = () => {
                         </Link>
                     </Carousel.Caption>
                 </Carousel.Item>    
-                <Carousel.Item>
+                <Carousel.Item interval={7000}>
                     <img
                     className="d-block w-100"
                     src={carousel_cultura}
@@ -166,7 +166,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <Link className="btn-home">Inscreva-se</Link>
+                    <Link to="/admissão" className="btn-home" >Inscreva-se</Link>
                 </div>
             </div>
             <img className="linha-emcima" src={linha_cima} alt="linha azul"/>
@@ -326,7 +326,6 @@ const Home = () => {
                     <p>Escola Germinare – Escola de Negócios © 2021</p>
                 </div>
             </div>
-
         </div>
     );
 };
