@@ -41,7 +41,6 @@ import secondcard_img from '../../assets/secondcard_img.png'
 const Home = () => {
     return(
         <div id='page-home'>
-
             <header>
                 <img class="topicos" id="logogerminare" src={logo_branca} alt="logo germinare"/>
                 <ul id="listatopicos">
@@ -64,8 +63,6 @@ const Home = () => {
                 </ul>
 
             </header>
-
-
 
             <Carousel>
                 <Carousel.Item interval={7000}>

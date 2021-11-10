@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    overflow-x: hidden
 }
 
 
@@ -44,6 +45,10 @@ header{
 #listatopicos > a:hover > .topicos{
     width: 2.812rem;
 }
+
+#listatopicos >a:focus >.topicos{
+        color: rgb(236, 150, 19);
+    }
 
 #logogerminare{
     width: 12.312rem;
@@ -246,8 +251,8 @@ p > span {
 }
 
 .btn-home:hover{
-    color: rgb(61, 47, 47);
-    border-color: rgb(61, 47, 47);
+    background-color: rgba(46, 48, 146, 0.6);
+    color: #fff;
 }
 
 .linha-emcima {
