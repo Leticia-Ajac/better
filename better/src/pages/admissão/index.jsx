@@ -8,7 +8,7 @@ import imgtitulo2 from '../../assets/div-titulo2.png';
 
 const adimissão = () => {
     return (
-        <div id='admissão'>
+        <div id='admissão' style={{width: "100vw", maxWidth: "100vw"}}>
             <header>
                 
                 <Link to="/"><img class="topicos" id="logogerminare" src={logo_branca} alt="logo germinare"/></Link>
