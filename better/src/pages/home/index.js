@@ -33,6 +33,9 @@ import linha_cima from '../../assets/linha-em-cima.png';
 import linha_baixo from '../../assets/linha-em-baixo.png';
 import barra from '../../assets/barra.png'
 
+import firstcard_img from '../../assets/firstcard_img.png'
+import secondcard_img from '../../assets/secondcard_img.png'
+
 
 
 const Home = () => {
@@ -265,26 +268,39 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="container-noticias">
-                    <div className="noticias-title">
-                        <h1>NOTICIAS</h1>
-                    </div>
-                    <div className="grid-noticias">
-                        <div className="card-grid">
-                            <p></p>
-                            <img/>
-                        </div>
-                        <div className="card-grid">
-                            <p></p>
-                            <img/>
-                        </div>
-                        <div className="card-grid">
-                            <p></p>
-                            <img/>
-                        </div>
-                    </div>
 
+
+
+
+
+
+            <div className="container-noticias">
+                <div className="noticias-title">
+                    <h2>NOTICIAS</h2>
+                </div>
+
+                <div className="body-grid">
+                    <div className="grid-noticias">
+                        <div className="first-card-grid">
+                            <img src={firstcard_img} alt=""/>
+                            <p>Letícia Milyuki é destaque no Banco Original</p>
+                        </div>
+                        <div className="card-grid">
+                            <p>Geovanna, ex germinare, no Canal Runal, confira!</p>
+                            <img src={secondcard_img}/>
+                        </div>
+                        <div className="card-grid">
+                            <p>Geovanna, ex germinare, no Canal Runal, confira!</p>
+                            <img src={secondcard_img} />
+                        </div>
+                    </div>
+                    <Link to=''>
+                            <button className='btn-saiba' id="mais-noticias">+ Mais Notícias +</button>
+                    </Link>
+                </div>
             </div>
+
+
 
 
         </div>
