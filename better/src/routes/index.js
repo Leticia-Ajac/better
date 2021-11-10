@@ -1,6 +1,6 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Home from '../pages/home'
+import Home from '../pages/home/index.jsx'
 import admissão from '../pages/admissão/index.jsx'
 import Qulture from '../pages/qulture';
 import Footer from '../pages/Footer/index.jsx';
