@@ -109,7 +109,14 @@
         font-size: 1rem;
         font-weight: 700;
         color: #001489;
+        max-width: 15rem;
     }
+    .inside-subtitulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     
     .img-destaque {
         width: 16.25rem;
@@ -173,12 +180,17 @@
         align-self: center;
         justify-content: center;
     }
-    
+    .inside-subtitulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .subtitulodestaque {
         width: 450px;
         font-size: 0.5rem;
         font-weight: 700;
         color: #001489;
+        max-width: 8rem;
     }
     
     .img-destaque {
