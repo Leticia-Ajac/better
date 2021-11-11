@@ -333,7 +333,6 @@ p > span {
     margin: auto;
 }
 
-<<<<<<< HEAD
 .container-noticias {
     margin-top: 9rem;
     display: flex;
@@ -429,7 +428,7 @@ p > span {
 #mais-noticias {
     margin-top: 2.875rem;
 }
-=======
+
 .academias > h1 {
     margin-top: 9rem;
     display: flex;
@@ -695,6 +694,3 @@ p > span {
     transform: translateY(-4.3rem)
     scale(70%)
 }
-
->>>>>>> 6199787040f19ba587bf2d2fab828729d0e0f937
-
