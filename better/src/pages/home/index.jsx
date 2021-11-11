@@ -18,7 +18,6 @@ const Home = () => {
             
             <Carrossel />
 
-
             <Missao />
 
             <Inscricoes />
