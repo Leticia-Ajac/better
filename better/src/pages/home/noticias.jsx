@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import firstcard_img from '../../assets/firstcard_img.png'
 import secondcard_img from '../../assets/secondcard_img.png'
 
+import './styles/noticias.css';
+
 const Noticias = () => {
     return(
         <div className="container-noticias">
