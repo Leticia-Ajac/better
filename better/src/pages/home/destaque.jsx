@@ -10,7 +10,9 @@ const Destaque = () => {
                 <div id="certificados">
                     <p className="titulodestaque">Destaque no ENEM</p>
                     <img id="tracodestaque" src={traço} alt="linha azul"/>
+                    <div className="inside-subtitulo">
                     <p className="subtitulodestaque">Certificados com a UNESCO, CMDCA, UPF e CEBAS</p>
+                    </div>
                 </div>
                 
                 <div className="img-destaque">
