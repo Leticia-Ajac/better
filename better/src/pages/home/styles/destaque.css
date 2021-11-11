@@ -1,0 +1,234 @@
+.ajuste {
+    margin: auto;
+}
+
+.destaque{
+    margin-top: 100px;
+    display: flex;
+}
+
+.titulodestaque{
+    margin-top: 70px;
+    font-size:2.25rem;
+    font-weight: 900;
+    color: #001489;
+}
+
+.subtitulodestaque {
+    width: 450px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #001489;
+}
+
+.img-destaque > img {
+    width: 16.25rem;
+}
+
+
+.legenda {
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #001489;
+}
+
+.traço {
+    position: absolute;
+    top: 154.5rem;
+    left: 53.2rem;
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {   
+    .ajuste {
+        margin: auto;
+    }
+    
+    .destaque{
+        margin-top: 100px;
+        display: flex;
+    }
+    
+    .titulodestaque{
+        margin-top: 70px;
+        font-size:2rem;
+        font-weight: 900;
+        color: #001489;
+    }
+    
+    .subtitulodestaque {
+        width: 450px;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #001489;
+    }
+    
+    .img-destaque > img {
+        width: 16.25rem;
+    }
+    
+    #mariaOdete{
+        width:70%;
+    }
+    
+    .legenda {
+        font-weight: 700;
+        font-size: 0.8rem;
+        color: #001489;
+    }
+    
+    .traço {
+        position: absolute;
+        top: 154.5rem;
+        left: 53.2rem;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {   
+    .ajuste {
+        margin: auto;
+    }
+    
+    .destaque{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .titulodestaque{
+        margin-top: 70px;
+        font-size:1.5rem;
+        font-weight: 900;
+        color: #001489;
+    }
+    
+    .subtitulodestaque {
+        width: 450px;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #001489;
+        max-width: 15rem;
+    }
+    .inside-subtitulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .img-destaque {
+        width: 16.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .mariaOdete{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: none;
+        width:60%;
+    }
+
+    .legenda {
+        font-weight: 700;
+        font-size: 0.8rem;
+        color: #001489;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .traço {
+        position: absolute;
+        top: 154.5rem;
+        left: 53.2rem;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {   
+    .ajuste {
+        margin: auto;
+    }
+        
+    #certificados {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .destaque{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .titulodestaque{
+        margin-top: 2rem;
+        font-size:1rem;
+        font-weight: 900;
+        color: #001489;
+        border-bottom: 2px solid #001489;
+        width: 15rem;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    .inside-subtitulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subtitulodestaque {
+        width: 450px;
+        font-size: 0.5rem;
+        font-weight: 700;
+        color: #001489;
+        max-width: 8rem;
+    }
+    
+    .img-destaque {
+        width: 16.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .mariaOdete{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: none;
+    }
+
+    #mariaOdete {
+        width: 50%;
+    }
+
+    .legenda {
+        font-weight: 700;
+        font-size: 0.5rem;
+        color: #001489;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .traço {
+        position: absolute;
+        top: 154.5rem;
+        left: 53.2rem;
+        display: none;
+    }
+
+    #tracodestaque {
+        display: none;
+    }
+}

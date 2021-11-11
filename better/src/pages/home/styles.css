@@ -1,10 +1,22 @@
+#page-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden
+}
+
+
 header{
     background-color: #010D52;
-    height: 7.5rem;
+    height: 6.8rem;
     width:100vw;
     display: flex;
     align-items: center;
+    box-shadow: 0 0 1em rgb(12, 96, 153);;
 }
+
+
 
 #listatopicos{
     display: flex;
@@ -35,9 +47,13 @@ header{
     width: 2.812rem;
 }
 
+#listatopicos >a:focus >.topicos{
+        color: rgb(236, 150, 19);
+    }
+
 #logogerminare{
     width: 12.312rem;
-    margin-left: 3.125rem;
+    margin-left: 3rem;
 
 
 }
@@ -46,10 +62,11 @@ header{
     text-align: center;
     color: white;
     border: white solid 0.187rem;
-    border-radius: 12.5rem;
+    border-radius: 0.625rem;
     transition: all ease-in-out 0.5s;
     padding: 0.625rem;
     text-decoration: none;
+    font-weight: 500;
 }
 #portal_aluno > li{
     color: white;
@@ -68,39 +85,51 @@ header{
 }
 
 
-
+.missao{
+    margin-top: 5rem;
+}
 
 .missao > h1 {
     color: #001489;
     font-weight: 800;
+<<<<<<< HEAD
     font-size: 32px;
     margin-top: 50px;
     margin-bottom: 20px;
+=======
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+>>>>>>> b1734a78b462088e3e43bc1731ba7cb11c5a52cc
 }
 p > span {
     font-weight: 700;
     color: #001489;
 }
-.btn-home {
-    margin-top: 30px;
-    width: 321.22px;
-    height: 54.74px;
-    border: 6.48202px solid #2E3092;
+.btn-saiba {
+    margin-top: 0.116rem;
+    width: 20.07rem;
+    height: 3.42rem;
+
+    max-width: 40.125rem;
+    max-height: 6.75rem;
+
+    border: 0.40512625rem solid #2E3092;
     box-sizing: border-box;
-    filter: drop-shadow(0px 2.8809px 2.8809px rgba(0, 0, 0, 0.25));
-    border-radius: 7.20225px;
+
+    border-radius: 0.625rem;
     font-weight: 800;
     font-size: 15;
-    line-height: 18px;
+    line-height: 1.125rem;
     align-items: center;
     text-align: center;
     color: #001489;
     cursor: pointer;
+    transition: all ease-in-out 0.2s;
 }
 
-.btn-home:hover{
-    color: rgb(61, 47, 47);
-    border-color: rgb(61, 47, 47);
+.btn-saiba:hover{
+    background-color: rgba(46, 48, 146, 0.6);
+    color: #fff;
 }
 
 .content-from-image > img {
@@ -134,7 +163,6 @@ p > span {
     display: flex;
     align-items: center;
     margin-top: 100px;
-    margin-left: 50px;
 }
 
 .linha-vertical1{
@@ -149,68 +177,107 @@ p > span {
 
 
 
-.inscricoes{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-.elements {
-    display: flex;
-    justify-content: center;
-}
-
-.elements > video {
-    width: 40%;
-    margin-bottom: 35px;
+.container-inscrições{
+    margin-top: 5rem;
 }
 
 .elements > h1 {
-    flex-direction: column;
-    align-self: center;
-    margin-right: 1.5rem;
-    text-align: right;
-    color: #001489;
-    font-weight: 700;
-    font-size: 36px;
-    white-space: nowrap;
-    margin-bottom: 30px;
-}
-
-.second-content > h1 {
-    color: #001489;
-    font-weight: 700;
-    font-size: 36px;
-    margin-left: 43px;
-    margin-right: 22px;
-}
-.second-content > p {
-    color: #3C3C3C;
-    font-weight: 600;
-    font-size: 18px;
-    align-self: center;
-}
-
-.second-content {
-    display: inline-flex;
     display: flex;
+    width: 200px;
+    text-align: right;
+    height: 226.41px;
     justify-content: center;
     align-items: center;
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36.734px;
+    line-height: 45px;
+    color: #001489;
+}
+
+.elements{
+    margin-top: 50px;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.inline-content {
+    margin-top: 40px;
+    display: inline-flex;
+}
+
+.container {
+    display: inline-flex;
+    margin-bottom: 70px;
+}
+
+.container > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #001489;
+    margin-left: 42px;
+    margin-right: 21px;
+
+}
+
+.container > p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #3C3C3C;
+}
+
+.break {
+    width: 200px;
+    flex-direction: column;
+}
+
+.btn-home {
+    border: 8px solid #2E3092;
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+    font-weight: 800;
+    font-size: 20px;
+    color: #001489;
+    cursor: pointer;
+    padding: 10px 90px 10px 90px;
+    text-decoration: none;
+}
+
+.btn-home:hover{
+    background-color: rgba(46, 48, 146, 0.6);
+    color: #fff;
 }
 
 .linha-emcima {
     position: absolute;
-    display: flex;
-    margin-left: -50px;
-    margin-top: -30px;
+    margin-top: -20rem;
+    margin-left: 33rem;
+    display: none;
 }
 
-.linha-embaixo {
+.linha-embaixo{
     position: absolute;
-    display: flex;
-    margin-left: 260px;
-    margin-top: 165px;
+    margin-top: -5rem;
+    margin-left: 57rem;
+    display: none;
 }
+
+
+
 
 
 
@@ -256,38 +323,384 @@ p > span {
     display: flex;
 }
 
-.legenda {
-    font-weight: 700;
-    font-size: 0.8rem;
-    color: #001489;
-}
 
-.img-destaque > img {
-    width: 16.25rem;
-}
 
 .traço {
+    position: absolute;
+    top: 154.5rem;
+    left: 53.2rem;
+    display: none;
+}
+
+
+
+
+.ajuste {
+    margin: auto;
+}
+
+<<<<<<< HEAD
+.container-noticias {
+    margin-top: 9rem;
     display: flex;
-    width: 5rem;
-    margin-top: 10px;
-    margin-left: 150px;
+    flex-direction: column;
 }
 
-.titulodestaque{
-    margin-top: 70px;
-    font-size:2.25rem;
-    font-weight: 900;
+
+.body-grid {
+    margin: 0 auto;
+    margin-top: 5.0rem;
+}
+
+.noticias-title {
+    
+    max-width: 100vw;
+    
+}
+
+.noticias-title > h2 {
+    min-width: 80vw;
+    background: url('../../assets/noticas_divisao.png') no-repeat;
+    background-size: 100%;
+    background-position-x: center;
     color: #001489;
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 0 auto;
 }
 
-.subtitulodestaque {
-    width: 450px;
-    font-size: 1.5rem;
+
+.grid-noticias{
+    display: grid;
+    grid-template-columns: 22.6875rem 22.6875rem;
+    grid-template-rows: 9.625rem 9.625rem;
+    grid-gap: 2.5rem 2.1875rem;
+}
+
+.first-card-grid{
+    background-color: #010D52;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 0.6rem;
+    transition: all 0.3s;
+
+}
+
+.first-card-grid:hover {
+    transform: scale(105%);
+    cursor: pointer;
+    box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(169, 169, 207, 0.384);
+}
+
+.first-card-grid > p {
+    font-size: 1.125rem;
     font-weight: 700;
-    color: #001489;
+    margin: 1.125rem 2.25rem;
+    text-align: left;
+    color: #fff;
 }
 
-#mariaOdete{
-    margin-right: 100px;
+
+.card-grid {
+    background-color: #010D52;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.3s;
+
 }
+
+.card-grid:hover {
+    transform: scale(105%);
+    cursor: pointer;
+    box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(169, 169, 207, 0.384);
+}
+
+.card-grid > p {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 1.5rem 0 0 1.375rem;
+    text-align: left;
+    color: #fff;
+}
+
+.card-grid > img {
+    margin-left: auto;
+}
+
+.body-grid > a{
+    margin-top: 100rem;
+}
+
+#mais-noticias {
+    margin-top: 2.875rem;
+}
+=======
+.academias > h1 {
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    color: #001489;
+    font-size: 1.95rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.academias > div >#linhas-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+
+#linha-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14.1rem;
+    width: 17.2rem;
+    flex-wrap: nowrap;
+}
+
+#linha-2{
+    display: flex;
+    justify-content: flex-end;
+    width: 17.2rem;
+    margin-right: 13.1rem;
+    margin-top: 1.1rem;
+    float: right;
+    flex-wrap: nowrap;
+}
+
+.cards-academias{
+    row-gap: 1.1rem;
+    margin-top: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 9.3rem;
+    height: 14rem;
+    margin: auto;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    border-radius: 0.625rem;
+}
+
+.format-card{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.625rem;
+    transition: ease-in-out 0.6s;
+}
+
+#picpay {
+    background-image: linear-gradient(to bottom, #44DA74, #30A060);
+    position: relative;
+    
+}
+#picpay > .format-card{
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+
+#picpay > .format-card > p{
+    font-size: 0.62rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4.5rem 0.5rem auto;
+    color: #fff;
+    font-weight: 300;
+    transition: ease-out 0.2s;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+}
+
+#picpay > .format-card > img{
+    width: 7.8rem;
+    height: 2.4rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+#original {
+    background-image: linear-gradient(to left bottom, #000, #002D16, #00C55F);
+    position: relative;
+    
+}
+
+#original > .format-card > p{
+    font-size: 0.62rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4.5rem  0.5rem auto;
+    color: #fff;
+    font-weight: 300;
+    transition: ease-out 0.2s;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+}
+
+#original > .format-card > img{
+    width: 7.7rem;
+    height: 2.4rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+#seara-e-flora {
+    background-image: linear-gradient(to bottom, #EE7026, #01547C);
+}
+
+#seara-e-flora > .format-card > p{
+    font-size: 0.62rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4.5rem 0.5rem auto;
+    color: #fff;
+    font-weight: 300;
+    transition: ease-out 0.2s;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+}
+
+#seara-e-flora > .format-card >#img-seara{
+    width: 7.2rem;
+    height: 4.6rem;
+    margin-bottom: 8.1rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+#seara-e-flora > .format-card >#img-flora{
+    width: 5rem;
+    height: 4.6rem;
+    margin-top: 7.5rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+#seara-e-flora > .format-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#swift {
+    background-image: linear-gradient(to bottom, #ffc800ce, #FFC700);
+    position: relative;
+    
+}
+
+#swift > .format-card > p{
+    font-size: 0.62rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4.5rem 0.5rem auto;
+    color: #fff;
+    font-weight: 300;
+    transition: ease-out 0.2s;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+}
+
+#swift > .format-card > img{
+    width: 7.7rem;
+    height: 4.8rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+#friboi {
+    background-image: linear-gradient(to bottom, #ED1C24, #9C090F);
+    position: relative;
+}
+
+#friboi > .format-card > p{
+    font-size: 0.62rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4.5rem 0.5rem auto;
+    color: #fff;
+    font-weight: 300;
+    transition: ease-out 0.2s;
+    transition-delay: 0.2s;
+    opacity: 0;
+
+}
+
+#friboi > .format-card > img{
+    width: 8.3rem;
+    height: 5.6rem;
+    transition: all 0.5s;
+    position: absolute;
+}
+
+.format-card:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+.format-card:hover > img{
+    transform: translateY(-4rem)
+
+}
+
+
+#picpay > .format-card:hover > p{
+    opacity: 1;
+}
+
+#original > .format-card:hover > p{
+    opacity: 1;
+}
+
+#seara-e-flora > .format-card:hover > p{
+    opacity: 1;
+}
+
+#swift > .format-card:hover > p{
+    opacity: 1;
+}
+
+#friboi > .format-card:hover > p{
+    opacity: 1;
+}
+
+#seara-e-flora > .format-card:hover > img{
+    transform: translateY(0rem)
+    scale(55%)
+}
+
+#swift > .format-card:hover > img{
+    transform: translateY(-4.3rem)
+    scale(60%)
+}
+
+#friboi > .format-card:hover > img{
+    transform: translateY(-4.3rem)
+    scale(70%)
+}
+
+>>>>>>> 6199787040f19ba587bf2d2fab828729d0e0f937
 
