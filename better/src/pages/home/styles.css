@@ -92,14 +92,8 @@ header{
 .missao > h1 {
     color: #001489;
     font-weight: 800;
-<<<<<<< HEAD
-    font-size: 32px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-=======
     font-size: 2rem;
     margin-bottom: 1.25rem;
->>>>>>> b1734a78b462088e3e43bc1731ba7cb11c5a52cc
 }
 p > span {
     font-weight: 700;
