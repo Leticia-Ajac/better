@@ -12,10 +12,6 @@ import './styles/destaque.css'
 
 
 
-
-
-
-
 const Home = () => {
     return(
         <div id='page-home'>
