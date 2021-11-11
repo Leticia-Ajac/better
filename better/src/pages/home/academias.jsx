@@ -8,15 +8,18 @@ import L_friboi from '../../assets/friboi.png';
 import linha from '../../assets/linha.png';
 import linha2 from '../../assets/linha2.png';
 
+import "./styles/academias.css"
+
 
 const Academias = () => {
     return (
         <div className='academias'>
-                <h1>ACADEMIAS</h1>
-                <div>
-                    <img src={linha} alt="linha azul" id="linha-1" className="linhas"/>
-
-                    <div className="cards-academias">
+            <h1>ACADEMIAS</h1>
+            <img src={linha} alt="linha azul" id="linha-1" className="linhas"/>
+            <div id="parent">
+                <div className="cards-academias">
+                    
+                    <div id='card-triplo'>
                         <div className="card" id="picpay">
                             <div className="format-card">
                                 <img src={L_picpay} alt="picpay"/>
@@ -32,24 +35,23 @@ const Academias = () => {
                             
                         </div>
 
-                        <div className="card" id="seara-e-flora">
+                        <div className="card" id="seara">
                             <div className="format-card">
                                 <img src={L_seara} alt="seara" id="img-seara"/>
                                 <p>A Academia tem como objetivo formar profissionais ligados ao varejo.</p>
-                                <img src={L_flora} alt="flora" id="img-flora"/>
                             </div>
                             
                             
                         </div>
+                    </div>
 
+                    <div id='card-duplo'>
                         <div className="card" id="swift">
                             <div className="format-card">
                                 <img src={L_swift} alt="swift"/>
                                 <p>A Academia de Bens de Consumo busca formar tocadores de negócios, propondo como instrumento de aprendizagem o entendimento da estrutura organizacional e conhecimento de mercado.</p>
                             </div>
-                            
                         </div>
-
                         <div className="card" id="friboi">
                             <div className="format-card">
                                 <img src={L_friboi} alt="friboi"/>
@@ -57,9 +59,10 @@ const Academias = () => {
                             </div>
                         </div>
                     </div>
-                    <img src={linha2} alt="linha azul" className="linhas" id="linha-2"/>
                 </div>
+                <img src={linha2} alt="linha azul" className="linhas" id="linha-2"/>
             </div>
+        </div>
     )
 }
 
