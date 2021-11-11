@@ -56,6 +56,8 @@ const footer = () => {
                             </div>
                 </div>
                 <p className="footer-creditos">Escola Germinare – Escola de Negócios © 2021</p>
+
+                
             </footer>   
         );
     };

@@ -10,8 +10,11 @@ html {
     overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> d14236772abb95d5e6a5c02ae23c5d06347416e4
 body {
     background-image: linear-gradient(to right, rgba(170, 170, 170, 0.9), rgba(255,255,255   ,1)) no-repeat;
     background-image: linear-gradient(to right, rgba(170, 170, 170, 0.9), rgba(255,255,255   ,1) no-repeat);
