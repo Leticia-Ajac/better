@@ -8,10 +8,12 @@ const footer = () => {
                         <h1 id='titulo-e-linha'>
                             Fale Conosco
                         </h1>
+                        <div className='tel-loc'>
                         <div className='telefone'>
                             <h3>Telefone</h3>
                             <p>+55 (11) 3623-6000</p>
-                            <div className='localizacao'>
+                        </div>
+                        <div className='localizacao'>
                             <h3>Localização</h3>
                             <p>Rua Irineu José Bordon, 335
 05120-060 - Vila Jaguara - São Paulo</p>
@@ -52,13 +54,9 @@ const footer = () => {
                                     </a>
                                 </div>
                             </div>
-                    {/* <div className="footer-creditos">
-                        <p>Escola Germinare – Escola de Negócios © 2021</p>
-                    </div> */}
                 </div>
-               
+                <p className="footer-creditos">Escola Germinare – Escola de Negócios © 2021</p>
             </footer>   
-
         );
     };
 

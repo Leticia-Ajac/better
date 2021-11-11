@@ -141,7 +141,7 @@
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1108px) {
     .admissao{
         overflow-x: hidden;
     }
@@ -391,13 +391,13 @@
         }
         
         #img1{
-            position: absolute;
+            position: relative;
             margin-top: -40px;
             margin-left: -130px;
         }
         
         #img2{
-            position: absolute;
+            position:relative;
             margin-top: 35px;
             margin-left: 130px;
         }

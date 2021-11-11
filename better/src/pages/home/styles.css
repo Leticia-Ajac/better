@@ -13,6 +13,7 @@ header{
     width:100vw;
     display: flex;
     align-items: center;
+    box-shadow: 0 0 1em rgb(12, 96, 153);;
 }
 
 
@@ -714,3 +715,4 @@ p > span {
 #mais-noticias {
     margin-top: 2.875rem;
 }
+

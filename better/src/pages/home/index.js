@@ -41,29 +41,6 @@ import secondcard_img from '../../assets/secondcard_img.png'
 const Home = () => {
     return(
         <div id='page-home'>
-            <header>
-                <img class="topicos" id="logogerminare" src={logo_branca} alt="logo germinare"/>
-                <ul id="listatopicos">
-                    
-                    <Link to="/admissão">
-                        <li class="topicos">Admissão</li>
-                    </Link>
-                    <Link>
-                        <li class="topicos">Academias</li>
-                    </Link>
-                    <Link>
-                        <li class="topicos">Nossa Cultura</li>
-                    </Link>   
-                    <Link>
-                        <li class="topicos">Novidades</li>
-                    </Link>
-                    <Link to='' id="portal_aluno"style={{width: '200px'}}>
-                        <li>Portal do aluno</li>
-                    </Link>
-                </ul>
-
-            </header>
-
             <Carousel>
                 <Carousel.Item interval={7000}>
                     <img
