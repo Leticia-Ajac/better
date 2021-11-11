@@ -8,6 +8,7 @@ import Carrossel from './carrossel'
 
 import './carousel.css'
 
+import './styles/destaque.css'
 
 
 

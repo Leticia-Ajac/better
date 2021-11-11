@@ -323,9 +323,6 @@ p > span {
     color: #001489;
 }
 
-.img-destaque > img {
-    width: 16.25rem;
-}
 
 .traço {
     position: absolute;
@@ -334,23 +331,7 @@ p > span {
     display: none;
 }
 
-.titulodestaque{
-    margin-top: 70px;
-    font-size:2.25rem;
-    font-weight: 900;
-    color: #001489;
-}
 
-.subtitulodestaque {
-    width: 450px;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #001489;
-}
-
-#mariaOdete{
-    margin-right: 100px;
-}
 
 
 .ajuste {
