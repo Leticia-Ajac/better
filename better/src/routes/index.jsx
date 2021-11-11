@@ -6,7 +6,7 @@ import Home from '../pages/home/index.jsx'
 
 import admissão from '../pages/admissão/index.jsx'
 
-import Qulture from '../pages/qulture';
+import Qulture from '../pages/qulture/index.jsx';
 
 import Footer from '../pages/Footer/index.jsx';
 import Header from '../pages/header/header.jsx';

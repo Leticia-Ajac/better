@@ -260,12 +260,14 @@ p > span {
     position: absolute;
     margin-top: -20rem;
     margin-left: 33rem;
+    display: none;
 }
 
 .linha-embaixo{
     position: absolute;
     margin-top: -5rem;
     margin-left: 57rem;
+    display: none;
 }
 
 
@@ -329,6 +331,7 @@ p > span {
     position: absolute;
     top: 154.5rem;
     left: 53.2rem;
+    display: none;
 }
 
 .titulodestaque{
