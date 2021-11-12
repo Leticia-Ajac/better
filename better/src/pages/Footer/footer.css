@@ -127,6 +127,7 @@
 }
 .wrapper{
     display: table-column-group;
+    text-decoration: none;
 }
 .wrapper .icon{
     margin: 0 1.125rem;
@@ -174,6 +175,10 @@
     opacity: 1;
     pointer-events: auto;
 }
+
+.wrapper>a {
+    text-decoration: none;
+}
 .icon .tooltip:before{
     
     content: "";
@@ -184,6 +189,7 @@
     bottom: -6px;
     transform: translateX(-50%) rotate(45deg);
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-decoration: none;
 }
 .wrapper .icon:hover span{
     color: #fff;
@@ -229,7 +235,9 @@
     text-align: center;
 }
 
-
+.icon youtube, .icon instagram, .icon facebook{
+    background-color: none;
+}
 
 @media only screen and (max-width: 1024px) {
     .footer-div{
@@ -687,6 +695,10 @@
     }
 }
 
+.iconyoutube, .iconinstagram, .iconfacebook{
+    background-color: none;
+    background: none;
+}
 @media only screen and (max-width: 480px) {
     .footer-div{
         background: #01104b;

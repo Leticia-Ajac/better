@@ -2,6 +2,7 @@
     width: 100vw;
     max-width: 100vw;
 }
+
 #listatopicos >a > #adm {
     color: rgb(236, 150, 19);
 }
@@ -15,8 +16,6 @@
     align-items: center;
     vertical-align: middle;
     color: #001489;
-    border-bottom: 5px solid #001489;
-    padding-bottom: 20px;
 }
 
 #miniHeader{
@@ -40,7 +39,7 @@
 }
 
 #admissaoDiv{
-    margin-top: 86px;
+    margin-top: 66px;
     display: flex;
     align-items: right;
     justify-content: center;
@@ -475,6 +474,7 @@
         #admissaoDiv > p{
             font-size: 12px;
             width: 330px;
+            margin-top: 16px;
         }
         .btn-Admissao{
             font-size: 12px;

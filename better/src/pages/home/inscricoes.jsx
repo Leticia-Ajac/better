@@ -32,7 +32,7 @@ const Inscricoes = () => {
                     </div>
                 </div>
                 <div>
-                    <Link to="/admissão" className="btn-home" >Inscreva-se</Link>
+                    <Link to="/admissão" onClick={()=>{if (document.readyState === 'complete') {window.scroll(0, 0)}}} className="btn-home" >Inscreva-se</Link>
                 </div>
             </div>
             <img className="linha-emcima" src={linha_cima} alt="linha azul"/>
