@@ -1,9 +1,3 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
- 
 input{
     display: none;
 }
@@ -14,7 +8,6 @@ input{
     text-align: center;
     overflow-x: hidden
 }
-
 
 header{
     background-color: #010D52;
@@ -28,8 +21,6 @@ header{
 .icons {
     display: none;
 }
-
-
 
 #listatopicos{
     display: flex;
@@ -131,7 +122,6 @@ header{
     display: none;
 }
 
-
 @media only screen and (max-width: 1300px) {
     .topicos{
         display: none;
@@ -202,5 +192,4 @@ header{
         font-size: 12;
         width: 200px;
     }
-
 }
