@@ -6723,7 +6723,7 @@ textarea.form-control-lg {
 
 .overflow-scroll {
   overflow: scroll !important;
-}
+} 
 
 .d-inline {
   display: inline !important;
@@ -6734,7 +6734,7 @@ textarea.form-control-lg {
 }
 
 .d-block {
-  display: block !important;
+  width: 120vw;
 }
 
 .d-grid {
@@ -11302,4 +11302,177 @@ textarea.form-control-lg {
   }
 }
 
+.carousel-caption > h3 {
+  text-align: left;
+  color: #fff;
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+.linha-carousel{
+  display: flex;
+  position: relative;
+}
+.carousel-caption > p {
+  font-size: 1.2rem;
+}
+.carousel-caption{
+  margin-top: 50px;
+}
+.btn-carousel{
+  margin-top: 20px;
+  width: 321.22px;
+  height: 54.74px; 
+  position: relative;
+  margin-left: -43.7rem;
+  max-width: 16.9rem;
+  max-height: 108px;
+  border: 0.2rem solid #2E3092;
+  background-color: rgba(46, 48, 146, 0.6);
+  box-sizing: border-box;
+  filter: drop-shadow(0px  2.8809px  2.8809px  rgba(0, 0, 0, 0.25));
+  border-radius: 7.20225px;
+  font-weight: 800;
+  font-size: 15;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+  .carousel-caption > h3 {
+    text-align: left;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+  .linha-carousel{
+    display: flex;
+    position: relative;
+  }
+  .carousel-caption > p {
+    font-size: 1rem;
+}
+  .carousel-caption{
+    margin-top: -50px;
+  }
+  .btn-carousel{
+    margin-top: 10px;
+    width: 321.22px;
+    height: 54.74px; 
+    position: relative;
+    margin-left: -20.7rem;
+    max-width: 16.9rem;
+    max-height: 108px;
+    border: 0.2rem solid #2E3092;
+    background-color: rgba(46, 48, 146, 0.6);
+    box-sizing: border-box;
+    filter: drop-shadow(0px  2.8809px  2.8809px  rgba(0, 0, 0, 0.25));
+    border-radius: 7.20225px;
+    font-weight: 800;
+    font-size: 15;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
+
+@media screen and (max-width: 825px){
+  .carousel-caption > h3 {
+    text-align: left;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+  .linha-carousel{
+    display: flex;
+    position: relative;
+  }
+  .carousel-caption > p {
+    font-size: 0.75rem;
+}
+  .carousel-caption{
+    margin-top: -50px;
+  }
+  .btn-carousel{
+    margin-top: 10px;
+    width: 180.22px;
+    height: 44.74px; 
+    position: relative;
+    margin-left: -19.7rem;
+    max-width: 16.9rem;
+    max-height: 108px;
+    border: 0.2rem solid #2E3092;
+    background-color: rgba(46, 48, 146, 0.6);
+    box-sizing: border-box;
+    filter: drop-shadow(0px  2.8809px  2.8809px  rgba(0, 0, 0, 0.25));
+    border-radius: 7.20225px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  .carousel-caption{
+    height: 300px;
+  }
+  .d-block{
+    height: 200px;
+}
+
+a{
+  text-decoration: none;
+}
+.btn-carousel{
+  display: flex;
+  width: 100.22px;
+  height: 34.74px; 
+  position: relative;
+  margin-left: 0rem;
+  max-width: 16.9rem;
+  max-height: 108px;
+  border: 0.2rem solid #2E3092;
+  background-color: rgba(46, 48, 146, 0.6);
+  box-sizing: border-box;
+  filter: drop-shadow(0px  2.8809px  2.8809px  rgba(0, 0, 0, 0.25));
+  border-radius: 7.20225px;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.carousel-caption > p {
+  font-size: 0.5rem;
+  margin: 0px;
+}
+.carousel-caption > h3 {
+  text-align: left;
+  width: 400px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.carousel-caption{
+  margin-top: -80px;
+  height: 50vw;
+}
+}
+
+.carousel-caption > p {
+  margin: 0px;
+}

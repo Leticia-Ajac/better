@@ -155,6 +155,9 @@ header{
         z-index: 10;
     }
 
+    .linha-carousel{
+        display: none;
+    }
     input{
         display: none;
     }
@@ -200,4 +203,8 @@ header{
         font-size: 12;
         width: 200px;
     }
+    #logogerminare{
+        transform: scale(0.75);
+    }
 }
+
