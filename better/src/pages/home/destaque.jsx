@@ -8,11 +8,15 @@ const Destaque = () => {
         <div className='ajuste'>
             <div className="destaque">
                 <div id="certificados">
-                    <p className="titulodestaque">Destaque no ENEM</p>
+                    <div className="titulodestaque">
+                        <p className="span-titulodestaque">A escola Germinare é</p>
+                        <p className="enem">Destaque no ENEM</p>
+                    </div>
                     <img id="tracodestaque" src={traço} alt="linha azul"/>
                     <div className="inside-subtitulo">
-                    <p className="subtitulodestaque">Certificados com a UNESCO, CMDCA, UPF e CEBAS</p>
+                        <p className="subtitulodestaque">Certificados com a UNESCO, CMDCA, UPF e CEBAS</p>
                     </div>
+
                 </div>
                 
                 <div className="img-destaque">

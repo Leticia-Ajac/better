@@ -7,11 +7,36 @@
     display: flex;
 }
 
-.titulodestaque{
-    margin-top: 70px;
+.titulodestaque {
+    margin-bottom: 1rem;
+}
+
+
+#certificados > p {
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+    color: #001489;
+}
+
+.enem {
+    margin: 0 auto;
+    margin-bottom: -0.3rem;
     font-size:2.25rem;
     font-weight: 900;
     color: #001489;
+}
+
+#certificados {
+    align-self: center;
+}
+
+.span-titulodestaque {
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #001489;
+    margin-bottom: -0.5rem;
 }
 
 .subtitulodestaque {
@@ -48,6 +73,14 @@
         margin-top: 100px;
         display: flex;
     }
+
+    #certificados {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     
     .titulodestaque{
         margin-top: 70px;
@@ -57,7 +90,8 @@
     }
     
     .subtitulodestaque {
-        width: 450px;
+        margin-top: 1.2rem;
+        width: 15rem;
         font-size: 1rem;
         font-weight: 700;
         color: #001489;
@@ -68,6 +102,7 @@
     }
     
     #mariaOdete{
+        margin-top: 1.4rem;
         width:70%;
     }
     
@@ -177,13 +212,24 @@
         border-bottom: 2px solid #001489;
         width: 15rem;
         display: flex;
+        flex-direction: column;
         align-self: center;
         justify-content: center;
     }
+
+    .span-titulodestaque {
+        font-size: 0.8rem;
+        margin-bottom: -0.5rem;
+    }
+
+    .enem {
+        margin-bottom: 0.3rem;
+        font-size: 1.4rem;
+    }
+
+
     .inside-subtitulo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-top: -1rem;
     }
     .subtitulodestaque {
         width: 450px;
@@ -195,10 +241,7 @@
     
     .img-destaque {
         width: 16.25rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        margin-top: -1rem;
     }
     
     .mariaOdete{
