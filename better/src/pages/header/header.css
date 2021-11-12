@@ -110,12 +110,20 @@ header{
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     margin-right: 50px;
+    justify-content: space-evenly;
 }
 
-#portal_aluno:hover > .nicks>p{
+#portal_aluno:hover > .nicks> a{
     display: flex;
     align-items: center;
-    padding: 20px 0px 0px 20px;
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#portal_aluno:hover > .nicks> a:hover{
+    border: none;
+    background-color: blue;
 }
 
 .nicks {

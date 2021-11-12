@@ -32,15 +32,15 @@ const header = () => {
                     <Link>
                         <li class="topicos">Novidades</li>
                     </Link>
-                    <Link to='' class='topicos' id="portal_aluno" style={{ width: '200px' }}>
+                    <div  class='topicos' id="portal_aluno" style={{ width: '200px' }}>
                         <li>Portal do aluno</li>
                         <div class='nicks'>
-                            <p>Sophia Escolar</p>
-                            <p>AVV</p>
-                            <p>Minha Biblioteca</p>
-                            <p>Arvore de Livros</p>
+                            <a href='https://portal.sophia.com.br/SophiA_44/Acesso.aspx?escola=5535' target='_blank'>Sophia Escolar</a>
+                            <a href='https://hcm19.sapsf.com/sf/liveprofile#/login' target='_blank'>AVV</a>
+                            <a href='https://dliportal.zbra.com.br/Login.aspx?key=Germinare' target='_blank'>Minha Biblioteca</a>
+                            <a href='https://app.arvore.com.br/login' target='_blank'>Arvore de Livros</a>
                         </div>
-                    </Link>
+                        </div>                    
                 </ul>
             </header>
             <input type="checkbox" id='icone' className='trigger-input' />
