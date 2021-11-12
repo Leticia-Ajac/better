@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo_branca from '../../assets/logo-branca.png'
 import {TiThMenu} from 'react-icons/ti';
 import './header.css';
-import {AiFillContacts} from 'react-icons/ai'
+
 
 const header = () => {
     return(
