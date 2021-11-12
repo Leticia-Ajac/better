@@ -50,7 +50,7 @@ const Carrossel = () => {
             <Carousel.Caption>
                 <h3>Nossa cultura</h3>
                 <img src={dividi_carousel} />
-                <p>Nossa Instituição acredita que a eduacação de qualidade, baseada em ética e liderança, é capaz de mudar o mundo. <br/> <br/>Nós te convidamos a saber mais sobre nossas crenças, missão e valores.</p>
+                <p>Nossa Instituição acredita que a educação de qualidade, baseada em ética e liderança, é capaz de mudar o mundo. <br/> <br/>Nós te convidamos a saber mais sobre nossas crenças, missão e valores.</p>
                 <Link to=''>
                     <button className='btn-carousel'>Saiba mais</button>
                 </Link>
