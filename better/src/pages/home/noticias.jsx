@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom'
 import firstcard_img from '../../assets/firstcard_img.png'
 import firstcard2_img from '../../assets/firstcard_img2.png'
 import firstcard3_img from '../../assets/firstcard_img3.png'
+import firstcard4_img from '../../assets/firstcard_img4.png'
 import secondcard_img from '../../assets/secondcard_img.png'
+import secondcard4_img from '../../assets/secondcard_img4.png'
 
 import './styles/noticias.css';
 
@@ -17,6 +19,7 @@ const Noticias = () => {
             <div className="grid-noticias">
                 <div className="first-card-grid">
                     <picture>
+                        <source media="(max-width: 479px" srcSet={firstcard4_img} />
                         <source media="(max-width: 769px)" srcSet={firstcard3_img} />
                         <source media="(min-width: 1024px)" srcSet={firstcard_img} />
                         <source media="(max-width: 1023px)" srcSet={firstcard2_img} />
@@ -27,11 +30,17 @@ const Noticias = () => {
                 </div>
                 <div className="card-grid">
                     <p>Geovanna, ex germinare, no Canal Runal, confira!</p>
-                    <img src={secondcard_img}/>
+                    <picture>
+                        <source media="(max-width: 480px" srcSet={secondcard4_img} />
+                        <img src={secondcard_img}/>
+                    </picture>
                 </div>
                 <div className="card-grid">
                     <p>Geovanna, ex germinare, no Canal Runal, confira!</p>
-                    <img src={secondcard_img} />
+                    <picture>
+                        <source media="(max-width: 480px" srcSet={secondcard4_img} />
+                        <img src={secondcard_img}/>
+                    </picture>
                 </div>
             </div>
             <Link to=''>
