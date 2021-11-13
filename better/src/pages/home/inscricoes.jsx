@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import video_inscricoes from '../../assets/Instituto Germinare_360P (1).mp4';
 import linha_cima from '../../assets/linha-em-cima.png';
 import linha_baixo from '../../assets/linha-em-baixo.png';
+import './styles/inscricoes.css';
 
 const Inscricoes = () => {
     return (
@@ -14,6 +15,7 @@ const Inscricoes = () => {
                     </video>
                 </div>
                 <div className="inline-content">
+                    <div id='tomba'>
                     <div className="container">
                         <h1>.1</h1>
                         <p>Inscrição</p>
@@ -22,6 +24,8 @@ const Inscricoes = () => {
                         <h1>.2</h1>
                         <p className="break">Pesquisa de Perfil Avaliação cognitiva</p>
                     </div>
+                    </div>
+                    <div id='tomba2'>
                     <div className="container">
                         <h1>.3</h1>
                         <p>Entrevista</p>
@@ -29,6 +33,7 @@ const Inscricoes = () => {
                     <div className="container">
                         <h1>.4</h1>
                         <p>Resultado</p>
+                    </div>
                     </div>
                 </div>
                 <div>
