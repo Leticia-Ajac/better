@@ -17,21 +17,21 @@ const Inscricoes = () => {
                 <div className="inline-content">
                     <div id='tomba'>
                     <div className="container">
-                        <h1>.1</h1>
+                        <h1>1</h1>
                         <p>Inscrição</p>
                     </div>
                     <div className="container">
-                        <h1>.2</h1>
+                        <h1>2</h1>
                         <p className="break">Pesquisa de Perfil Avaliação cognitiva</p>
                     </div>
                     </div>
                     <div id='tomba2'>
                     <div className="container">
-                        <h1>.3</h1>
+                        <h1>3</h1>
                         <p>Entrevista</p>
                     </div>
                     <div className="container">
-                        <h1>.4</h1>
+                        <h1>4</h1>
                         <p>Resultado</p>
                     </div>
                     </div>
