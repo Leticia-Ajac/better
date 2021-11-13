@@ -2,6 +2,8 @@ import traço from '../../assets/traço.png';
 import odete from '../../assets/odete.png';
 import traço_canto from '../../assets/traço-canto.png';
 
+import './styles/destaque.css'
+
 
 const Destaque = () => {
     return(
