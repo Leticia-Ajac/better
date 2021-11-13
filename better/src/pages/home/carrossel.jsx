@@ -18,8 +18,8 @@ const Carrossel = () => {
             />
             <Carousel.Caption>
                 <h3>Processo de Admissão <br/> 2021/2022</h3>
-                <img src={dividi_carousel} />
-                <p>Inscrições válidas para alunos no 5° ano do fundamental. Do dia 09 a 27 de maio. <br/> <br/> #SeuFuturoComeçaAqui</p>
+                <img src={dividi_carousel} className='linha-carousel'/>
+                <p>Inscrições válidas para alunos no 5° ano do fundamental. Do dia 09 a 27 de maio. #SeuFuturoComeçaAqui</p>
                 <Link to='/admissão'>
                     <button className='btn-carousel'>Inscreva-se</button>
                 </Link>
@@ -34,7 +34,7 @@ const Carrossel = () => {
 
             <Carousel.Caption>
                 <h3>Faculdade Germinare <br/>2022/2023</h3>
-                <img src={dividi_carousel} />
+                <img src={dividi_carousel} className='linha-carousel' />
                 <p>Venha construir o seu sucesso conosco, está na hora de despertar o profissional que existe em você! <br/> <br/>Em breve poderemos caminhar juntos em direção ao seu sonho!</p>
                 <Link to=''>
                     <button className='btn-carousel'>Pré-Inscrição</button>
@@ -49,7 +49,7 @@ const Carrossel = () => {
             />
             <Carousel.Caption>
                 <h3>Nossa cultura</h3>
-                <img src={dividi_carousel} />
+                <img src={dividi_carousel} className='linha-carousel' />
                 <p>Nossa Instituição acredita que a educação de qualidade, baseada em ética e liderança, é capaz de mudar o mundo. <br/> <br/>Nós te convidamos a saber mais sobre nossas crenças, missão e valores.</p>
                 <Link to=''>
                     <button className='btn-carousel'>Saiba mais</button>

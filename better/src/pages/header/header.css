@@ -161,10 +161,16 @@ header{
         z-index: 10;
     }
 
+<<<<<<< HEAD
     .nome > p {
         margin-left: -20px;
     }
 
+=======
+    .linha-carousel{
+        display: none;
+    }
+>>>>>>> 8e7c8e8c76098894c1447c3b0afa0567e40124b1
     input{
         display: none;
     }
@@ -210,4 +216,8 @@ header{
         font-size: 12;
         width: 200px;
     }
+    #logogerminare{
+        transform: scale(0.75);
+    }
 }
+
