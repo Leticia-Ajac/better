@@ -85,72 +85,7 @@ header{
 }
 
 
-.missao{
-    margin-top: 5rem;
-}
 
-.missao > h1 {
-    color: #001489;
-    font-weight: 800;
-    font-size: 2rem;
-    margin-bottom: 1.25rem;
-}
-p > span {
-    font-weight: 700;
-    color: #001489;
-}
-.btn-saiba {
-    margin-top: 0.116rem;
-    width: 20.07rem;
-    height: 3.42rem;
-
-    max-width: 40.125rem;
-    max-height: 6.75rem;
-
-    border: 0.40512625rem solid #2E3092;
-    box-sizing: border-box;
-
-    border-radius: 0.625rem;
-    font-weight: 800;
-    font-size: 15;
-    line-height: 1.125rem;
-    align-items: center;
-    text-align: center;
-    color: #001489;
-    cursor: pointer;
-    transition: all ease-in-out 0.2s;
-}
-
-.btn-saiba:hover{
-    background-color: rgba(46, 48, 146, 0.6);
-    color: #fff;
-}
-
-.content-from-image > img {
-    position: absolute;
-    margin: 10px, 124px, 10px, 600px;
-}
-
-.img-1 {
-    margin-right: 550px;
-    
-}
-
-.img-2 {
-    margin-left: 550px;
-
-}
-
-.pixels > p {
-    padding: 10px 0 10px 0;
-    width: 515px;
-}
-
-.pixels {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .academias > h1 {
     margin-top: 9rem;
