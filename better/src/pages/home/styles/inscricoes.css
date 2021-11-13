@@ -1,0 +1,224 @@
+.container-inscrições{
+    margin-top: 5rem;
+}
+#tomba, #tomba2{
+    display: flex;
+    flex-direction: row;
+}
+
+.elements > h1 {
+    display: flex;
+    width: 200px;
+    text-align: right;
+    height: 226.41px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36.734px;
+    line-height: 45px;
+    color: #001489;
+}
+
+.elements{
+    margin-top: 50px;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.inline-content {
+    margin-top: 40px;
+    display: inline-flex;
+}
+
+.container {
+    display: inline-flex;
+    margin-bottom: 70px;
+}
+
+.container > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #001489;
+    margin-left: 42px;
+    margin-right: 21px;
+
+}
+
+.container > p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #3C3C3C;
+}
+
+.break {
+    width: 200px;
+    flex-direction: column;
+}
+
+.btn-home {
+    border: 8px solid #2E3092;
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+    font-weight: 800;
+    font-size: 20px;
+    color: #001489;
+    cursor: pointer;
+    padding: 10px 90px 10px 90px;
+    text-decoration: none;
+}
+
+.btn-home:hover{
+    background-color: rgba(46, 48, 146, 0.6);
+    color: #fff;
+}
+
+.linha-emcima {
+    position: absolute;
+    margin-top: -20rem;
+    margin-left: 33rem;
+    display: none;
+}
+
+.linha-embaixo{
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 57rem;
+    display: none;
+}
+
+@media screen and (max-width: 1020px){
+    .elements{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .elements>h1{
+        display: flex;
+        width: fit-content ;
+        height: fit-content;
+        margin: 0px;
+        font-size: 2rem;
+        border-bottom: 3px solid #001489;
+        justify-content: center;
+        align-items: center;
+    }
+    .elements>video{
+        width: 700px;
+        height: 400px;
+        margin-top: 50px;
+        border: 3px solid #001489;
+        padding: 10px 10px 10px 10px;
+    }
+     .container>p{
+         display: flex;
+        font-size: 1rem;
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+    }
+    .container>h1{
+        margin-left: 0px;
+    }
+    .btn-home {
+        border: 8px solid #2E3092;
+        box-sizing: border-box;
+        border-radius: 0.625rem;
+        font-weight: 800;
+        font-size: 20px;
+        color: #001489;
+        cursor: pointer;
+        padding: 10px 90px 10px 90px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 811px){
+    .elements>video{
+        width: 500px;
+        height: 300px;
+        padding: 0px 5px 7px 5px;
+        top: 10px;
+    }
+    #tomba, #tomba2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .elements>video{
+        width: 300px;
+        height: 230px;
+        padding: 0px 2px 7px 2px;
+    }
+    .container>p{
+        display: flex;
+       font-size: 1rem;
+       padding: 0px;
+       margin: 0px;
+       text-align: left;
+   }
+   .container>h1{
+       margin-left: 0px;
+   }
+}
+
+@media screen and (max-width: 450px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #tomba, #tomba2{
+        display: flex;
+        flex-direction: column;  
+        width: fit-content;
+    }
+    .container>p{
+        display: flex;
+       font-size: 0.75rem;
+       padding: 0px;
+       margin: 0px;
+       text-align: left;
+   }
+   #tomba2{
+       margin-top: -22px;
+   }
+}
+
+@media screen and (max-width: 366){
+    .btn-home {
+        border: 8px solid #2E3092;
+        box-sizing: border-box;
+        border-radius: 0.625rem;
+        font-weight: 800;
+        font-size: 1rem;
+        color: #001489;
+        cursor: pointer;
+        width: 10px;
+        text-decoration: none;
+    }
+    .elements>video{
+        width: 250px;
+        height: 200px;
+        padding: 0px 2px 7px 2px;
+    }
+}
