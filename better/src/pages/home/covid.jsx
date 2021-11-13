@@ -1,6 +1,8 @@
 import mais2 from '../../assets/mais2.png';
 import mais from '../../assets/mais.png';
 
+import './styles/covid.css'
+
 const Covid = () => {
     return (
         <div className='ajuste'>
