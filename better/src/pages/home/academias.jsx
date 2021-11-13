@@ -19,7 +19,7 @@ const Academias = () => {
             <div id="parent">
                 <div className="cards-academias">
                     
-                    <div id='card-triplo'>
+                    
                         <div className="card" id="picpay">
                             <div className="format-card">
                                 <img src={L_picpay} alt="picpay"/>
@@ -43,9 +43,9 @@ const Academias = () => {
                             
                             
                         </div>
-                    </div>
+                    
 
-                    <div id='card-duplo'>
+                
                         <div className="card" id="swift">
                             <div className="format-card">
                                 <img src={L_swift} alt="swift"/>
@@ -58,7 +58,6 @@ const Academias = () => {
                                 <p>A Academia Friboi tem como objetivo fomentar a curiosidade dos alunos em relação aos processos produtivos e a cadeia de garantia da qualidade.</p>
                             </div>
                         </div>
-                    </div>
                 </div>
                 <img src={linha2} alt="linha azul" className="linhas" id="linha-2"/>
             </div>

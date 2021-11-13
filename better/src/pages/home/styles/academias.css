@@ -38,7 +38,7 @@
     row-gap: 1.1rem;
     margin-top: 1.1rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content:  center;
     flex-wrap: wrap;
@@ -267,7 +267,31 @@
 
 #friboi > .format-card:hover > img{
     transform: translateY(-4.3rem)
-    scale(70%)}
+    scale(70%)
+}
 
 
+@media only screen and (max-width:768px ){
+    .cards-academias{
+        display: flex;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        white-space: nowrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .card{
+        display: inline-flex;
+        vertical-align: top;
+        
+    }
+    .cards-academias::-webkit-scrollbar{
+        display: none;
+    }
+    .format-card > p{
+        white-space: normal;
+    }
+}
 
