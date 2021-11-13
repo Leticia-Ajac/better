@@ -5,7 +5,7 @@ import './styles/covid.css'
 
 const Covid = () => {
     return (
-        <div className='ajuste'>
+        <div className='ajuste1'>
             <div className="protocolo-covid">
                 <img className="linha-vertical1" src={mais2} alt="linha azul"/>
                 <div className="protocolo">

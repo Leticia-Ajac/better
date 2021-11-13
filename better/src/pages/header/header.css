@@ -16,7 +16,7 @@ header{
     width:100vw;
     display: flex;
     align-items: center;
-    box-shadow: 0 0 1em #3b3b3b;;
+    box-shadow: 0 0 1em #3b3b3b;
 }
 
 .icons {
@@ -161,16 +161,12 @@ header{
         z-index: 10;
     }
 
-<<<<<<< HEAD
     .nome > p {
         margin-left: -20px;
     }
-
-=======
     .linha-carousel{
         display: none;
     }
->>>>>>> 8e7c8e8c76098894c1447c3b0afa0567e40124b1
     input{
         display: none;
     }

@@ -1,9 +1,10 @@
 .ajuste {
     margin: auto;
+    height: fit-content;
 }
 
 .destaque{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
 }
 
@@ -67,9 +68,9 @@
 @media screen and (max-width: 1024px) {   
     .ajuste {
         margin-top: 5rem;
-        max-height: 23.5rem;
+        margin: auto;
+        height: fit-content;
     }
-    
     .destaque{
         margin-top: 100px;
         display: flex;
@@ -124,6 +125,7 @@
 @media screen and (max-width: 768px) {   
     .ajuste {
         margin: auto;
+        height: fit-content;
     }
     
     .destaque{
@@ -189,7 +191,10 @@
 
 @media screen and (max-width: 480px) {   
     .ajuste {
-        margin: auto;
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
     }
         
     #certificados {
@@ -199,7 +204,7 @@
         flex-direction: column;
     }
     .destaque{
-        margin-top: 100px;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;

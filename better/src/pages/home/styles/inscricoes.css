@@ -1,5 +1,8 @@
 .container-inscrições{
     margin-top: 5rem;
+    height: 550px;
+    background-color: #010D52;
+    box-shadow: 0 0 1em #3b3b3b;;
 }
 #tomba, #tomba2{
     display: flex;
@@ -71,19 +74,21 @@
 }
 
 .btn-home {
-    border: 8px solid #2E3092;
+    border: 6px solid white;
     box-sizing: border-box;
     border-radius: 0.625rem;
     font-weight: 800;
     font-size: 20px;
     color: #001489;
+    color: white;
+    background-color: rgb(33, 33, 172);
     cursor: pointer;
     padding: 10px 90px 10px 90px;
     text-decoration: none;
 }
 
 .btn-home:hover{
-    background-color: rgba(46, 48, 146, 0.6);
+    background-color: rgba(180, 181, 241, 0.6);
     color: #fff;
 }
 
@@ -101,7 +106,14 @@
     display: none;
 }
 
+.elements>video{
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 1020px){
+    .container-inscrições{
+        height: 800px;
+    }
     .elements{
         display: flex;
         flex-direction: column;
@@ -122,8 +134,8 @@
         width: 700px;
         height: 400px;
         margin-top: 50px;
-        border: 3px solid #001489;
-        padding: 10px 10px 10px 10px;
+        border: 3px solid white;
+        padding: 5px 10px 5px 10px;
     }
      .container>p{
          display: flex;
@@ -136,12 +148,12 @@
         margin-left: 0px;
     }
     .btn-home {
-        border: 8px solid #2E3092;
+        border: 6px solid white;
         box-sizing: border-box;
         border-radius: 0.625rem;
         font-weight: 800;
         font-size: 20px;
-        color: #001489;
+        color: white;
         cursor: pointer;
         padding: 10px 90px 10px 90px;
         text-decoration: none;
@@ -168,7 +180,6 @@
     .elements>video{
         width: 300px;
         height: 230px;
-        padding: 0px 2px 7px 2px;
     }
     .container>p{
         display: flex;
@@ -206,13 +217,14 @@
 
 @media screen and (max-width: 366){
     .btn-home {
-        border: 8px solid #2E3092;
+        border: 6px solid white;
         box-sizing: border-box;
         border-radius: 0.625rem;
         font-weight: 800;
         font-size: 1rem;
-        color: #001489;
+        color: #ffffff;
         cursor: pointer;
+        background-color: rgb(33, 33, 172);
         width: 10px;
         text-decoration: none;
     }
@@ -221,4 +233,12 @@
         height: 200px;
         padding: 0px 2px 7px 2px;
     }
+}
+
+.container>p, .container>h1{
+    color: white;
+}
+.elements >h1{
+    color: white;
+    border-color: white;
 }
