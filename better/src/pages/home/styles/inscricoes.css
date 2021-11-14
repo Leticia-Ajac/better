@@ -74,22 +74,22 @@
 }
 
 .btn-home {
-    border: 6px solid white;
+    border: 4px solid white;
     box-sizing: border-box;
     border-radius: 0.625rem;
-    font-weight: 800;
-    font-size: 20px;
-    color: #001489;
+    font-weight: 700;
+    font-size: 1.25rem;
     color: white;
-    background-color: rgb(33, 33, 172);
+    background-color: rgba(5, 5, 14, 0.103);
     cursor: pointer;
     padding: 10px 90px 10px 90px;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn-home:hover{
-    background-color: rgba(180, 181, 241, 0.6);
-    color: #fff;
+    background-color: rgba(245, 119, 16, 0.712);
+    color: rgb(255, 255, 255)
 }
 
 .linha-emcima {
@@ -110,7 +110,7 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1024px){
     .container-inscrições{
         height: 800px;
     }
@@ -131,14 +131,14 @@
         align-items: center;
     }
     .elements>video{
-        width: 700px;
-        height: 400px;
+        width: 600px;
+        height: 300px;
         margin-top: 50px;
         border: 3px solid white;
         padding: 5px 10px 5px 10px;
     }
-     .container>p{
-         display: flex;
+    .container>p{
+        display: flex;
         font-size: 1rem;
         padding: 0px;
         margin: 0px;
@@ -148,30 +148,47 @@
         margin-left: 0px;
     }
     .btn-home {
-        border: 6px solid white;
+        border: 4px solid white;
         box-sizing: border-box;
         border-radius: 0.625rem;
-        font-weight: 800;
+        font-weight: 700;
         font-size: 20px;
         color: white;
         cursor: pointer;
-        padding: 10px 90px 10px 90px;
+        padding: 10px 50px 10px 50px;
         text-decoration: none;
+    }
+
+    #tomba2 {
+        margin-left: -2rem;
     }
 }
 
-@media screen and (max-width: 811px){
+@media screen and (max-width: 769px){
     .elements>video{
         width: 500px;
         height: 300px;
         padding: 0px 5px 7px 5px;
         top: 10px;
     }
+    
+
     #tomba, #tomba2{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        flex-direction: row;
+    }
+
+    #tomba2 {
+        margin-left: -3.6rem;
+    }
+
+    .container>p{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .container>h1{
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
     }
 }
 
@@ -181,23 +198,48 @@
         width: 300px;
         height: 230px;
     }
+
+
+    .container {
+        margin-bottom: 0rem;
+    }
+
     .container>p{
         display: flex;
-       font-size: 1rem;
-       padding: 0px;
-       margin: 0px;
-       text-align: left;
-   }
-   .container>h1{
-       margin-left: 0px;
-   }
+        font-size: 1rem;
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+    }
+    .container>h1{
+        margin-left: 0px;
+    }
+
+    .inline-content{
+        flex-direction: column;
+        margin: 1rem 1rem 1rem -2.3rem;
+    }
+
+    #tomba {
+        flex-direction: column;
+    }
+
+    #tomba2 {
+        flex-direction: column;
+        margin-left: 0rem;
+    }
+
+    .btn-home {
+        font-size: 1rem;
+        color: #ffffff;
+        cursor: pointer;
+        width: 10px;
+        text-decoration: none;
+    }
 }
 
 @media screen and (max-width: 450px){
-    .container{
-        display: flex;
-        flex-direction: column;
-    }
+
     #tomba, #tomba2{
         display: flex;
         flex-direction: column;  
@@ -205,29 +247,28 @@
     }
     .container>p{
         display: flex;
-       font-size: 0.75rem;
-       padding: 0px;
-       margin: 0px;
-       text-align: left;
-   }
-   #tomba2{
-       margin-top: -22px;
-   }
+    font-size: 0.75rem;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    }
+    #tomba2{
+        margin-top: -2px;
+    }
+
+    .break {
+        max-width: 10rem;
+    }
+
+    .btn-home {
+        align-items: center;
+        font-size: 0.8rem;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 @media screen and (max-width: 366){
-    .btn-home {
-        border: 6px solid white;
-        box-sizing: border-box;
-        border-radius: 0.625rem;
-        font-weight: 800;
-        font-size: 1rem;
-        color: #ffffff;
-        cursor: pointer;
-        background-color: rgb(33, 33, 172);
-        width: 10px;
-        text-decoration: none;
-    }
     .elements>video{
         width: 250px;
         height: 200px;
