@@ -1,0 +1,153 @@
+.missao{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.missao > h1 {
+    color: #001489;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+p > span {
+    font-weight: 700;
+    color: #001489;
+}
+
+.btn-saiba {
+    margin-top: 0.116rem;
+    width: 20.07rem;
+    height: 3.42rem;
+
+    max-width: 40.125rem;
+    max-height: 6.75rem;
+
+    border: 0.40512625rem solid #2E3092;
+    box-sizing: border-box;
+
+    border-radius: 0.625rem;
+    font-weight: 800;
+    font-size: 15;
+    line-height: 1.125rem;
+    align-items: center;
+    text-align: center;
+    color: #001489;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.btn-saiba:hover{
+    background-color: rgba(46, 48, 146, 0.6);
+    color: #fff;
+}
+
+
+.img-1 {
+    margin-right: 550px;    
+}
+
+.img-2 {
+    margin-left: 500px;
+    margin-top: -25px;
+
+}
+
+.pixels > p {
+    padding: 10px 0 10px 0;
+    width: 515px;
+}
+
+.pixels {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .missao > h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0rem;
+    }
+
+    .img-1 {
+        margin-right: 26.8rem;
+    }
+    .img-2 {
+        margin-left: 26.8rem;
+    }
+    
+    .btn-saiba {
+        margin-top: 0.2rem;
+        width: 19.2rem;
+        height: 3.42rem;
+    
+        font-size: 0.95rem;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .missao{
+        margin-top: 3rem;
+    }
+
+    .missao > h1 {
+        font-size: 1.2rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .img-1 {
+        margin-right: 18rem;
+    }
+    .img-2 {
+        margin-left: 18rem;
+    }
+
+    .btn-saiba {
+        width: 11rem;
+        height: 2.4rem;
+        border: 0.35rem solid #2E3092;
+        font-size: 0.5rem;
+    }
+
+    .pixels > p {
+        padding: 0 0 0 0;
+        width: 320px;
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .missao{
+        margin-top: 2rem;
+    }
+
+    .missao > h1 {
+        font-size: 0.9rem;
+        margin-bottom: 0.09rem;
+    }
+
+    .img-1 {
+        margin-right: 13rem;
+    }
+    .img-2 {
+        margin-left: 13rem;
+    }
+
+    .btn-saiba {
+        margin-top: -1rem;
+        width: 7.5rem;
+        height: 1.8rem;
+        border: 0.2rem solid #2E3092;
+        font-size: 0.38rem;
+    }
+
+    .pixels > p {
+        padding: 0 0 0 0;
+        width: 235px;
+        font-size: 0.569rem;
+    }
+}
