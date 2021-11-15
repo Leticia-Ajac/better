@@ -19,3 +19,15 @@
     position: absolute;
 }
 
+.columns {
+}
+
+.column-1 {
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.column-2 {
+    width: 50%;
+    justify-content: flex-end;
+}
