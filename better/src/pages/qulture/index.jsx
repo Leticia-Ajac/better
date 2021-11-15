@@ -1,7 +1,19 @@
+import Image from './image.jsx'
+import Missao from './missao'
+
 
 
 const Qulture = () => {
-    return <h1>teste</h1>;
+    return (
+        <div id='page-home'>
+            
+            <Image />
+
+            <Missao />
+
+        </div>
+
+    );
 }
 
 export default Qulture;

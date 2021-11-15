@@ -1,0 +1,13 @@
+.page-qulture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qulture-img {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+}
