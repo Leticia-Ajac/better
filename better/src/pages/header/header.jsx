@@ -23,7 +23,7 @@ const header = () => {
                     <Link to="/admissão" onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }}>
                         <li class="topicos">Admissão</li>
                     </Link>
-                    <Link>
+                    <Link to='/academias'>
                         <li class="topicos">Academias</li>
                     </Link>
                     <Link>
@@ -48,7 +48,7 @@ const header = () => {
                 <Link to='/admissao' onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }} >
                     <p>Admissão</p>
                 </Link>
-                <Link to=''>
+                <Link to='/academias'  onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }} >
                     <p>Academias</p>
                 </Link>
                 <Link to=''>

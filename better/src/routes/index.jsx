@@ -4,6 +4,7 @@ import admissão from '../pages/admissão/index.jsx'
 import Qulture from '../pages/qulture/index.jsx';
 import Footer from '../pages/Footer/index.jsx';
 import Header from '../pages/header/header.jsx';
+import academias from '../pages/academias-page/academias-page.jsx';
 
 
 
@@ -22,6 +23,8 @@ const Routes = () => {
                     <Route path='/qulture' component={Qulture} />
 
                     <Route path='/admissão' component={admissão}/>
+
+                    <Route path='/academias' component={academias}/>
 
                 </Switch>
 

@@ -1,0 +1,333 @@
+#titulo-academia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#toRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+#titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 44px;
+    font-weight: bold;
+    color: #001489;
+    text-shadow: 2px 1px rgb(214, 214, 214);
+}
+
+#toRow>img{
+    transform: scale(0.6);
+}
+
+#explicacao{
+    margin-top: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 543px;
+}
+
+#explicacaoAzul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #010D52;
+    width: 573px;
+}
+
+#estagio{
+    display: flex;
+    justify-content: center;
+    margin-top: 104px;
+    margin-bottom: 26px;
+    flex-direction: row;
+}
+
+#estagio> #toColumn >h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#estagio> #toColumn > p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 300px;
+}
+
+#empresas-participantes{
+    color: #010D52;
+}
+
+#estagio-foto{
+    width: 646px;
+    height: 515px;
+    margin-left: -100px;
+}
+
+@media screen and (max-width: 1077px){
+    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
+        font-size: 36px;
+    }
+    #toRow>img{
+        transform: scale(0.4);
+    }
+    #explicacao, #explicacaoAzul, #estagio> #toColumn > p{ 
+        font-size: 16px;
+    }
+    #estagio-foto{
+        width: 546px;
+        height: 415px;
+        margin-left: -100px;
+    }
+    #estagio> #toColumn > p{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
+        font-size: 32px;
+    }
+    #toRow>img{
+        transform: scale(0.4);
+    }
+    #explicacao, #explicacaoAzul, #estagio> #toColumn > p{ 
+        font-size: 14px;
+    }
+
+    #estagio{
+        margin-top: 70px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #estagio-foto{
+        width: 546px;
+        height: 415px;
+        margin-left: 0px;
+    }
+    #toColumn{
+        width: 400px;
+    }
+    #toColumn > h1{
+        display: flex;
+        justify-content: center;
+    }
+    #estagio> #toColumn > p{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #toRow>img{
+        transform: scale(0.3);
+    }
+
+    #barra-academia{
+        margin-right: -70px;
+    }
+    #barra-academia2{
+        margin-left: -70px;
+    }
+    #explicacao, #explicacaoAzul, #estagio> #toColumn > p{ 
+        font-size: 14px;
+        width: 320px;
+    }
+    #estagio-foto{
+        width: 446px;
+        height: 315px;
+        margin-left: 0px;
+    }
+    #estagio> #toColumn > p{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    #toRow>img{
+        transform: scale(0.3);
+    }
+    #toRow{
+        width: 20px;
+    }
+
+    #barra-academia{
+        margin-right: -70px;
+    }
+    #barra-academia2{
+        margin-left: -70px;
+    }
+    #explicacao, #explicacaoAzul, #estagio> #toColumn > p{ 
+        font-size: 12px;
+        width: 320px;
+    }
+    #estagio-foto{
+        width: 346px;
+        height: 315px;
+        margin-left: 0px;
+    }
+    #estagio> #toColumn > p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 320px;
+    }
+
+    #estagio> #toColumn > h1{
+        width: 320px;
+    }
+
+    #toColumn{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 320px;
+    }
+    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
+        font-size: 26px;
+    }
+    #titulo-academia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    #estagio{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #toRow>img{
+        transform: scale(0.2);
+    }
+    #toRow{
+        width: 20px;
+    }
+
+    #barra-academia{
+        margin-right: -100px;
+    }
+    #barra-academia2{
+        margin-left: -100px;
+    }
+    #explicacao, #explicacaoAzul, #estagio> #toColumn > p{ 
+        font-size: 12px;
+        width: 320px;
+    }
+    #estagio-foto{
+        width: 346px;
+        height: 315px;
+        margin-left: 0px;
+    }
+    #estagio> #toColumn > p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 320px;
+    }
+
+    #estagio> #toColumn > h1{
+        width: 320px;
+    }
+
+    #toColumn{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 320px;
+    }
+    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
+        font-size: 20px;
+    }
+    #titulo-academia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    #estagio{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 348px){
+    #toRow>img{
+        transform: scale(0.2);
+    }
+    #toRow{
+        width: 20px;
+    }
+
+    #barra-academia{
+        margin-right: -100px;
+    }
+    #barra-academia2{
+        margin-left: -100px;
+    }
+    #explicacao, #explicacaoAzul, #estagio> #toColumn > p{ 
+        font-size: 12px;
+        width: 280px;
+    }
+    #estagio-foto{
+        width: 316px;
+        height: 295px;
+        margin-left: 0px;
+    }
+    #estagio> #toColumn > p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 280px;
+        font-size: 12px;
+    }
+
+    #estagio> #toColumn > h1{
+        width: 280px;
+    }
+
+    #toColumn{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 280px;
+    }
+    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
+        font-size: 20px;
+    }
+    #titulo-academia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    #estagio{
+        margin-top: 30px;
+    }
+}
