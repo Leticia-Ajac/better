@@ -1,22 +1,21 @@
-
-
-.container-title {
-    margin-top: 40px
-}
-
-
 .title {
     color: #001489;
+    margin-top: 40px;
     font-weight: 800;
     font-size: 2rem;
 }
 
-.img-1 {
-    margin-bottom: -60px;
-    margin-right: 700px;
+.line-1 {
+    position: absolute;
+    display: flex;
+    margin-left: 270px;
+    margin-top: 17px;
+
 }
 
-.img-2 {
-    margin-top: -75px;
-    margin-left: 700px;
+.line-2 {
+    margin-left: 205px;
+    margin-top: 17px;
+    position: absolute;
 }
+
