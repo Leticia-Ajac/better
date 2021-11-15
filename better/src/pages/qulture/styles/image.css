@@ -4,10 +4,26 @@
     justify-content: center;
 }
 
-.qulture-img {
+.background {
     margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 80vw;
+    width: 37.5rem;
+    height: 20.4rem;
+    background: url(../../../assets/background-img-qulture.png);
+    border-radius: 10px;
+}
+
+.faixa-laranja {
+    margin-left: -1.875rem;
+    margin-top: 13.438rem;
+    width: 41.375rem;
+    height: 4.125rem;
+    background: url(../../../assets/faixa-laranja.png);
+}
+
+.texto {
+    padding-top: 1.25rem;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
 }

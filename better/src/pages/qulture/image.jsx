@@ -1,10 +1,16 @@
-import imagequlture from '../../assets/img-qulture.png'
+import background from '../../assets/background-img-qulture.png'
 import './styles/image.css'
 
 const Image = () => {
     return(
         <div className="page-qulture">
-            <img className="qulture-img" src={imagequlture} alt="Aqui na Germinare você pode sonhar ainda mais!"/>
+            <div className="background">
+                <div className="faixa-laranja">
+                    <p className="texto">
+                    Aqui na Germinare você pode sonhar ainda mais!
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }
