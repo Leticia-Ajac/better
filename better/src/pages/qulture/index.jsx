@@ -1,5 +1,6 @@
 import Image from './image.jsx'
-import Missao from './missao'
+import Missao from './missao.jsx'
+import Alimentare from './alimentare.jsx'
 
 
 
@@ -10,6 +11,8 @@ const Qulture = () => {
             <Image />
 
             <Missao />
+
+            <Alimentare />
 
         </div>
 
