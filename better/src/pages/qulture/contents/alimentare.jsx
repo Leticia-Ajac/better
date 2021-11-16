@@ -19,9 +19,11 @@ const Alimentare = () => {
                     <img className="content-1" src={imagem1} alt="foto do projeto que existe desde 2016"/>
                 </div>
                 <div className="column-2">
-                    <p className="column-text">Fornece alimentação Natural os alunos</p>
-                    <p className="column-text">Trazendo alimentos saudáveis, sem conservantes e sem aditivos químicos na suas refeições</p>
-                    <p className="column-text">Toda alimentação tem componentes 100% naturais</p>
+                    <p className="column-text">Fornece alimentação Natural os alunos<br/><br/>
+                        
+                    Trazendo alimentos saudáveis, sem conservantes e sem aditivos químicos na suas refeições<br/><br/>
+                        
+                    Toda alimentação tem componentes 100% naturais</p>
                 </div>
             </div>
         </div>

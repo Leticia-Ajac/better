@@ -33,12 +33,17 @@
 }
 
 .column-2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
     margin-left: 30px;
     width: 50%;
 }
 
 .column-text {
     display: flex;
-    align-self: center;
+    align-items: center;
+    justify-content: left;
     text-align: left;
+    margin: 0px 25%
 }
