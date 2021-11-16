@@ -10,8 +10,8 @@ const Alimentare = () => {
     return(
         <div className="alimentare-content">
             <div className="titulo-alimentare">
-                <img className="line-1" src={direita} alt="linha azul"/>
-                <img className="line-2" src={esquerda} alt="linha azul"/>
+                {/* <img className="line-1" src={direita} alt="linha azul"/>
+                <img className="line-2" src={esquerda} alt="linha azul"/> */}
                 <h1 className="title">Projeto Alimentare</h1>
             </div>
             <div className="columns">
