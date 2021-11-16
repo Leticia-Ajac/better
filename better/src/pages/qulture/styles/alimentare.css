@@ -25,9 +25,19 @@
 }
 
 .column-1 {
+    display: flex;
     width: 50%;
+    justify-content: right;
+    align-self: center;
 }
 
 .column-2 {
     width: 50%;
+}
+
+.column-text {
+    display: flex;
+    align-self: center;
+    justify-content: right;
+    text-align: left;
 }
