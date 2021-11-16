@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom"
-import linha1 from '../../assets/linha.png';
-import linha1_2 from '../../assets/linha1_2.png'
-import linha1_3 from '../../assets/linha1_3.png'
-import linha1_4 from '../../assets/linha1_4.png'
-import linha2 from '../../assets/linha2.png';
-import linha2_2 from '../../assets/linha2_2.png';
-import linha2_3 from '../../assets/linha2_3.png';
-import linha2_4 from '../../assets/linha2_4.png';
+import linha1 from '../../../assets/linha.png';
+import linha1_2 from '../../../assets/linha1_2.png'
+import linha1_3 from '../../../assets/linha1_3.png'
+import linha1_4 from '../../../assets/linha1_4.png'
+import linha2 from '../../../assets/linha2.png';
+import linha2_2 from '../../../assets/linha2_2.png';
+import linha2_3 from '../../../assets/linha2_3.png';
+import linha2_4 from '../../../assets/linha2_4.png';
 
-import './styles/missao.css'
+import '../styles/missao.css'
 
 const Missao = () => {
     return(

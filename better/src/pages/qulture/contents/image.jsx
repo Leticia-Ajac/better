@@ -1,5 +1,4 @@
-import background from '../../assets/background-img-qulture.png'
-import './styles/image.css'
+import '../styles/image.css'
 
 const Image = () => {
     return(

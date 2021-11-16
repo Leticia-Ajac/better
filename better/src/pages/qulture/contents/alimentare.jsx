@@ -1,10 +1,10 @@
-import direita from '../../assets/linha-alimentare-direita.png';
-import esquerda from '../../assets/linha-alimentare-esquerda.png.png';
-import imagem1 from '../../assets/imagem-1-alimentare.png'
+import direita from '../../../assets/linha-alimentare-direita.png';
+import esquerda from '../../../assets/linha-alimentare-esquerda.png.png';
+import imagem1 from '../../../assets/imagem-1-alimentare.png'
 
 
 
-import './styles/alimentare.css'
+import '../styles/alimentare.css'
 
 const Alimentare = () => {
     return(
