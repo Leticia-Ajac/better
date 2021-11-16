@@ -29,15 +29,16 @@
     width: 50%;
     justify-content: right;
     align-self: center;
+    margin-right: 30px;
 }
 
 .column-2 {
+    margin-left: 30px;
     width: 50%;
 }
 
 .column-text {
     display: flex;
     align-self: center;
-    justify-content: right;
     text-align: left;
 }
