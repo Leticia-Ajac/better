@@ -5,23 +5,12 @@
     font-size: 2rem;
 }
 
-.line-1 {
-    position: absolute;
-    display: flex;
-    margin-left: 270px;
-    margin-top: 17px;
-
-}
 
 .alimentare-content {
     margin-top: 155px;
 }
 
-.line-2 {
-    margin-left: 205px;
-    margin-top: 17px;
-    position: absolute;
-}
+
 
 .columns {
     display: flex;
