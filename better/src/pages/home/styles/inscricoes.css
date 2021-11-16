@@ -240,17 +240,32 @@
 
 @media screen and (max-width: 450px){
 
+    .elements > h1 {
+        font-size: 1.7rem;
+    }
+
+    .elements > video {
+        height: 185px;
+    }
+    
+    .inline-content {
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
     #tomba, #tomba2{
         display: flex;
         flex-direction: column;  
         width: fit-content;
     }
+
+    .container {
+        margin: 0.5rem 0 0.5rem 0px;
+    }
+
     .container>p{
         display: flex;
-    font-size: 0.75rem;
-    padding: 0px;
-    margin: 0px;
-    text-align: left;
+        font-size: 0.75rem;
     }
     #tomba2{
         margin-top: -2px;
