@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: left;
     text-align: left;
+    flex-direction: column;
     margin: 0 0 0 5%;
     width: 425px;
 }
