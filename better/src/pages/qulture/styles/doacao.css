@@ -1,0 +1,28 @@
+.container-doacao {
+    background-color: #2E3092;
+    width: 100vw;
+    height: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+}
+.container-1 > h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    width: 600px;
+    justify-content: right;    
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container-1 > img {
+    display: flex;
+    transform: scale(0.4);
+}
