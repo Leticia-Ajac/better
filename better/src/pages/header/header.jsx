@@ -26,7 +26,7 @@ const header = () => {
                     <Link to='/academias'>
                         <li class="topicos">Academias</li>
                     </Link>
-                    <Link>
+                    <Link to='/qulture'>
                         <li class="topicos">Nossa Cultura</li>
                     </Link>
                     <Link>
