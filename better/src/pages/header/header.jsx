@@ -26,7 +26,7 @@ const header = () => {
                     <Link to='/academias'>
                         <li class="topicos">Academias</li>
                     </Link>
-                    <Link>
+                    <Link to="/qulture" onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }}>
                         <li class="topicos">Nossa Cultura</li>
                     </Link>
                     <Link>
@@ -51,7 +51,7 @@ const header = () => {
                 <Link to='/academias'  onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }} >
                     <p>Academias</p>
                 </Link>
-                <Link to=''>
+                <Link to="/qulture" onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }}>
                     <p>Nossa Cultura</p>
                 </Link>
                 <Link to=''>
