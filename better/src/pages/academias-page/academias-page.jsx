@@ -20,9 +20,13 @@ import junina from '../../assets/junina.jpg';
 import nonoPP from '../../assets/nonoPP.jpeg';
 import estagioswift from '../../assets/estagioswift.jpeg';
 import marba from '../../assets/marba.jpg';
+import carol from '../../assets/carol.png';
+import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import bia from '../../assets/bia.png';
 
-
-const academias = () => {
+const academias = () => {AOS.init();
     return (
         <div id='academias-all'>
             <div id='titulo-academia'>
@@ -36,7 +40,7 @@ const academias = () => {
                 <p id='explicacaoAzul'>Todas estas aulas são ministradas por professores especialistas e com vasta experiência em cada uma das áreas, agregando ainda mais profundidade as mesmas.</p>          
             </div>
             <div id='estagio'>
-                <img id='estagio-foto'src={estagiofoto} alt='imagem empresa'/>
+                <img id='estagio-foto'src={carol} alt='imagem empresa'/>
                     <div id='toColumn'>
                     <h1>ESTÁGIO</h1>
                     <p>De acordo com a área de destaque do aluno, ele terá oportunidade de fazer estágio numa das empresas do grupo relacionada ao tema.</p>
@@ -49,10 +53,10 @@ const academias = () => {
                     <h1>GALERIA</h1>
                 </div>
                 <div className='galeria'>
-                    <div className='galeria-PP'>
+                    <div className='galeria-PP' id='title-sem-borda'>
                             <p>Jornada de Programação</p>
                     </div>
-                    <div className='div-com-fotos'>
+                    <div className='div-com-fotos'  data-aos="zoom-in">
                             <img className='fotos'src={vid}/>
                             <img className='fotos'src={PPlover}/>
                             <img className='fotos'src={mesaPP}/>
@@ -65,10 +69,10 @@ const academias = () => {
                     <div className='galeria-PP'>
                             <p>Jornada de Finanças</p>
                     </div>
-                    <div className='div-com-fotos'>
+                    <div className='div-com-fotos' data-aos="zoom-in">
                             <img className='fotos'src={terteira}/>
                             <img className='fotos'src={jornadaFinancas}/>
-                            <img className='fotos'src={reuniaoBanco}/>
+                            <img className='fotos'src={bia}/>
                             <img className='fotos'src={jackson}/>
                             <img className='fotos'src={mesa}/>
                             <img className='fotos'src={karine}/>
@@ -76,7 +80,7 @@ const academias = () => {
                     <div className='galeria-PP'>
                             <p>Jornada de Vendas</p>
                     </div>
-                    <div className='div-com-fotos'>
+                    <div className='div-com-fotos' data-aos="zoom-in">
                             <img className='fotos'src={junina}/>
                             <img className='fotos'src={swift2}/>
                             <img className='fotos'src={fefe}/>
