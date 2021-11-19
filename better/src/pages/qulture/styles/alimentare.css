@@ -1,0 +1,33 @@
+.title {
+    color: #001489;
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.alimentare-content {
+    margin-top: 155px;
+}
+
+
+
+.columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 55px;
+}
+
+.column-text {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+    margin: 0 0 0 5%;
+    width: 425px;
+
+.img-1 {
+    padding-top: 40px;
+}

@@ -1,8 +1,88 @@
-.ligado{
-    color: rgb(47, 57, 197);
-    transition: color 0.3s ease-in-out;
+#page-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden
 }
 
-.ligado:hover{
-    color: rgb(110, 117, 216);
+
+header{
+    background-color: #010D52;
+    height: 6.8rem;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 1em rgb(12, 96, 153);;
 }
+
+
+
+#listatopicos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    margin-left: 7.5rem;
+    width: 60%;
+}
+
+#listatopicos > a{
+    width: 3.125rem;
+    white-space: nowrap;
+    height: fit-content;
+    transition: all ease-in-out 0.2s;
+    text-decoration: none;
+    list-style: none;    
+}
+#listatopicos > a > .topicos{
+    width: 0.75rem;
+    color: white;
+    border-bottom: 0.125rem solid white;
+    transition: all ease-in-out 0.2s;
+    list-style: none;
+}
+
+#listatopicos > a:hover > .topicos{
+    width: 2.812rem;
+}
+
+#listatopicos >a:focus >.topicos{
+        color: rgb(236, 150, 19);
+    }
+
+#logogerminare{
+    width: 12.312rem;
+    margin-left: 3rem;
+
+
+}
+
+#portal_aluno{
+    text-align: center;
+    color: white;
+    border: white solid 0.187rem;
+    border-radius: 0.625rem;
+    transition: all ease-in-out 0.5s;
+    padding: 0.625rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+#portal_aluno > li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+#portal_aluno:hover{
+    background: white;
+    color: black;
+}
+
+#portal_aluno:hover > li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+

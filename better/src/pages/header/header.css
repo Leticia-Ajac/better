@@ -1,0 +1,219 @@
+input{
+    display: none;
+}
+#page-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden
+}
+
+
+header{
+    background-color: #010D52;
+    height: 6.8rem;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 1em #3b3b3b;
+}
+
+.icons {
+    display: none;
+}
+
+#listatopicos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    margin-left: 7.5rem;
+    width: 60%;
+}
+
+#listatopicos > a{
+    width: 3.125rem;
+    white-space: nowrap;
+    height: fit-content;
+    transition: all ease-in-out 0.2s;
+    text-decoration: none;
+    list-style: none;    
+}
+#listatopicos > a > .topicos{
+    width: 0.75rem;
+    color: white;
+    border-bottom: 0.125rem solid white;
+    transition: all ease-in-out 0.2s;
+    list-style: none;
+}
+
+#listatopicos > a:hover > .topicos{
+    width: 2.812rem;
+}
+
+#listatopicos >a:focus >.topicos{
+        color: rgb(236, 150, 19);
+    }
+
+#logogerminare{
+    width: 12.312rem;
+    margin-left: 3rem;
+
+
+}
+
+#portal_aluno{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border: white solid 0.187rem;
+    border-radius: 0.625rem;
+    transition: all ease-in-out 0.3s;
+    padding: 0.625rem;
+    text-decoration: none;
+    font-weight: 500;
+    z-index: 11;
+    transition: all 0.3s ease-in-out;
+}
+#portal_aluno > li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+#portal_aluno:hover{
+    background: rgba(255, 255, 255, 0.123);
+    font-weight: 700;
+    border-bottom: none;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#portal_aluno:hover > li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.nome{
+    display: none;
+}
+
+#portal_aluno:hover > .nicks{
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    z-index: 10;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 35px;
+    background-color: rgb(255, 201, 115, 0.75);
+    border: white solid 0.187rem;
+    width: 200px;
+    height: 250px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    margin-right: 50px;
+    justify-content: space-evenly;
+}
+
+#portal_aluno:hover > .nicks> a{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#portal_aluno:hover > .nicks> a:hover{
+    border-bottom: white solid 0.2rem;
+}
+
+.nicks {
+    display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+    .topicos{
+        display: none;
+    }
+
+    .nome{
+        display: none;
+    }
+    .nome{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 200px;
+        height: 250px;
+        font-size: 14px;
+        background-color: rgb(255, 201, 115, 0.75);
+        position: absolute;
+        right: 0px;
+        margin-top: 357px;
+        border: 3px solid rgb(255, 255, 255);
+        border-top: 1px solid #010D52;
+        border-bottom-left-radius: 10%;
+        z-index: 10;
+    }
+
+    .nome > p {
+        margin-left: -20px;
+    }
+    .linha-carousel{
+        display: none;
+    }
+    input{
+        display: none;
+    }
+    .icone{
+        z-index: 10;
+    }
+    input:checked + .nome {
+        display: flex;
+    }
+    .nome > a{
+        text-decoration: none;
+    }
+    .nome> a > p{
+        width: 140px;
+        text-align: left;
+        color: rgb(255, 255, 255);
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 10%;
+        top: 40px;
+        transform: scale(2);
+        border: none;
+        border-radius: 30%;
+        width: 30px;
+        height: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+        #portal_aluno{
+            display: none;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    .icons{
+        transform: scale(1.75);
+    }
+    .nome{
+        font-size: 12;
+        width: 200px;
+    }
+    #logogerminare{
+        transform: scale(0.75);
+    }
+}
+

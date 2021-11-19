@@ -1,13 +1,32 @@
-import './styles.css'
+import Noticias from './noticias.jsx'
+import Academias from './academias.jsx'
+import Destaque from './destaque.jsx'
+import Covid from './covid.jsx'
+import Inscricoes from './inscricoes.jsx'
+import Missao from './missao.jsx'
+import Carrossel from './carrossel'
+
+import './carousel.css'
+
 
 const Home = () => {
     return(
         <div id='page-home'>
-            <div className='container'>
-                <h1>hello world</h1>
-                <p>este é o inicio da config da main usando react</p>
-                <p className='ligado'>fica ligado que as coisas vão mudar bastante</p>
-            </div>
+            
+            <Carrossel />
+
+            <Missao />
+
+            <Inscricoes />
+
+            <Covid />
+
+            <Destaque />
+
+            <Academias />
+
+            <Noticias />
+
         </div>
     );
 };

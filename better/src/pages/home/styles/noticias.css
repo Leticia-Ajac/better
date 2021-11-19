@@ -1,0 +1,326 @@
+.container-noticias {
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.body-grid {
+    margin: 0 auto;
+    margin-top: 5.0rem;
+}
+
+.noticias-title {
+    
+    max-width: 100vw;
+    
+}
+
+.noticias-title > h2 {
+    min-width: 80vw;
+    background: url('../../../assets/noticas_divisao.png') no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    color: #001489;
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+
+.grid-noticias{
+    display: grid;
+    grid-template-columns: 22.6875rem 22.6875rem;
+    grid-template-rows: 9.625rem 9.625rem;
+    grid-gap: 2.5rem 2.1875rem;
+}
+
+.first-card-grid{
+    background-color: #010D52;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 0.6rem;
+    transition: all 0.3s;
+
+}
+
+.first-card-grid:hover {
+    transform: scale(105%);
+    cursor: pointer;
+    box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(245, 119, 16, 0.493);
+}
+
+.first-card-grid > p {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 1.125rem 2.25rem;
+    text-align: left;
+    color: #fff;
+}
+
+.first-card-grid > img {
+    min-width: 22.6875rem;
+
+}
+
+
+.card-grid {
+        background-color: #010D52;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.3s;
+
+}
+
+.card-grid:hover {
+    transform: scale(105%);
+    cursor: pointer;
+    box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(245, 119, 16, 0.4);
+}
+
+.card-grid > p {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 1.5rem 0 0 1.375rem;
+    text-align: left;
+    color: #fff;
+}
+
+.card-grid > img {
+    margin-left: auto;
+}
+
+.body-grid > a{
+    margin-top: 100rem;
+}
+
+#mais-noticias {
+    margin-top: 2.875rem;
+}
+
+
+
+/* responsividade */
+
+
+/* DESKTOP */
+
+@media screen and (max-width: 1024px) {   
+    .container-noticias {
+        margin-top: 9rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-grid {
+        margin-top: 3rem;
+    }
+
+    .noticias-title > h2 {
+        font-size: 1.8rem;
+        margin: 0 auto;
+    }
+    
+
+
+    .grid-noticias{
+        display: grid;
+        grid-template-columns: 20rem 20rem;
+        grid-template-rows: 9rem 9rem;
+        grid-gap: 2rem 2rem;
+    }
+
+    .first-card-grid{
+        background-color: #010D52;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border-radius: 0.6rem;
+        transition: all 0.3s;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .first-card-grid > p {
+        font-size: 1.125rem;
+        font-weight: 700;
+        margin: 1.125rem 2.25rem;
+        text-align: left;
+        color: #fff;
+    }
+
+
+    .card-grid {
+        border-radius: 0.6rem;
+        display: flex;
+        flex-direction: row;
+        transition: all 0.3s;
+
+    }
+
+    .card-grid > p {
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 1.5rem 0 0 1.375rem;
+        text-align: left;
+        color: #fff;
+    }
+
+    .card-grid > img {
+        margin-left: auto;
+        transform: scale(1);
+    }
+
+
+    #mais-noticias {
+        margin-top: 2.875rem;
+        width: 20.07rem;
+        height: 3.42rem;
+
+        max-width: 40.125rem;
+        max-height: 6.75rem;
+
+        border: 0.40512625rem solid #2E3092;
+        box-sizing: border-box;
+
+        border-radius: 0.625rem;
+        font-weight: 800;
+        font-size: 15;
+        line-height: 1.125rem;
+        align-items: center;
+        text-align: center;
+        color: #001489;
+        cursor: pointer;
+        transition: all ease-in-out 0.2s;
+    }
+}
+
+
+
+
+
+
+/* LAPTOP */
+
+
+@media screen and (max-width: 769px) {   
+    .container-noticias {
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-grid {
+        margin-top: 3rem;
+    }
+
+    .noticias-title > h2 {
+        min-width: 80vw;
+        font-size: 1.3rem;
+    }
+
+    .noticias-title > h2 > p {
+        margin-top: -50px;
+    }
+
+
+    .grid-noticias{
+        display: grid;
+        grid-template-columns: 27rem;
+        grid-template-rows: 8.4rem;
+        grid-gap: 2.5rem 2.1875rem;
+    }
+
+    .first-card-grid {
+        background-color: #010D52;
+        border-radius: 0.6rem;
+        display: flex;
+        flex-direction: row-reverse;
+        height: 154px;
+    }
+
+    .first-card-grid > p {
+        font-size: 1.28rem;
+        font-weight: 700;
+        margin: 1.5rem 0 0 1.375rem;
+        text-align: left;
+        color: #fff;
+    }
+
+    .first-card-grid > img {
+        margin-left: auto;
+    }
+
+    .card-grid {
+        background-color: #010D52;
+        border-radius: 0.6rem;
+        display: flex;
+        flex-direction: row;
+        transition: all 0.3s;
+    }
+
+    .card-grid > p {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 1.5rem 0.5rem 0 1.375rem;
+        text-align: left;
+        color: #fff;
+    }
+
+    .card-grid > img {
+        margin-left: auto;
+        transform: scale(1);
+    }
+
+
+    #mais-noticias {
+        margin-top: 2.875rem;
+        width: 20.07rem;
+        height: 3.42rem;
+
+        max-width: 40.125rem;
+        max-height: 6.75rem;
+
+        font-size: 15;
+        line-height: 1.125rem;
+
+    }
+}
+
+@media screen and (max-width: 480px) {   
+
+    .body-grid {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .grid-noticias{
+        display: grid;
+        grid-template-columns: 18rem;
+        grid-template-rows: 6.8125rem;
+        grid-gap: 2rem 2.1875rem;
+    }
+
+    .first-card-grid {
+        background-color: #010D52;
+        height: 109px
+    }
+
+    .first-card-grid > p {
+        font-size: 0.8rem;
+        margin: 1rem 0 0 0.9rem;
+    }
+
+    .card-grid > p {
+        font-size: 0.8rem;
+        margin: 1rem 0 0 0.9rem;
+    }
+
+    #mais-noticias{
+        margin-top: 5px;
+    }
+}
