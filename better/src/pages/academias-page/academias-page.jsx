@@ -21,12 +21,9 @@ import nonoPP from '../../assets/nonoPP.jpeg';
 import estagioswift from '../../assets/estagioswift.jpeg';
 import marba from '../../assets/marba.jpg';
 import carol from '../../assets/carol.png';
-import 'animate.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import bia from '../../assets/bia.png';
 
-const academias = () => {AOS.init();
+const academias = () => {
     return (
         <div id='academias-all'>
             <div id='titulo-academia'>
