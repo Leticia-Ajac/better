@@ -5,7 +5,6 @@
     font-size: 2rem;
 }
 
-
 .alimentare-content {
     margin-top: 155px;
 }
@@ -28,4 +27,7 @@
     flex-direction: column;
     margin: 0 0 0 5%;
     width: 425px;
+
+.img-1 {
+    padding-top: 40px;
 }
