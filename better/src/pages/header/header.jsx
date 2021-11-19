@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo_branca from '../../assets/logo-branca.png'
 import { TiThMenu } from 'react-icons/ti';
 import './header.css';
-import { AiFillContacts } from 'react-icons/ai'
 
 const header = () => {
     return (
@@ -23,14 +22,14 @@ const header = () => {
                     <Link to="/admissão" onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }}>
                         <li class="topicos">Admissão</li>
                     </Link>
-                    <Link to='/academias'>
+                    <Link to='/academias'  onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }}>
                         <li class="topicos">Academias</li>
                     </Link>
-                    <Link to='/qulture'>
+                    <Link to='/qulture'  onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }}>
                         <li class="topicos">Nossa Cultura</li>
                     </Link>
                     <Link>
-                        <li class="topicos">Novidades</li>
+                        <li class="topicos"  onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }}>Novidades</li>
                     </Link>
                     <div  class='topicos' id="portal_aluno" style={{ width: '200px' }}>
                         <li>Portal do aluno</li>
