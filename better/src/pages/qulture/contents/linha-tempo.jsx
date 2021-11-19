@@ -1,3 +1,6 @@
+import '../styles/linha-tempo.css'
+
+import tempo1 from '../../../assets/tempo1.png'
 
 
 const Linha_Tempo = () => {
@@ -14,7 +17,7 @@ const Linha_Tempo = () => {
                     </div>
                     <div className="ano-topic">
                         <p className="ano">2016</p>
-                        <p className="topic">Programa de Estágios</p>
+                        <p id="meio-linha" className="topic">Programa de Estágios</p>
                     </div>
                     <div className="ano-topic">
                         <p className="ano">2019</p>
@@ -26,8 +29,9 @@ const Linha_Tempo = () => {
                     <source media="()" srcset="" />
                     <source media="()" srcset="" />
                     <source media="()" srcset="" />
-                    <img />
+                    <img src={tempo1}  />
                 </picture>
+                <div className="ajuste-tempo"></div>
                 <div className="linha-baixo">
                     <div className="ano-topic">
                         <p className="ano">2014/2015</p>
@@ -42,7 +46,11 @@ const Linha_Tempo = () => {
                         <p className="topic">Academias de Negócio</p>
                     </div>
                 </div>
+
             </div>
         </div>
     )
 }
+
+
+export default Linha_Tempo;

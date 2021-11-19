@@ -1,0 +1,49 @@
+.container-linha {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-linhat {
+    margin-bottom: 2rem;
+    width: 80vw;
+    background: url('../../../assets/divisor-linhatempo.png') no-repeat;
+}
+
+.titulo-linhat > h1 {
+    color: #001489;
+    font-weight: 800;
+    font-size: 2.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.ano-topic {
+    font-weight: 900;
+    width: 175px;
+}
+
+.ano {
+    color: #010D52;
+    font-size: 24px;
+    margin-bottom: -0.5rem;
+}
+
+.linha-cima,.linha-baixo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 633px;
+}
+
+.linha-cima{
+    margin-left: -2rem;
+}
+
+
+
+.linha-baixo {
+    margin: 0 2rem 0 auto;
+}
