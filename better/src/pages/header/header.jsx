@@ -50,7 +50,8 @@ const header = () => {
                 <Link to='/academias'  onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }} >
                     <p>Academias</p>
                 </Link>
-                <Link to=''>
+                <Link to="/qulture" onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }}>
+
                     <p>Nossa Cultura</p>
                 </Link>
                 <Link to=''>
@@ -65,3 +66,4 @@ const header = () => {
 };
 
 export default header;
+

@@ -10,8 +10,6 @@ import './carousel.css'
 
 
 
-
-
 const Home = () => {
     return(
         <div id='page-home'>
