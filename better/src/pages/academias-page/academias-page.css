@@ -14,7 +14,7 @@
 }
 
 
-#titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
+#titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1, #titulo-galeria>h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     line-height: 44px;
@@ -59,8 +59,11 @@
 }
 
 #estagio> #toColumn >h1{
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #001489;
+    padding-bottom: 15px;
+    border-radius: 2px;
 }
 #estagio> #toColumn > p{
     font-family: 'Montserrat';
@@ -83,7 +86,62 @@
     margin-left: -100px;
 }
 
-@media screen and (max-width: 1077px){
+#titulo-galeria{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.galeria-PP>p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 400px;
+    margin-top: 77px;
+    color: #F28622;
+    border-bottom: 3px solid #f28622;
+    padding-bottom: 15px;
+    border-radius: 2px;
+}
+
+#titulo-galeria>h1{
+    height: 50px;
+    border-bottom: 3px solid #001489;
+    padding-bottom: 55px;
+    border-radius: 2px;
+}
+
+.div-com-fotos{
+    margin-left: 50px;
+}
+
+.fotos{
+    width: 380px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.fotos:hover{
+    transform: scale(105%);
+    cursor: pointer;
+    box-shadow: 0.325rem 0.425rem 0.125rem 0.0625rem rgba(52, 52, 54, 0.384);
+}
+
+@media screen and (max-width: 1177px){
     #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
         font-size: 36px;
     }
@@ -94,17 +152,54 @@
         font-size: 16px;
     }
     #estagio-foto{
-        width: 546px;
-        height: 415px;
+        width: 346px;
+        height: 315px;
         margin-left: -100px;
     }
     #estagio> #toColumn > p{
         width: 250px;
     }
+
+    #estagio-galeria{
+        width: 100vw;
+    }
+    .div-com-fotos{
+        display: flex;
+        width: 450px;
+        max-height: 340px;
+        overflow-x: auto;
+        margin: 0px;
+        margin-bottom: 30px;
+        border: none;
+
+    }
+
+    .fotos{
+        min-width: 380px;
+        height: 280px;
+        margin-top: 20px;
+        margin-left: 25px;
+        border-radius: 10px
+    }
+    .galeria{
+        margin-left: 0px;
+    }
+
+    #titulo-galeria{
+        margin-left: 0px;
+    }
+    .galeria, #titulo-galeria{
+        width: 300px;
+        margin-left: 37vw;
+    }
+
+    .fotos{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 880px){
-    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
+    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1, #titulo-galeria>h1{
         font-size: 32px;
     }
     #toRow>img{
@@ -136,6 +231,35 @@
     #estagio> #toColumn > p{
         width: 400px;
     }
+
+    .div-com-fotos{
+        width: 310px;
+        height: 260px;
+    }
+    .fotos{
+        min-width: 250px;
+        max-height: 250px;
+        margin: 0px;
+        margin-left: 20px;
+    }
+    .fotos:hover{
+        transform: scale(100%);
+    }
+    .galeria{
+        margin-left: 0px;
+    }
+
+    #titulo-galeria{
+        margin-left: 0px;
+        height: 100px;
+    }
+    .galeria, #titulo-galeria{
+        width: 300px;
+        margin-left: 28vw;
+    }
+    .galeria-PP>p{
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -160,8 +284,53 @@
     }
     #estagio> #toColumn > p{
         width: 400px;
+    }    
+    .galeria{
+        margin-left: 0px;
     }
+
+    #titulo-galeria{
+        margin-left: 0px;
+    }
+    .galeria, #titulo-galeria{
+        width: 300px;
+        margin-left: 37vw;
+    }
+    .galeria{
+        margin-left: 0px;
+    }
+
+    .div-com-fotos{
+        width: 310px;
+        height: 260px;
+    }
+    .fotos{
+        min-width: 250px;
+        max-height: 250px;
+        margin: 0px;
+        margin-left: 20px;
+    }
+    .fotos:hover{
+        transform: scale(100%);
+    }
+    .galeria{
+        margin-left: 0px;
+    }
+
+    #titulo-galeria{
+        margin-left: 0px;
+        height: 100px;
+    }
+    .galeria, #titulo-galeria{
+        width: 300px;
+        margin-left: 25vw;
+    }
+    .galeria-PP>p{
+        margin-top: 0px;
+    }
+    
 }
+
 
 @media screen and (max-width: 580px){
     #toRow>img{
@@ -204,7 +373,7 @@
         justify-content: center;
         width: 320px;
     }
-    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
+    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1, #titulo-galeria>h1{
         font-size: 26px;
     }
     #titulo-academia{
@@ -216,6 +385,26 @@
     }
     #estagio{
         margin-top: 30px;
+    }
+    .galeria{
+        margin-left: 0px;
+    }
+
+
+    #titulo-galeria{
+        margin-left: 0px;
+    }
+    .galeria, #titulo-galeria{
+        width: 280px;
+        margin-left: 24vw;
+    }
+    .fotos{
+        min-width: 280px;
+        height: 230px;
+    }
+    .galeria-PP>p{
+        font-size: 18px;
+        width: 280px;
     }
 }
 
@@ -260,7 +449,7 @@
         justify-content: center;
         width: 320px;
     }
-    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1{
+    #titulo-academia>h1, #toRow > h1, #estagio> #toColumn>h1, #titulo-galeria>h1{
         font-size: 20px;
     }
     #titulo-academia{
@@ -272,6 +461,34 @@
     }
     #estagio{
         margin-top: 30px;
+    }
+    .div-com-fotos{
+        width: 310px;
+        height: 260px;
+    }
+    .fotos{
+        min-width: 200px;
+        max-height: 200px;
+        margin: 0px;
+        margin-left: 10px;
+    }
+    .fotos:hover{
+        transform: scale(100%);
+    }
+    .galeria{
+        margin-left: 0px;
+    }
+
+    #titulo-galeria{
+        margin-left: 0px;
+        height: 100px;
+    }
+    .galeria, #titulo-galeria{
+        width: 300px;
+        margin-left: 12vw;
+    }
+    .galeria-PP>p{
+        margin-top: 0px;
     }
 }
 
@@ -294,8 +511,8 @@
         width: 280px;
     }
     #estagio-foto{
-        width: 316px;
-        height: 295px;
+        width: 300px;
+        height: 265px;
         margin-left: 0px;
     }
     #estagio> #toColumn > p{
@@ -329,5 +546,13 @@
     }
     #estagio{
         margin-top: 30px;
+    }
+
+    .galeria, #titulo-galeria{
+        width: 300px;
+        margin-left: 2vw;
+    }
+    .div-com-fotos{
+        width: 280px;
     }
 }

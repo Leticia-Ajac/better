@@ -9,7 +9,7 @@ const Inscricoes = () => {
         <>
             <div className="container-inscrições">
                 <div className="elements">
-                    <h1>Inscrições Abertas </h1>
+                    <h1>INSCRIÇÕES ABERTAS</h1>
                     <video width="400" controls>
                         <source src={video_inscricoes} type="video/mp4"/>
                     </video>

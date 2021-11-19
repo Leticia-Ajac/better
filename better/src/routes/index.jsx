@@ -1,21 +1,18 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from '../pages/home/index.jsx'
-import admissão from '../pages/admissão/index.jsx'
-import Qulture from '../pages/qulture/index.jsx';
-import Footer from '../pages/Footer/index.jsx';
-import Header from '../pages/header/header.jsx';
-import academias from '../pages/academias-page/academias-page.jsx';
-
-
-
-
+import React, { Suspense } from 'react';
+const Home = React.lazy(()=>import ('../pages/home/index.jsx'));
+const admissão = React.lazy(()=>import ('../pages/admissão/index.jsx'));
+const Qulture = React.lazy(()=>import ('../pages/qulture/index.jsx'));
+const Footer = React.lazy(()=>import('../pages/Footer/index.jsx'));
+const Header = React.lazy(()=>import('../pages/header/header.jsx'));
+const academias = React.lazy(()=> import('../pages/academias-page/academias-page.jsx'));
 const Routes = () => {
 
     return (
 
         <BrowserRouter>
+        <Suspense fallback={<div></div>}>
             <Header/>
-
                 <Switch>
 
                     <Route path='/' component={Home} exact/>
@@ -30,7 +27,7 @@ const Routes = () => {
 
 
             <Footer/>
-
+            </Suspense>
         </BrowserRouter>
 
     );

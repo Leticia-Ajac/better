@@ -47,7 +47,7 @@
 .first-card-grid:hover {
     transform: scale(105%);
     cursor: pointer;
-    box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(169, 169, 207, 0.384);
+    box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(245, 119, 16, 0.712);
 }
 
 .first-card-grid > p {
@@ -76,7 +76,7 @@
 .card-grid:hover {
     transform: scale(105%);
     cursor: pointer;
-    box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(169, 169, 207, 0.384);
+    box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(245, 119, 16, 0.712);
 }
 
 .card-grid > p {

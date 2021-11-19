@@ -17,7 +17,7 @@ const Noticias = () => {
     return(
         <div className="container-noticias">
         <div className="noticias-title">
-            <h2>NOTICIAS</h2>
+            <h2>NOTÍCIAS</h2>
         </div>
 
         <div className="body-grid">
@@ -31,10 +31,10 @@ const Noticias = () => {
                         
                         <img src={firstcard_img} alt=""/>
                     </picture>
-                    <p>Letícia Milyuki é destaque no Banco Original</p>
+                    <p>Letícia Milyuki é destaque no Banco Original.</p>
                 </div>
                 <div className="card-grid">
-                    <p>Geovanna, ex germinare, no Canal Runal, confira!</p>
+                    <p>Geovanna, ex-germinare, no Canal Rural, confira!</p>
                     <picture>
                         <source media="(max-width: 480px" srcSet={secondcard4_img} />
                         <source media="(max-width: 769px)" srcSet={secondcard_img} />
