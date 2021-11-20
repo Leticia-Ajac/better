@@ -17,11 +17,15 @@ const Valores = () => {
 				</div>
 
 				<div className="cards-valores" id="determinacao">
-					<p className="titulo_valor">Determinação</p>
+					<div className="escuridao">
+						<p className="titulo_valor">Determinação</p>
+					</div>
 				</div>
 
 				<div className="cards-valores" id="disponivel">
-					<p className="titulo_valor">Disponibilidade</p>
+					<div className="escuridao">
+						<p className="titulo_valor">Disponibilidade</p>
+					</div>
 				</div>
 
 				<div className="cards-valores" id="adono">
@@ -29,11 +33,15 @@ const Valores = () => {
 				</div>
 
 				<div className="cards-valores" id="minimalista">
-					<p className="titulo_valor">Simplicidade</p>
+					<div className="escuridao">
+						<p className="titulo_valor">Simplicidade</p>
+					</div>
 				</div>
 
 				<div className="cards-valores" id="franco">
-					<p className="titulo_valor">Franqueza</p>
+					<div className="escuridao">
+						<p className="titulo_valor">Franqueza</p>
+					</div>
 				</div>
 				
 				<div id='img_observadora'>AAA</div>
