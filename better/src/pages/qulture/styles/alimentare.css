@@ -6,7 +6,9 @@
     color: #001489;
     text-shadow: 2px 1px rgb(214, 214, 214);
 }
-
+#to-have-margin{
+    margin-top: 12px;
+}
 .titulo-alimentare {
     display: flex;
     justify-content: center;
@@ -44,7 +46,7 @@
 } 
 
 .content-1 {
-    width: 35%;
+    width: 50%;
 }
 
 .columns > p {
@@ -72,7 +74,6 @@
         align-items: center;
         font-size: 18px;
         color: #000000;
-        font-weight: 600;
         margin-top: 30px;
     }
 
@@ -88,7 +89,6 @@
         align-items: center;
         font-size: 14px;
         color: #000000;
-        font-weight: 600;
         margin-top: 30px;
     }
 
@@ -109,7 +109,6 @@
         align-items: center;
         font-size: 10px;
         color: #000000;
-        font-weight: 600;
         margin-top: 30px;
         width: 280px;
     }

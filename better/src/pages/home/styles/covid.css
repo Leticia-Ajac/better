@@ -129,7 +129,7 @@
 
 @media screen and (max-width: 480px){
     .protocolo-covid{
-        transform: scale(0.85);
+        transform: scale(1.2);
     }
 
     .ajuste1{
@@ -153,4 +153,8 @@
 
 .protocolo{
     border-radius: 10px;
+}
+
+.protocolo-covid{
+    transform: scale(0.95);;
 }

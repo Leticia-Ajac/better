@@ -22,8 +22,11 @@ import estagioswift from '../../assets/estagioswift.jpeg';
 import marba from '../../assets/marba.jpg';
 import carol from '../../assets/carol.png';
 import bia from '../../assets/bia.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-const academias = () => {
+const academias = () => { 
+    AOS.init();
     return (
         <div id='academias-all'>
             <div id='titulo-academia'>

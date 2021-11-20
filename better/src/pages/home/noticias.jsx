@@ -56,7 +56,7 @@ const Noticias = () => {
                     </picture>
                 </div>
             </div>
-            <Link to=''>
+            <Link to='/news'>
                     <button className='btn-saiba' id="mais-noticias">+ Mais Notícias +</button>
             </Link>
         </div>

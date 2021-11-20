@@ -107,7 +107,7 @@ header{
     flex-direction: column;
     text-align: left;
     margin-top: 35px;
-    background-color: rgb(255, 201, 115, 0.75);
+    background-color: rgb(248, 177, 63);
     border: white solid 0.187rem;
     width: 200px;
     height: 250px;
@@ -125,11 +125,10 @@ header{
     padding: 0px 0px 0px 20px;
     text-decoration: none;
     color: white;
-    transition: all 0.3s ease-in-out;
 }
 
 #portal_aluno:hover > .nicks> a:hover{
-    border-bottom: white solid 0.2rem;
+    border-bottom: white solid 0.1rem;
 }
 
 .nicks {
@@ -214,6 +213,7 @@ header{
     }
     #logogerminare{
         transform: scale(0.75);
+        margin-left: 0px;
     }
 }
 

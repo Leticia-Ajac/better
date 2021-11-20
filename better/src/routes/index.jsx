@@ -12,7 +12,6 @@ const Routes = () => {
     return (
 
         <BrowserRouter>
-
             <Suspense fallback={<div></div>}>
             <Header/>
 

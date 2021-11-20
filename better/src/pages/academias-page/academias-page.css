@@ -475,6 +475,7 @@
     .div-com-fotos{
         width: 310px;
         height: 260px;
+        margin-top: -20px;
     }
     .fotos{
         min-width: 200px;
@@ -483,7 +484,7 @@
         margin-left: 10px;
     }
     .fotos:hover{
-        transform: scale(100%);
+        transform: scale(105%);
     }
     .galeria{
         margin-left: 0px;
@@ -497,12 +498,17 @@
         width: 300px;
         margin-left: 12vw;
     }
+
     .galeria-PP>p{
-        margin-top: 0px;
+        margin-top: -40px;
+    }
+    #titulo-galeria{
+        margin-top: -10px;
     }
 }
 
 @media screen and (max-width: 348px){
+
     #toRow>img{
         transform: scale(0.2);
     }

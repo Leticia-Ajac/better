@@ -18,25 +18,25 @@ p > span {
 }
 
 .btn-saiba {
-    margin-top: 0.116rem;
     width: 20.07rem;
     height: 3.42rem;
-
-    max-width: 40.125rem;
-    max-height: 6.75rem;
 
     border: 0.40512625rem solid #2E3092;
     box-sizing: border-box;
 
     border-radius: 0.625rem;
     font-weight: 800;
-    font-size: 15;
     line-height: 1.125rem;
     align-items: center;
     text-align: center;
     color: #001489;
     cursor: pointer;
     transition: all ease-in-out 0.2s;
+    margin-top: 1rem;
+    width: 21.2rem;
+    height: 3.42rem;
+
+    font-size: 1rem;
 }
 
 .btn-saiba:hover{
@@ -58,6 +58,7 @@ p > span {
 .pixels > p {
     padding: 10px 0 10px 0;
     width: 515px;
+    margin-top: 10px;
 }
 
 .pixels {
@@ -70,7 +71,7 @@ p > span {
 @media only screen and (max-width: 1024px) {
     .missao > h1 {
         font-size: 1.8rem;
-        margin-bottom: 0rem;
+        margin-bottom: 2rem;
     }
 
     .img-1 {
@@ -81,11 +82,11 @@ p > span {
     }
     
     .btn-saiba {
-        margin-top: 0.2rem;
-        width: 19.2rem;
+        margin-top: 1rem;
+        width: 21.2rem;
         height: 3.42rem;
     
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
 }
 
@@ -96,11 +97,12 @@ p > span {
 
     .missao > h1 {
         font-size: 1.2rem;
-        margin-bottom: 0.2rem;
+        margin-bottom: 1rem;
     }
 
     .img-1 {
         margin-right: 18rem;
+        margin-bottom: 1rem;
     }
     .img-2 {
         margin-left: 18rem;
@@ -126,28 +128,51 @@ p > span {
     }
 
     .missao > h1 {
-        font-size: 0.9rem;
-        margin-bottom: 0.09rem;
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+        width: 280px;
+        border-bottom: 3px solid #001489;
+        padding-bottom: 15px;
+        border-radius: 2px;
     }
 
     .img-1 {
+        display: none;
         margin-right: 13rem;
     }
     .img-2 {
+        display: none;
         margin-left: 13rem;
     }
 
     .btn-saiba {
-        margin-top: -1rem;
-        width: 7.5rem;
-        height: 1.8rem;
+        width: 15.5rem;
+        height: 2.8rem;
         border: 0.2rem solid #2E3092;
-        font-size: 0.38rem;
+        font-size: 0.7rem;
     }
 
     .pixels > p {
         padding: 0 0 0 0;
-        width: 235px;
-        font-size: 0.569rem;
+        width: 300px;
+        font-size: 0.9rem;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .pixels > p {
+        padding: 0 0 0 0;
+        width: 280px;
+        font-size: 0.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .btn-saiba {
+        width: 13.5rem;
+        height: 2.8rem;
+        border: 0.2rem solid #2E3092;
+        font-size: 0.6rem;
     }
 }
