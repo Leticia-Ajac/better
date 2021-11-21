@@ -1,9 +1,13 @@
 import "../styles/valores.css"
 import lb from"../../../assets/src_valores/linha-branca.png"
+import lae from "../../../assets/src_valores/linha-azuj.png"
+import lad from "../../../assets/src_valores/linha-azuj-dir.png"
 
 const Valores = () => {
     return(
 		<>
+
+
 			<div id='quebrar'>
 
 				<div className="cards-valores" id="disciplina">
