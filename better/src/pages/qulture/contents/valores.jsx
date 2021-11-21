@@ -2,6 +2,7 @@ import "../styles/valores.css"
 import lb from"../../../assets/src_valores/linha-branca.png"
 import lae from "../../../assets/src_valores/linha-azuj.png"
 import lad from "../../../assets/src_valores/linha-azuj-dir.png"
+import crianca from "../../../assets/src_valores/crianca.png"
 
 const Valores = () => {
     return(
@@ -59,7 +60,7 @@ const Valores = () => {
 					<p className='texto_valor' id='text-fran'>É direto, sincero, verdadeiro e transparente em suas relações, sempre com respeito, de forma positiva, agregadora e acolhedora. Não se omite, expressa suas opiniões </p>
 				</div>
 				
-				<div id='img_observadora'>AAA</div>
+				<div ><img src={crianca} alt="" id='img_observadora' /></div>
 			</div>
 		</>
 	);
