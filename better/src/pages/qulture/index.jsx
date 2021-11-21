@@ -4,6 +4,7 @@ import Alimentare from './contents/alimentare.jsx'
 import Valores from './contents/valores.jsx'
 import Demonstrativos from './contents/demonstrativos.jsx'
 import Video from './contents/video.jsx'
+import Lgbt from './contents/lgbt.jsx'
 
 
 
@@ -22,6 +23,8 @@ const Qulture = () => {
             <Alimentare />
 
             <Demonstrativos/>
+
+            <Lgbt/>
 
         </div>
 
