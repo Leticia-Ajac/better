@@ -2,7 +2,7 @@ import Image from './contents/image.jsx'
 import Missao from './contents/missao.jsx'
 import Alimentare from './contents/alimentare.jsx'
 import Valores from './contents/valores.jsx'
-
+import Doacao from './contents/doacao.jsx'
 
 
 const Qulture = () => {
@@ -16,6 +16,8 @@ const Qulture = () => {
             <Valores />
 
             <Alimentare />
+
+            <Doacao />
 
         </div>
 

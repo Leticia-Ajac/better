@@ -9134,6 +9134,11 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-aos@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-aos/-/react-aos-1.0.1.tgz#4e1f5d6ed56d44aaba618ff6c80638374ded007e"
+  integrity sha512-WDp/Vr4F6UO2qk6Mxk3lCEK0bOn8/QWFTHcU4+7eNYvB48Az8Wg54EEUTaP3342D5WjSW7jT5zLrDqFhl0Rr1w==
+
 react-app-polyfill@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-2.0.0.tgz#a0bea50f078b8a082970a9d853dc34b6dcc6a3cf"
