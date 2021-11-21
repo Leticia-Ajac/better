@@ -6,7 +6,7 @@ const Qulture = React.lazy(()=>import ('../pages/qulture/index.jsx'));
 const Footer = React.lazy(()=>import('../pages/Footer/index.jsx'));
 const Header = React.lazy(()=>import('../pages/header/header.jsx'));
 const academias = React.lazy(()=> import('../pages/academias-page/academias-page.jsx'));
-
+const News = React.lazy(()=> import('../pages/news-page/news-page.jsx'));
 const Routes = () => {
 
     return (
@@ -21,10 +21,11 @@ const Routes = () => {
 
                     <Route path='/qulture' component={Qulture} />
                       
-                      <Route path='/admissão' component={admissão}/>
+                    <Route path='/admissão' component={admissão}/>
 
                     <Route path='/academias' component={academias}/>
 
+                    <Route path='/novidades' component={News}/>
                 </Switch>
 
             <Footer/>

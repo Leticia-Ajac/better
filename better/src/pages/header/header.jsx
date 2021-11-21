@@ -28,7 +28,7 @@ const header = () => {
                     <Link to='/qulture'  onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }}>
                         <li class="topicos">Nossa Cultura</li>
                     </Link>
-                    <Link>
+                    <Link to='/novidades'>
                         <li class="topicos"  onClick={() => { if (document.readyState === 'complete') { window.scroll(0, 0) } }}>Novidades</li>
                     </Link>
                     <div  class='topicos' id="portal_aluno" style={{ width: '200px' }}>
@@ -54,7 +54,7 @@ const header = () => {
 
                     <p>Nossa Cultura</p>
                 </Link>
-                <Link to=''>
+                <Link to='/novidades'>
                     <p>Novidades</p>
                 </Link>
                 <Link to=''>
