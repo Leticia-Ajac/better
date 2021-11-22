@@ -7,8 +7,12 @@
 
 
 .body-grid-noticias-page {
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
     margin-top: 5.0rem;
+    margin-right: 40px;
 }
 
 .noticias-title-page {
@@ -19,6 +23,10 @@
     max-width: 100vw;
 }
 
+.grid-noticias-page{
+    display: flex;
+    gap: 40px;
+}
 .noticias-title-page> h2 {
     font-family: 'Montserrat';
     font-weight: 700;
@@ -31,140 +39,167 @@
     color: #001489;
 }
 
-
-.grid-noticias-page{
-    display: grid;
-    grid-template-columns: 22.6875rem 22.6875rem;
-    grid-template-rows: 9.625rem 9.625rem;
-    grid-gap: 2.5rem 2.1875rem;
-}
-
-.first-card-grid-page{
-    height: 350px;
-    background-color: #010D52;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    border-radius: 0.6rem;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+.second-card-grid-page{
     transition: all 0.3s;
     animation: volta 0.4s ease-out forwards;
 }
-
-@keyframes mymove {
-    from {height: 350px;}
-    to {height: 450px;}
-  }
-
-  @keyframes volta {
-    from {height: 450px;}
-    to {height: 350px;}
-  }
+#leticia{
+    width: 400px;
+    height: 260px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
   #fundo-preto{
-      width: 363px;
-      height: 262px;
+      width: 436px;
+      height: 200px;
       position: absolute;
       background-color: black;
       transition: all 0.4s ease-out;
       opacity: 0;
-      border-radius: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
   }
 
-#titulo-invisivel{
+.titulo-invisivel{
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    width: 280px;
+    width: 320px;
     margin-left: 39px;
-    margin-top: 38px;
+    margin-top: -160px;
     font-style: normal;
     font-weight: 600;
-    line-height: 37px;
+    line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
     border-bottom: 2px solid white;
     opacity: 0;
     transition: ease-out 0.4s all;
-}
-.first-card-grid-page:focus>#titulo-invisivel{
-    opacity: 1;
+    z-index: 1;
 }
 
-#texto-noticia1-invisivel{
+#titulo1-invisivel{
     position: absolute;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    width: 320px;
+    margin-left: 50px;
+    margin-top: -420px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    border-bottom: 2px solid white;
+    opacity: 0;
+    transition: ease-out 0.4s all;
+    z-index: 1;
+}
+
+.texto-noticia2-invisivel{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     font-style: normal;
     margin-left: 39px;
-    margin-top: 134px;
     font-weight: 600;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
-    width: 280px;
-    transition: 0.4s all ease-out;
+    width: 420px;
+    transition: 0.6s all ease-out;
     opacity: 0;
+    z-index: 2;
+    margin-top: 55px;
 }
-
-.first-card-grid-page:focus>#texto-noticia1-invisivel{
+.second-card-grid-page:focus>.titulo-invisivel, .first-card-grid-page:focus:focus>#titulo1-invisivel, .first-card-grid-page:focus>.texto-noticia2-invisivel{
     opacity: 1;
 }
 
-.first-card-grid-page:hover {
+.texto-noticia1-invisivel{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    margin-left: 39px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 360px;
+    transition: 0.6s all ease-out;
+    opacity: 0;
+    z-index: 2;
+    margin-top: 35px;
+}
+
+#texto-invisivel-para-news{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -85px;
+    opacity: 0;
+    transition: ease-out 0.4s;
+    font-size: 14px;
+}
+
+#texto1-invisivel-para-news{
+    position: absolute;
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -340px;
+    font-weight: 600;
+    margin-left: 50px;
+    line-height: 29px;
+    opacity: 0;
+    transition: ease-out 0.4s;
+    font-size: 16px;
+    color: white;
+}
+.second-card-grid-page:focus>#texto-invisivel-para-news, .first-card-grid-page:focus>#texto1-invisivel-para-news{
+    opacity: 1;
+}
+.second-card-grid-page:focus>.texto-noticia1-invisivel, #texto-noticia2-invisivel{
+    opacity: 1;
+    color: white;
+}
+
+.second-card-grid-page:hover, .first-card-grid-page:hover, .first-card-grid-page:focus,  #escopo-card-news-page:focus, #escopo-card-news-page:hover{
     transform: scale(105%);
     cursor: pointer;
     box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(245, 119, 16, 0.493);
     
 }
-.first-card-grid-page:focus>#fundo-preto{
+.second-card-grid-page:focus>#fundo-preto, .first-card-grid-page:focus>#fundo-preto1{
     opacity: 0.8;
 }
 
-.first-card-grid-page:focus{
+.second-card-grid-page:focus{
     animation: mymove 0.4s ease-out forwards;
     animation: mymove 0.4s ease-out forwards;
-    background-color:  #001489;
+    transform: scale(105%);
+    box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(245, 119, 16, 0.493);
 }
 
-.first-card-grid-page:focus>#escondido{
+.second-card-grid-page:focus>#escondido{
     opacity: 1;
 }
-.first-card-grid-page:focus>p{
+.second-card-grid-page:focus>p{
     opacity: 0;
     transition: all ease-out 0.6s;
 }
-
-#escondido{
-   position: absolute;
-   opacity: 0;
-   margin-top: -60px;
-   width: 313px;
-   font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    transition: 0.4s ease-out
-}
-
-.first-card-grid-page > p {
+.second-card-grid-page > .titulo-normal{
     font-size: 1.125rem;
     font-weight: 700;
-    margin: 1.125rem 2.25rem;
     text-align: left;
     color: #fff;
     opacity: 1;
     transition: all ease-out 0.4s;
-}
-
-.first-card-grid-page > img {
-    min-width: 22.6875rem;
-
+    margin-top: 35px;
 }
 
 
@@ -179,12 +214,6 @@
 
 }
 
-.card-grid-page:hover {
-    transform: scale(105%);
-    cursor: pointer;
-    box-shadow: 0.625rem 0.625rem 0.125rem 0.0625rem rgba(245, 119, 16, 0.4);
-}
-
 .card-grid-page > p {
     font-size: 1.125rem;
     font-weight: 700;
@@ -196,4 +225,254 @@
 .card-grid-page > img {
     margin-left: auto;
 }
-    
+
+.second-card-grid-page{
+    width: 436px;
+    height: 305px;
+    background-color: #010D52;
+    border-radius: 10px;
+    transition: ease-out 0.4s all;
+}
+
+
+.second-card-to-be-column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.second-card-grid-page>p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: 12px;
+    font-style: normal;
+    margin-left: 39px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    color: white;
+    width: 340px;
+}
+
+#canal-rural-foto, #leticia{
+    width: 436px;
+    border-radius: 10px;
+    height: 180px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.second-card-grid-page:focus>#fundo-azul{
+    animation: efeitinho ease-out 0.2s forwards;
+}
+
+.first-card-grid-page:focus>#fundo-azul1{
+    animation: efeitinho1 ease-out 0.2s forwards;
+}
+
+#escopo-card-news-page:focus>#fundo-azul3{
+    animation: efeitinho2 ease-out 0.2s forwards;
+    opacity: 1;
+}
+#fundo-azul{
+    display: flex;
+    position: absolute;
+    background-color: #001489;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 436px; 
+    height: 0px;
+    margin-top: 180px;
+    z-index: 2;
+    animation: ease-out efeitinho-inverso 0.2s;
+}
+
+@keyframes efeitinho-inverso{
+    from{height: 100px}
+    to{height: 0px;}
+}
+
+@keyframes efeitinho-inverso1{
+    from{height: 180px}
+    to{height: 0px;}
+}
+
+@keyframes efeitinho{
+    from{height:0px}
+    to {height: 125px;}
+}
+
+@keyframes efeitinho1{
+    from{height:0px}
+    to {height: 180px;}
+}
+
+@keyframes efeitinho2 {
+    from{width:0px;}
+    to{width: 500px;}
+}
+
+@keyframes efeitinho-inverso2 {
+    from{width:300px;}
+    to{width: 0px;}
+}
+
+.first-card-grid-page{
+    width: 500px;
+    height: 650px;
+    background-color: #010D52;
+    border-radius: 10px;
+    transition: ease-out 0.4s all;
+}
+
+#ely{
+    width: 500px;
+    height: 470px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#titulo-da-etec-normal{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 48px;
+    font-style: normal;
+    margin-left: 39px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    color: white;
+    width: 340px;
+}
+
+#escopo-card-news-page{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 975px;
+    height: 350px;
+    background-color: #010D52;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 215px;
+    transition: ease-out 0.4s all;
+}
+
+#brenda{
+    width: 480px;
+    height: 350px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#fundo-azul1{
+    display: flex;
+    position: absolute;
+    background-color: #001489;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 500px; 
+    height: 0px;
+    margin-top: 470px;
+    z-index: 2;
+    animation: ease-out efeitinho-inverso1 0.2s;
+}
+
+#fundo-preto1{
+    width: 500px;
+    height: 470px;
+    position: absolute;
+    background-color: black;
+    transition: all 0.4s ease-out;
+    opacity: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#titulo3-normal{
+    font-size: 1.625rem;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    opacity: 1;
+    transition: all ease-out 0.4s;
+    margin-top: 105px;
+    margin-right: 35px;
+    width: 400px;
+}
+
+#fundo-azul3{
+    display: flex;
+    position: absolute;
+    background-color: #001489;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 300px; 
+    height: inherit;
+    margin-right: 475px;
+    z-index: 2;
+    animation: ease-out efeitinho-inverso2 0.2s;
+    opacity: 0;
+}
+
+#titulo3-invisivel{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    width: 400px;
+    height: 300px;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    border-left: 3px solid white;
+    padding-left: 20px;
+    opacity: 0;
+    transition: ease-out 0.4s all;
+    z-index: 1;
+}
+
+#escopo-card-news-page:focus>#titulo3-invisivel{
+    opacity: 1;
+}
+
+#fundo-preto3{
+    width: 480px;
+    height: 350px;
+    position: absolute;
+    background-color: black;
+    transition: all 0.4s ease-out;
+    opacity: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#escopo-card-news-page:focus>#fundo-preto3{
+    opacity: 0.8;
+}
+
+#texto3-invisivel-para-news{
+    position: absolute;
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    font-weight: 600;
+    margin-right: 520px;
+    line-height: 29px;
+    opacity: 0;
+    transition: ease-out 0.4s;
+    font-size: 20px;
+    z-index: 2;
+    color: white; 
+}
+
+#escopo-card-news-page:focus>#texto3-invisivel-para-news{
+    opacity: 1;
+}
