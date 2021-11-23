@@ -6,8 +6,9 @@ import leticia from '../../assets/leticiaMiyuki1.png';
 import canalRural from '../../assets/canalRural.png';
 import elyDirani from '../../assets/Ely Dirani (1).jpg';
 import brenda from '../../assets/brenda.png';
-
-const News = () => {
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+const News = () => {AOS.init();
     return (
         <div className="container-noticias-page">
             <div className="noticias-title-page">
@@ -43,7 +44,7 @@ const News = () => {
 
 
 
-                        <div className="second-card-grid-page" tabIndex='0'>
+                        <div className="second-card-grid-page" tabIndex='0'  data-aos="fade-left">
                         <div id='fundo-azul'></div>
                         <div id='fundo-preto'></div>
                             <img src={leticia} id='leticia'/>
@@ -56,7 +57,7 @@ const News = () => {
                 </div>
             </div>
             <div id='card-longo-news-page'>
-                <div id='escopo-card-news-page' tabIndex='0'>
+                <div id='escopo-card-news-page' tabIndex='0' data-aos="zoom-in">
                     <div id='fundo-azul3'></div>
                     <div id='fundo-preto3'></div>
                     <img src={brenda} id='brenda'/>
