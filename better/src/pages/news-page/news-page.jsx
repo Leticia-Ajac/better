@@ -1,18 +1,11 @@
 import '../news-page/news-page.css';
 import { Link } from 'react-router-dom'
-import firstcard_img from '../../assets/firstcard_img.png'
-import firstcard2_img from '../../assets/firstcard_img2.png'
-import firstcard3_img from '../../assets/firstcard_img3.png'
-import firstcard4_img from '../../assets/firstcard_img4.png'
-import secondcard_img from '../../assets/secondcard_img.png'
-import secondcard2_img from '../../assets/secondcard_img2.png'
-import secondcard4_img from '../../assets/secondcard_img4.png'
-import thirdcard_img from '../../assets/thirdcard_img.png'
-import thirdcard2_img from '../../assets/thirdcard_img2.png'
-import thirdcard3_img from '../../assets/thirdcard_img3.png'
-import thirdcard4_img from '../../assets/thirdcard_img4.png'
 import imgtitulo from '../../assets/div-titulo.png';
 import imgtitulo2 from '../../assets/div-titulo2.png';
+import leticia from '../../assets/leticiaMiyuki1.png';
+import canalRural from '../../assets/canalRural.png';
+import elyDirani from '../../assets/Ely Dirani (1).jpg';
+import brenda from '../../assets/brenda.png';
 
 const News = () => {
     return (
@@ -26,41 +19,50 @@ const News = () => {
             <div className="body-grid-noticias-page">
                 <div className="grid-noticias-page">
                     <div className="first-card-grid-page"  tabindex="0">
+                        <div id='fundo-azul1'></div>
+                        <div id='fundo-preto1'></div>
+                        <img src={elyDirani} id='ely'/>
+                        <div id='titulo1-invisivel'>Agora a Germinare também tem ETEC!</div>
+                        <p id='texto1-invisivel-para-news'>Boas noticias para os interessados em fazer parte do instituto, agora a Germinare criou a "Germinare TEC", um programa que dá oportunidade aos alunos do 9°ano de ingressarem no mundo profissional. Os alunos contarão com aulas práticas que envolvem programação e linguagem de códigos, além de um estágio remunerado durante este período. Para inscrição, basta acessar o link: <a target='_blank' href='https://seufuturocomecaaqui.com.br/'>https://seufuturocomecaaqui.com.br/</a></p>
+                        <div className='texto-noticia2-invisivel'>2022, é o ano que vai mudar a sua vida, vem de ETEC Germinare!</div>
+                        <p id='titulo-da-etec-normal'>Agora a Germinare também tem ETEC! Inscrições abertas para o curso de tecnologia.</p>
+                    </div>
+
+
+
+                    <div className="second-card-to-be-column">
+                        <div className="second-card-grid-page"  tabindex="0">
+                        <div id='fundo-azul'></div>
                         <div id='fundo-preto'></div>
-                        <div id='titulo-invisivel'>Letícia Milyuki é destaque no Banco Original</div>
-                        <div id='texto-noticia1-invisivel'>Ex-aluna com 20 anos é considerada uma das melhores analistas do Banco Original.</div>
-                        <picture>
-                            <source media="(max-width: 479px" srcSet={firstcard4_img} />
-                            <source media="(max-width: 769px)" srcSet={firstcard3_img} />
-                            <source media="(min-width: 1024px)" srcSet={firstcard_img} />
-                            <source media="(max-width: 1023px)" srcSet={firstcard2_img} />                          
-                            <img src={firstcard_img} alt=""/>
-                        </picture>
-                        <p>Letícia Milyuki é destaque no Banco Original.</p>
-                        <p id='escondido'>“Foi muito emocionante ver que todo meu empenho e trabalho foi valorizado. A partir de agora pretendo focar ainda mais nos resultados e na minha carreira!”</p>
-                    </div>
-                    <div className="card-grid-page" id='canal-rural'  tabindex="0">
-                        <p>Geovanna, ex-germinare, no Canal Rural, confira!</p>
-                        <picture>
-                            <source media="(max-width: 480px" srcSet={secondcard4_img} />
-                            <source media="(max-width: 769px)" srcSet={secondcard_img} />
-                            <source id='segunda-foto'media="(min-width: 1024px)" srcSet={secondcard_img} />
-                            <source media="(max-width: 1023px)" srcSet={secondcard2_img} />
+                        <img src={canalRural} id='canal-rural-foto'/>
+                            <div className='titulo-invisivel'>Geovanna, ex-germinare, no Canal Rural, confira!</div>
+                            <p id='texto-invisivel-para-news'>"Que oportunidade! É um trabalho prazeroso, mas que exige responsabilidades".</p>
+                            <div className='texto-noticia1-invisivel'>Ex-aluna Geovanna participa como comentarista no Canal Rural!</div>
+                            <p className='titulo-normal'>Geovanna, ex-germinare, no Canal Rural, confira!</p>
+                        </div>
 
-                            <img src={secondcard_img}/>
-                        </picture>
-                    </div>
-                    <div className="card-grid-page" id='ensino-tec'>
-                        <p>Agora a Germinare tem o Ensino Tech! </p>
-                        <picture>
-                            <source media="(max-width: 480px" srcSet={thirdcard4_img} />
-                            <source media="(max-width: 769px)" srcSet={thirdcard3_img} />
-                            <source media="(min-width: 1024px)" srcSet={thirdcard_img} />
-                            <source media="(max-width: 1023px)" srcSet={thirdcard2_img} />
 
-                            <img src={thirdcard4_img}/>
-                        </picture>
+
+                        <div className="second-card-grid-page" tabIndex='0'>
+                        <div id='fundo-azul'></div>
+                        <div id='fundo-preto'></div>
+                            <img src={leticia} id='leticia'/>
+                            <div className='titulo-invisivel'>Letícia Milyuki é destaque no Banco Original.</div>
+                            <p id='texto-invisivel-para-news'>"Essa é a primeira de muitas conquistas! Agora é continuar desenpenhando em alto nível".</p>
+                            <div className='texto-noticia1-invisivel'>Ex-aluna com 20 anos é considerada uma das melhores analistas do Banco Original.</div>
+                            <p className='titulo-normal'>Letícia Milyuki é destaque no Banco Original.</p>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div id='card-longo-news-page'>
+                <div id='escopo-card-news-page' tabIndex='0'>
+                    <div id='fundo-azul3'></div>
+                    <div id='fundo-preto3'></div>
+                    <img src={brenda} id='brenda'/>
+                    <div id='titulo3-invisivel'>Saiu a média salarial dos ex-alunos! Confira a carreira de sucessso dos nossos estudantes.</div>
+                    <p id='texto3-invisivel-para-news'>É com orgulho que anunciamos as consquistas de nossos estudantes. Para este ano, a média salarial dos ex-alunos atingiu R$5000.00, resultado impressionante para jovens de 18 anos.</p>
+                    <p id='titulo3-normal'>Saiu a média salarial dos ex-alunos! Confira a carreira de sucessso dos nossos estudantes.</p>                
                 </div>
             </div>
     </div>
