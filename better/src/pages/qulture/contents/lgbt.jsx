@@ -19,19 +19,19 @@ const Lgbt = () => {
             <div className="colunas-lgpd-1">
                 <div className="coluna-1-lgpd">
                     <h1>Dados coletados no processo  seletivo de admissão</h1>
-                    <p>Nome
-                        Nome Social
-                        E-mail
-                        Sexo
-                        Data de Nascimento
-                        Nº do CPF
-                        Nº do RG
-                            Órgão Expedidor do RG
-                        Endereço
-                        Escola que está macritulado 
-                            Período
-                            Tipo de Instituição
-                    </p>
+                    <ul>
+                        <li>Nome</li>
+                        <li>Nome Social</li>
+                        <li>E-mail</li>
+                        <li>Sexo</li>
+                        <li>Nº do CPF</li>
+                        <li>Nº do RG</li>
+                        <li>Órgão Expedidor do RG</li>
+                        <li>Endereço</li>
+                        <li>Escola que está macritulado </li>
+                        <li>Período</li>
+                        <li>Tipo de Instituição</li>
+                    </ul>
                 </div>
                 <div className="coluna-2-lgpd">
                 <h1>Cookies</h1>
