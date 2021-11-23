@@ -61,6 +61,7 @@ const News = () => {AOS.init();
                     <div id='fundo-azul3'></div>
                     <div id='fundo-preto3'></div>
                     <img src={brenda} id='brenda'/>
+                    <p id='mini-title-invisivel'>Nossos alunos são nota 10 no mercado de trabalho!</p>
                     <div id='titulo3-invisivel'>Saiu a média salarial dos ex-alunos! Confira a carreira de sucessso dos nossos estudantes.</div>
                     <p id='texto3-invisivel-para-news'>É com orgulho que anunciamos as consquistas de nossos estudantes. Para este ano, a média salarial dos ex-alunos atingiu R$5000.00, resultado impressionante para jovens de 18 anos.</p>
                     <p id='titulo3-normal'>Saiu a média salarial dos ex-alunos! Confira a carreira de sucessso dos nossos estudantes.</p>                
