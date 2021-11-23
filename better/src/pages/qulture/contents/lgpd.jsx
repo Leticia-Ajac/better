@@ -50,7 +50,7 @@ const Lgpd = () => {
 
                 <div id="column-2-lgpd">
                     <h2 id="tit-como">
-                        Como, quais e por que a Escola Germinare coleta seus dados
+                        Como, quais e por que a Escola <br/>Germinare coleta seus dados
                     </h2>
                     <p id="text-como">
                     Para que possamos prestar nossos serviços com qualidade, podemos coletar diferentes tipos de dados sobre você (coletadas através dos nossos sites e/ou com conexão a outras atividades que fazem parte da operação de nossos negócios). Para que possamos ser transparentes, listamos abaixo algumas das finalidades as quais poderemos tratar os seus dados pessoais:
