@@ -97,6 +97,7 @@
 	column-gap: 30px;
 	align-items: center;
 	justify-content: center;
+;
 }
 
 #column-1-lgpd{
@@ -114,7 +115,6 @@
 
 #column-2-lgpd{
 	flex-direction: column;
-	align-self: center;
 	justify-content: center;
 }
 
@@ -123,11 +123,12 @@
 	font-size: 22px;
 	color: #001489;
 	text-align: center;
-	align-self: flex-start;
-	width: 371px;
+	width: fit-content;
 }
 
 #text-como{
 	width: 322px;
 	text-align: left;
+	font-size: 18px;
+	font-weight: 400;
 }
