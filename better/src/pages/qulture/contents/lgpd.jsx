@@ -2,67 +2,65 @@ import fotolgpd from '../../../assets/foto-lgpd-1.png'
 import julia from '../../../assets/Julia da Paz 1.png'
 
 
-import '../styles/lgbt.css'
+import '../styles/lgpd.css'
 
-const Lgbt = () => {
+const Lgpd = () => {
     return (
         <div className='Lgpd-page'>
             <div className="titulo">
-                <img/>
                 <h1>LGPD</h1>
-                <img/>
             </div>
-            <div className="container-textos">
-                <p>O compromisso da Escola Germinare com a Privacidade e Proteção de Dados.</p>
-                <p>Se você utiliza o nosso site, esta Política de Privacidade se aplica a “VOCÊ”.</p>
+            <div id="id-compromisso">
+                <p id="text-compromisso-1">O compromisso da Escola Germinare com a Privacidade e Proteção de Dados.</p>
+                <p id="text-compromisso-2">Se você utiliza o nosso site, esta Política de Privacidade se aplica a “VOCÊ”.</p>
             </div>
             <div className="colunas-lgpd-1">
                 <div className="coluna-1-lgpd">
-                    <h1>Dados coletados no processo  seletivo de admissão</h1>
+                    <h1 id="tit-dados">Dados coletados no processo  seletivo de admissão</h1>
                     <ul>
-                        <li>Nome</li>
-                        <li>Nome Social</li>
-                        <li>E-mail</li>
-                        <li>Sexo</li>
-                        <li>Nº do CPF</li>
-                        <li>Nº do RG</li>
-                        <li>Órgão Expedidor do RG</li>
-                        <li>Endereço</li>
-                        <li>Escola que está macritulado </li>
-                        <li>Período</li>
-                        <li>Tipo de Instituição</li>
+                        <li className="item">Nome</li>
+                        <li className="item">Nome Social</li>
+                        <li className="item">E-mail</li>
+                        <li className="item">Sexo</li>
+                        <li className="item">Nº do CPF</li>
+                        <li className="item">Nº do RG</li>
+                        <li className="item">Órgão Expedidor do RG</li>
+                        <li className="item">Endereço</li>
+                        <li className="item">Escola que está macritulado </li>
+                        <li className="item">Período</li>
+                        <li className="item">Tipo de Instituição</li>
                     </ul>
                 </div>
                 <div className="coluna-2-lgpd">
-                <h1>Cookies</h1>
-                    <p>Cookies estão inclusos em nossos sites para distinguir usuários únicos, atribuindo um número gerado  aleatoriamente como um identificador com o objetivo de calcular acessos dos visitantes para os relatórios analíticos de sites e para poder entender melhor duas necessidades e interesses. Oferecendo um melhor serviço ou fornecendo informação relacionada. Por padrão, ele é definido para expirar.</p>
+                <h1 id="tit-cookies">Cookies</h1>
+                    <p id="text-cookies">Cookies estão inclusos em nossos sites para distinguir usuários únicos, atribuindo um número gerado  aleatoriamente como um identificador com o objetivo de calcular acessos dos visitantes para os relatórios analíticos de sites e para poder entender melhor duas necessidades e interesses. Oferecendo um melhor serviço ou fornecendo informação relacionada. Por padrão, ele é definido para expirar.</p>
                 </div>
             </div>
             <div className="colunas-lgpd-2">
                 <div className="column-1-lgpd">
-                    <img src={fotolgpd}/>
+                    <img id="img1-id" src={fotolgpd}/>
                 </div>
                 <div className="column-2-lgpd">
-                    <h2>
+                    <h2 id="tit-como">
                         Como, quais e por que a Escola Germinare coleta seus dados
                     </h2>
-                    <p>
+                    <p id="text-como">
                     Para que possamos prestar nossos serviços com qualidade, podemos coletar diferentes tipos de dados sobre você (coletadas através dos nossos sites e/ou com conexão a outras atividades que fazem parte da operação de nossos negócios). Para que possamos ser transparentes, listamos abaixo algumas das finalidades as quais poderemos tratar os seus dados pessoais:
                     </p>
                 </div>
             </div>
             <div className="container-lgpd-1">
-                <h1>Coleta de dados sensíveis e coleta de dados de menor</h1>
+                <h1 id="tit-coleta">Coleta de dados sensíveis e coleta de dados de menor</h1>
                 <div className="coluna-container">
-                    <p>Em alguns casos, podemos realizar a coleta de alguns dados pessoais considerados como sensíveis conforme definição da Lei Geral de Proteção de Dados  ou a coleta de algum dado pessoal que possa vir a revelar algum dado sensível. Nesses casos, apenas iremos realizar o tratamento desses dados de acordo com alguma das bases legais disponíveis no artigo 11 da LGPD.</p>
-                    <img src={julia}/>
+                    <p id="text-coleta1">Em alguns casos, podemos realizar a coleta de alguns dados pessoais considerados como sensíveis conforme definição da Lei Geral de Proteção de Dados  ou a coleta de algum dado pessoal que possa vir a revelar algum dado sensível. Nesses casos, apenas iremos realizar o tratamento desses dados de acordo com alguma das bases legais disponíveis no artigo 11 da LGPD.</p>
+                    <img id="img2-id" src={julia}/>
                 </div>
-                <p>Além disso, durante a prestação de nossos serviços, podemos também coletar dados de menores de 12 anos. Nesses casos, sempre buscaremos a autorização de seu representante legal ou de um de seus pais, conforme regra presente no artigo 14 da LGPD.
+                <p id="text-coleta2">Além disso, durante a prestação de nossos serviços, podemos também coletar dados de menores de 12 anos. Nesses casos, sempre buscaremos a autorização de seu representante legal ou de um de seus pais, conforme regra presente no artigo 14 da LGPD.
                 </p>
             </div>
             <div className="container-lgpd-2">
-                <h1>Compartilhamento de dados</h1>
-                <p>A Escola Germinare não compartilha, vende ou transfere seus dados pessoais para nenhuma empresa ou individuo, exceto nas seguintes hipóteses:
+                <h1 id="tit-compartilhamento">Compartilhamento de dados</h1>
+                <p id="text-compartilhamento">A Escola Germinare não compartilha, vende ou transfere seus dados pessoais para nenhuma empresa ou individuo, exceto nas seguintes hipóteses:
 
                 Podemos compartilhar seus dados pessoais a fim de cumprir com as legislações vigentes (Por exemplo, compartilhamento de dados ao Ministério da Educação – MEC e a Secretária da Educação do Estado de São Paulo);
 
@@ -72,8 +70,8 @@ const Lgbt = () => {
                 </p>
             </div>
             <div className="container-lgpd-3">
-                <h1>Compartilhamento de dados</h1>
-                <p>Importante ressaltar que você sempre possuirá direitos relativos a privacidade e a proteção dos seus dados, e a Escola Germinare, além de se preocupar com a segurança desses dados, também se preocupa que você tenha acesso e conhecimento de todos os seus direitos.</p>
+                <h1 id="tit-direitos">Direitos conforme LGPD</h1>
+                <p id="text-direitos">Importante ressaltar que você sempre possuirá direitos relativos a privacidade e a proteção dos seus dados, e a Escola Germinare, além de se preocupar com a segurança desses dados, também se preocupa que você tenha acesso e conhecimento de todos os seus direitos.</p>
             </div>
             <div className="container-lgpd-4">
                 <div id="acesso">
@@ -127,13 +125,13 @@ const Lgbt = () => {
                 </div>
             </div>
             <div className="container-lgpd-5">
-                <p>Como falar conosco?</p>
-                <p>O responsável pela base de dados no Brasil é o INSTITUTO J&F (“INSTITUTO J&F”), devidamente inscrita no CNPJ sob no 10.619.284/0001-52, localizada na Rua Irineu José Bordon, n°335, Vila Jaguará, CEP 05120-060, São Paulo, Brasil. Se você tiver dúvidas ou preocupações em relação a sua privacidade ao usar este site, encaminhe-as por meio do e-mail dpo@jfinvest.com.br.</p>
-                <p>Mudanças na Política de Privacidade</p>
-                <p>Podemos modificar ou alterar este Termo de Privacidade de tempos em tempos. Para informá-lo de quando fizermos alterações neste Termo de Privacidade, alteraremos a data de revisão. O novo Termo modificado ou alterado será aplicado a partir dessa data de revisão. Portanto, incentivamos você a periodicamente revisar este Termo para ser informado sobre como estamos protegendo suas informações.</p>
+                <p id="tit-como">Como falar conosco?</p>
+                <p id="text-como">O responsável pela base de dados no Brasil é o INSTITUTO J&F (“INSTITUTO J&F”), devidamente inscrita no CNPJ sob no 10.619.284/0001-52, localizada na Rua Irineu José Bordon, n°335, Vila Jaguará, CEP 05120-060, São Paulo, Brasil. Se você tiver dúvidas ou preocupações em relação a sua privacidade ao usar este site, encaminhe-as por meio do e-mail dpo@jfinvest.com.br.</p>
+                <p id="tit-mudancas"> Mudanças na Política de Privacidade</p>
+                <p id="text-mudancas">Podemos modificar ou alterar este Termo de Privacidade de tempos em tempos. Para informá-lo de quando fizermos alterações neste Termo de Privacidade, alteraremos a data de revisão. O novo Termo modificado ou alterado será aplicado a partir dessa data de revisão. Portanto, incentivamos você a periodicamente revisar este Termo para ser informado sobre como estamos protegendo suas informações.</p>
             </div>
         </div>
     )
 }
 
-export default Lgbt;
+export default Lgpd;
