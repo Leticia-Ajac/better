@@ -1,0 +1,133 @@
+*{
+	font-family: 'Montsserrat', sans-serif;
+}
+
+#id-compromisso{
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	flex-direction: column;
+}
+
+#text-compromisso-1{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+}
+
+#text-compromisso-2{
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+	font-weight: 400;
+}
+
+#colunas-lgpd-1{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	column-gap: 40px;
+	align-items: center;
+	justify-content: center;
+}
+
+#coluna-1-lgpd{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+}
+
+#tit-dados{
+	font-weight: bold;
+	font-size: 18px;
+	color: #001489;
+	text-align: center;
+	width: 308px;
+}
+
+#lista-dados{
+	width: fit-content;
+	align-items: center;
+	justify-content: center;
+}
+
+.item{
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	align-self: center;
+	justify-content: center;
+	text-align: left;
+}
+
+#vertical{
+	height: 290px;
+}
+
+#coluna-2-lgpd{
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+}
+
+#tit-cookies{
+	font-weight: bold;
+	font-size: 18px;
+	color: #001489;
+	text-align: center;
+}
+
+#text-cookies{
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	align-self: center;
+	justify-content: center;
+	text-align: left;
+	width: 245px;
+}
+
+#colunas-lgpd-2{
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+	align-items: center;
+	justify-content: center;
+}
+
+#column-1-lgpd{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+#img1-id{
+	width: 254px;
+	height: 328px;
+	align-self: center;
+	justify-content: center;
+}
+
+#column-2-lgpd{
+	flex-direction: column;
+	align-self: center;
+	justify-content: center;
+}
+
+#tit-como{
+	font-weight: bold;
+	font-size: 22px;
+	color: #001489;
+	text-align: center;
+	align-self: flex-start;
+	width: 371px;
+}
+
+#text-como{
+	width: 322px;
+	text-align: left;
+}
