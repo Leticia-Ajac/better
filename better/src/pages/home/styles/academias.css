@@ -160,7 +160,7 @@
     #cards-academias{
         display: flex;
         max-height: 300px;
-        overflow-x: auto;
+        overflow-x: scroll;
         margin-left: 50px;
         margin-bottom: 30px;
         border: none;
