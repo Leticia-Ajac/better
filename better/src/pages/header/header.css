@@ -52,7 +52,7 @@ header{
 }
 
 #listatopicos >a:focus >.topicos{
-        color: rgb(236, 150, 19);
+        color: rgb(231, 154, 91);
     }
 
 #logogerminare{
@@ -106,7 +106,7 @@ header{
     flex-direction: column;
     text-align: left;
     margin-top: 35px;
-    background-color: rgb(255, 201, 115, 0.75);
+    background-color: rgb(248, 177, 63);
     border: white solid 0.187rem;
     width: 200px;
     height: 250px;
@@ -124,11 +124,10 @@ header{
     padding: 0px 0px 0px 20px;
     text-decoration: none;
     color: white;
-    transition: all 0.3s ease-in-out;
 }
 
 #portal_aluno:hover > .nicks> a:hover{
-    border-bottom: white solid 0.2rem;
+    border-bottom: white solid 0.1rem;
 }
 
 .nicks {
@@ -150,7 +149,7 @@ header{
         width: 200px;
         height: 250px;
         font-size: 14px;
-        background-color: rgb(255, 201, 115, 0.75);
+        background-color: rgb(231, 154, 91);
         position: absolute;
         right: 0px;
         margin-top: 357px;
@@ -162,6 +161,7 @@ header{
 
     .nome > p {
         margin-left: -20px;
+        font-weight: 200px;
     }
     .linha-carousel{
         display: none;
@@ -213,6 +213,7 @@ header{
     }
     #logogerminare{
         transform: scale(0.75);
+        margin-left: 0px;
     }
 }
 

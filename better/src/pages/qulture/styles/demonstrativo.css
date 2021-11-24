@@ -1,0 +1,196 @@
+#demonstrativos-financeiros{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#demonstrativos-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #001489;
+    border-bottom: 3px solid #001489;
+    padding-bottom: 15px;
+    border-radius: 2px;
+    width: 890px;
+}
+
+.explicacao-demonstrativos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F28622;
+    width: 890px;
+}
+
+#to-be-black{
+    color: black;
+}
+
+#demonstrativos-cards{
+    width: 1000px;
+    height: 350px;
+    display: flex;
+	justify-content: center;
+	align-self: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+    row-gap: 5px;
+	margin-top: 20px;
+}
+
+.demonstrativos-anos{
+    min-width: 190px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #001489;
+    text-decoration: none;
+    height: 82.14px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    box-shadow: 5px 4px rgb(214, 214, 214);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.demonstrativos-anos:hover{
+    transform: scale(105%);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0.325rem 0.425rem 0.125rem 0.0625rem rgba(245, 119, 16, 0.4);
+}
+
+@media screen and (max-width: 952px){
+    
+    #demonstrativos-titulo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        width: 700px;
+        margin-left: 40px;
+    }
+    .explicacao-demonstrativos{
+        font-size: 16px;
+        width: 700px;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+    
+    #demonstrativos-cards{
+        width: 700px;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    
+    #demonstrativos-titulo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;
+        width: 300px;
+        margin-left: 20px;
+    }
+    .explicacao-demonstrativos{
+        font-size: 12px;
+        width: 300px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    #demonstrativos-cards{
+        width: 400px;
+        height: 280px;
+        row-gap: 5px;
+    }
+    .demonstrativos-anos{
+        min-width: 120px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: #001489;
+        text-decoration: none;
+        height: 52.14px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 952px){
+    
+    #demonstrativos-titulo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        width: 700px;
+        margin-left: 40px;
+    }
+    .explicacao-demonstrativos{
+        font-size: 16px;
+        width: 700px;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+    
+    #demonstrativos-cards{
+        width: 700px;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    
+    #demonstrativos-titulo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 26px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    .explicacao-demonstrativos{
+        font-size: 10px;
+        width: 280px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    #demonstrativos-cards{
+        width: 280px;
+        height: 420px;
+        row-gap: 15px;
+    }
+    .demonstrativos-anos{
+        min-width: 120px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: #001489;
+        text-decoration: none;
+        height: 52.14px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+    }
+    
+}
+

@@ -39,9 +39,6 @@ const Missao = () => {
                         <img className="img-2" src={linha2} alt="linha azul"/>
                     </picture>
             </div>
-            <Link to="Qulture">
-                <button className="btn-saiba">SAIBA MAIS DA NOSSA CULTURA</button>
-            </Link>
         </>
     )
 }

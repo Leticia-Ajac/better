@@ -1,28 +1,114 @@
-.container-doacao {
-    background-color: #2E3092;
-    width: 100vw;
-    height: 0 auto;
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#fundinho{
     display: flex;
     flex-direction: row;
     margin-top: 100px;
+    width: 100vw;
+    height: 270px;
+    background-color: #010D52;
+    justify-content: center;
+    gap: 60px;
 }
 
-.container-1 {
-    display: flex;
-    flex-direction: column;
+.doacao-text1{
+    width: 290px;
+    height: 190px;
+    text-align: left;
+    margin-left: 60px;
+    align-self: center;
 }
-.container-1 > h1 {
-    font-weight: bold;
+
+#tit-doacao{
     font-size: 36px;
-    line-height: 44px;
-    display: flex;
-    width: 600px;
-    justify-content: right;    
-    text-align: center;
-    color: #FFFFFF;
+    font-weight: bold;
+    color: white;
 }
 
-.container-1 > img {
-    display: flex;
-    transform: scale(0.4);
+#text1{
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+
+#l-resp{
+    display: none;
+}
+
+.doacao-text2{
+    position: relative;
+    margin-top: 7px;
+    width: 285px;
+    height: 200px;
+    text-align: left;
+    align-self: center;
+}
+
+#tit-t2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#text2{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#propaganda{
+    position: relative;
+    bottom: 5px;
+    width: 200px;
+    max-height: 200px;
+    align-self: center;
+}
+
+#qr{
+    position: relative;
+    bottom: 12px;
+    width: 160px;
+    height: 140px;
+}
+
+#arroba{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1024px) {
+    #fundinho {
+        flex-direction: column;
+        height: 700px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #tit-t2, #text2{
+        text-align: center;
+    }
+
+    .doacao-text1{
+        margin-left: 0px;
+    }
+
+    #tit-doacao, #text1{
+        text-align: center;
+        justify-content: center;
+    }
+
+    #linha{
+        display: none;
+    }
+
+    #l-resp{
+        display: unset;
+        width: 220px;
+        margin-left: 30px;
+    }
 }
