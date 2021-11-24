@@ -15,8 +15,8 @@ const adimissão = () => {
         </div>
         <div id="admissaoDiv">
         <p>A lista de convocados para a segunda etapa do 
-          <spam class="toBold">Processo de Admissão está disponível!</spam><a href='http://www.escolagerminare.org.br/wp-content/uploads/2015/08/Lista-de-Convocados-2%C2%B0-Etapa-2021-2022.pdf' target='_blank'><button className='btn-Admissao'>Veja os resultados</button></a></p>
-          <img className="criancasAdmissao" src={criançasadmissão}/>
+        <span class="toBold">Processo de Admissão está disponível!</span><a href='http://www.escolagerminare.org.br/wp-content/uploads/2015/08/Lista-de-Convocados-2%C2%B0-Etapa-2021-2022.pdf' target='_blank'><button className='btn-Admissao'>Veja os resultados</button></a></p>
+        <img className="criancasAdmissao" src={criançasadmissão}/>
         </div>
         <div className='textinho'>
             <img id='img1' src={imgtitulo} alt="linha azul" />
