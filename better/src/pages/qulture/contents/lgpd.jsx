@@ -1,5 +1,5 @@
 import fotolgpd from '../../../assets/foto-lgpd-1.png'
-import julia from '../../../assets/Julia da Paz 1.png'
+import julia from '../../../assets/julia.png'
 import vertical from '../../../assets/vertical-lgpd.png'
 
 
@@ -72,8 +72,9 @@ const Lgpd = () => {
             
             <div id="container-lgpd-2">
                 <h1 id="tit-compartilhamento">Compartilhamento de dados</h1>
-                <p id="text-compartilhamento">A Escola Germinare não compartilha, vende ou transfere seus dados pessoais para nenhuma empresa ou individuo, exceto nas seguintes hipóteses:
+                <p id="text-compartilhamento1">A Escola Germinare não compartilha, vende ou transfere seus dados pessoais para nenhuma empresa ou individuo, exceto nas seguintes hipóteses:</p>
 
+                <p id='text-compartilhamento1'>
                 Podemos compartilhar seus dados pessoais a fim de cumprir com as legislações vigentes (Por exemplo, compartilhamento de dados ao Ministério da Educação – MEC e a Secretária da Educação do Estado de São Paulo);
 
                 Podemos compartilhar seus dados pessoais para hospedagem em plataformas de tecnologia de nossos parceiros;
