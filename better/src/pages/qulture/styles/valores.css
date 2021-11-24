@@ -3,6 +3,23 @@
 
 }
 
+.titulo-linhat {
+    margin: 40PX auto 2rem auto;
+    width: 75vw;
+    background: url('../../../assets/divisor-linhatempo.png') no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.titulo-linhat > h1 {
+    color: #001489;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+
+
 @keyframes vindinho{
 	from {left: -55%;}
 	to {left: 47.9%;}
