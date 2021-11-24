@@ -23,10 +23,10 @@ const News = () => {AOS.init();
                         <div id='fundo-azul1'></div>
                         <div id='fundo-preto1'></div>
                         <img src={elyDirani} id='ely'/>
-                        <div id='titulo1-invisivel'>Agora a Germinare também tem ETEC!</div>
+                        <div id='titulo1-invisivel'>Agora a Germinare também é TEC!</div>
                         <p id='texto1-invisivel-para-news'>Boas noticias para os interessados em fazer parte do instituto, agora a Germinare criou a "Germinare TEC", um programa que dá oportunidade aos alunos do 9°ano de ingressarem no mundo profissional. Os alunos contarão com aulas práticas que envolvem programação e linguagem de códigos, além de um estágio remunerado durante este período. Para inscrição, basta acessar o link: <a target='_blank' href='https://seufuturocomecaaqui.com.br/'>https://seufuturocomecaaqui.com.br/</a></p>
-                        <div className='texto-noticia2-invisivel'>2022, é o ano que vai mudar a sua vida, vem de ETEC Germinare!</div>
-                        <p id='titulo-da-etec-normal'>Agora a Germinare também tem ETEC! Inscrições abertas para o curso de tecnologia.</p>
+                        <div className='texto-noticia2-invisivel'>2022, é o ano que vai mudar a sua vida, vem de Germinare TEC!</div>
+                        <p id='titulo-da-etec-normal'>Agora a Germinare também é TEC! Inscrições abertas para o curso de tecnologia.</p>
                     </div>
 
 
