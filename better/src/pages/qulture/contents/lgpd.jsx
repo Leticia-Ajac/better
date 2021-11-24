@@ -74,15 +74,14 @@ const Lgpd = () => {
                 <h1 id="tit-compartilhamento">Compartilhamento de dados</h1>
                 <p id="text-compartilhamento1">A Escola Germinare não compartilha, vende ou transfere seus dados pessoais para nenhuma empresa ou individuo, exceto nas seguintes hipóteses:</p>
 
-                <p id='text-compartilhamento1'>
-                Podemos compartilhar seus dados pessoais a fim de cumprir com as legislações vigentes (Por exemplo, compartilhamento de dados ao Ministério da Educação – MEC e a Secretária da Educação do Estado de São Paulo);
+                <p className='text-compart'> - Podemos compartilhar seus dados pessoais a fim de cumprir com as legislações vigentes (Por exemplo, compartilhamento de dados ao Ministério da Educação – MEC e a Secretária da Educação do Estado de São Paulo);</p>
 
-                Podemos compartilhar seus dados pessoais para hospedagem em plataformas de tecnologia de nossos parceiros;
+                <p className='text-compart'> - Podemos compartilhar seus dados pessoais para hospedagem em plataformas de tecnologia de nossos parceiros;</p>
 
-                Garantir a disponibilidade de nossos serviços por meio de nosso site
+                <p className='text-compart'> - Garantir a disponibilidade de nossos serviços por meio de nosso site
                 </p>
             </div>
-            <div className="container-lgpd-3">
+            <div id="container-lgpd-3">
                 <h1 id="tit-direitos">Direitos conforme LGPD</h1>
                 <p id="text-direitos">Importante ressaltar que você sempre possuirá direitos relativos a privacidade e a proteção dos seus dados, e a Escola Germinare, além de se preocupar com a segurança desses dados, também se preocupa que você tenha acesso e conhecimento de todos os seus direitos.</p>
             </div>
