@@ -162,6 +162,7 @@ header{
 
     .nome > p {
         margin-left: -20px;
+        font-weight: 200px;
     }
     .linha-carousel{
         display: none;
