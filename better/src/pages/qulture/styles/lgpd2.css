@@ -147,3 +147,40 @@
     color: #000000;
     margin: 0px 0px 10px;
 }
+
+@media screen and (max-width: 750px) {
+    .container-lgpd-4 {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .container-lgpd-4 {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+        width: 350px;
+        margin: 0 auto;
+    }
+}
+ 
+@media screen and (max-width: 400px) {
+    .container-lgpd-4 {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+        width: 250px;
+        margin: 0 auto;
+    }
+}
