@@ -2,7 +2,7 @@ import fotolgpd from '../../../assets/foto-lgpd-1.png'
 import julia from '../../../assets/julia.png'
 import vertical from '../../../assets/vertical-lgpd.png'
 
-
+import '../styles/lgpd2.css'
 import '../styles/lgpd.css'
 
 const Lgpd = () => {
@@ -88,61 +88,61 @@ const Lgpd = () => {
             </div>
             <div className="container-lgpd-4">
                 <div id="acesso">
-                    <h2 class="tit-topico" id="tit-acesso">Acesso, existência de tratamento e informação</h2>
+                    <h2 className="tit-topico" id="tit-acesso">Acesso, existência de tratamento e informação</h2>
                     <p className="text-topico" id="text-acesso">
                     Este direito permite que você possa requisitar e receber uma cópia dos seus dados pessoais que nós possuímos, bem como requerer a confirmação do tratamento que estamos realizando em seus dados pessoais e/ou qualquer outra informação que seja importante.
                     </p>
                     <p className="saiba" id="saiba-acesso">Saiba Mais</p>
                 </div>
                 <div id="retificacao">
-                    <h2 class="tit-topico" id="tit-retificacao">Retificação</h2>
+                    <h2 className="tit-topico" id="tit-retificacao">Retificação</h2>
                     <p className="text-topico" id="text-retificacao">
                     Este direito permite que você possa solicitar a correção e/ou retificação dos seus dados pessoais, caso identifique qualquer erro neles que alguns deles estão incorretos. Contudo, para ser efetivada essa correção, teremos que checar a validade dos dados que você nos fornece.
                     </p>
                     <p className="saiba" id="saiba-retificacao">Saiba Mais</p>
                 </div>
                 <div id="exclusao">
-                    <h2 class="tit-topico" id="tit-exclusao">Exclusão</h2>
+                    <h2 className="tit-topico" id="tit-exclusao">Exclusão</h2>
                     <p className="text-topico" id="text-exclusao">
                     Este direito permite que você possa nos solicitar a exclusão dos seus dados pessoais de nossos sistemas. Todos os dados coletados serão excluídos de nossos servidores quando você assim requisitar ou quando estes não forem mais necessários ou relevantes para lhe oferecermos os nossos Serviços, salvo se houver qualquer outra razão para a sua manutenção, como eventual obrigação legal de retenção de dados ou necessidade de preservação destes para resguardo de direitos da Escola Germinare.
                     </p>
                     <p className="saiba" id="saiba-exclusao">Saiba Mais</p>
                 </div>
                 <div id="oposicao">
-                    <h2 class="tit-topico" id="tit-exclusao">Oposição ao processamento</h2>
+                    <h2 className="tit-topico" id="tit-oposicao">Oposição ao processamento</h2>
                     <p className="text-topico" id="text-oposicao">
                     Você também tem o direito de contestar onde e em que contexto estamos tratando seus dados pessoais para diferentes finalidades. Em determinadas situações, podemos demonstrar que temos motivos legítimos para tratar seus dados, os quais se sobrepõem aos seus direitos, caso, por exemplo, sejam essenciais para o fornecimento do nosso Serviço.
                     </p>
                     <p className="saiba" id="saiba-oposicao">Saiba Mais</p>
                 </div>
                 <div id="solicitar">
-                    <h2 class="tit-topico" id="tit-solicitar">Solicitar anonimização, bloqueio ou eliminação de dados</h2>
+                    <h2 className="tit-topico" id="tit-solicitar">Solicitar anonimização, bloqueio ou eliminação de dados</h2>
                     <p className="text-topico" id="text-solicitar">
                     Você também tem o direito de contestar onde e em que contexto estamos tratando seus dados pessoais para diferentes finalidades. Em determinadas situações, podemos demonstrar que temos motivos legítimos para tratar seus dados, os quais se sobrepõem aos seus direitos, caso, por exemplo, sejam essenciais para o fornecimento do nosso Serviço.
                     </p>
                     <p className="saiba" id="saiba-solicitar">Saiba Mais</p>
                 </div>
                 <div id="portabilidade">
-                    <h2 class="tit-topico" id="tit-portabilidade">Portabilidade de dados</h2>
+                    <h2 className="tit-topico" id="tit-portabilidade">Portabilidade de dados</h2>
                     <p className="text-topico" id="text-portabilidade">
                     Forneceremos a você, ou a terceiros que você escolheu, seus dados pessoais em formato estruturado.
                     </p>
                     <p className="saiba" id="saiba-portabilidade">Saiba Mais</p>
                 </div>
                 <div id="retirar">
-                    <h2 class="tit-topico" id="tit-retirar">Retirar o seu consentimento</h2>
+                    <h2 className="tit-topico" id="tit-retirar">Retirar o seu consentimento</h2>
                     <p className="text-topico" id="text-retirar">
                     Você tem o direito de retirar o seu consentimento, no entanto, isso não afetará a legalidade de qualquer processamento realizado anteriormente. Se você retirar o seu consentimento, talvez não possamos fornecer determinados serviços. E se for este o caso, iremos avisá-lo no momento em que isso ocorrer.
                     </p>
                     <p className="saiba" id="saiba-retirar">Saiba Mais</p>
                 </div>
             </div>
-            <div className="container-lgpd-5">
+            {/* <div className="container-lgpd-5">
                 <p id="tit-como">Como falar conosco?</p>
                 <p id="text-como">O responsável pela base de dados no Brasil é o INSTITUTO J&F (“INSTITUTO J&F”), devidamente inscrita no CNPJ sob no 10.619.284/0001-52, localizada na Rua Irineu José Bordon, n°335, Vila Jaguará, CEP 05120-060, São Paulo, Brasil. Se você tiver dúvidas ou preocupações em relação a sua privacidade ao usar este site, encaminhe-as por meio do e-mail dpo@jfinvest.com.br.</p>
                 <p id="tit-mudancas"> Mudanças na Política de Privacidade</p>
                 <p id="text-mudancas">Podemos modificar ou alterar este Termo de Privacidade de tempos em tempos. Para informá-lo de quando fizermos alterações neste Termo de Privacidade, alteraremos a data de revisão. O novo Termo modificado ou alterado será aplicado a partir dessa data de revisão. Portanto, incentivamos você a periodicamente revisar este Termo para ser informado sobre como estamos protegendo suas informações.</p>
-            </div>
+            </div> */}
         </div>
     )
 }
