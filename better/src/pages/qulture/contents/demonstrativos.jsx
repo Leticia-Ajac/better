@@ -6,7 +6,7 @@ const Demonstrativos = () => {
         <div id='demonstrativos-financeiros'>
             <div>
                 <h1 id='demonstrativos-titulo'>DEMONSTRATIVOS FINANCEIROS</h1>
-                <p className='explicacao-demonstrativos'>O modelo de Governança Corporativa da Escola Germinare, instituição sem fins lucrativos, visa atender aos mais a lhrefs padrões de organizações públicas ou privadas como forma de orientar nossa atuação a partir das boas práticas do setor educacional. </p>
+                <p className='explicacao-demonstrativos'>O modelo de Governança Corporativa da Escola Germinare, instituição sem fins lucrativos, visa atender aos mais altos padrões de organizações públicas ou privadas como forma de orientar nossa atuação a partir das boas práticas do setor educacional. </p>
             </div>
             <div id='demonstrativos-cards'>
                 <a className='demonstrativos-anos' target='_blank'  href='http://www.escolagerminare.org.br/pdf/2010.pdf'>Demostrativo 2010</a>
