@@ -1,0 +1,32 @@
+[
+    {
+        "id": "picpay",
+        "chave": 1,
+        "logo": "https",
+        "legenda_academia": "Nossa academia de tecnologia desafia os alunos a entrarem de cabeça no mundo os computadores e descobrir as maravilhas da programação 🚀. <br/><br/> Bora codar?"
+    },
+    {
+        "id": "original",
+        "chave": 2,
+        "logo": "https",
+        "legenda_academia": "Nossa academia de finanças desperta o interesse no mercado financeiro e engaja nossos alunos a se tornarem experts em finanças <br/><br/> Partiu trade!!!"
+    },
+    {
+        "id": "seara",
+        "chave": 3,
+        "logo": "https",
+        "legenda_academia": "ossa academia Seara torna os alunos estrategistas e planejadores, não há contratempo que segure esses gênios. <br/><br/> É hora planejar o seu futuro."
+    },
+    {
+        "id": "friboi",
+        "chave": 4,
+        "logo": "https",
+        "legenda_academia": "Nossa academia Friboi torna acessível aos estudantes o entedimento completo da cadeia de produção do nosso grupo. <br/><br/> Engaje no negócio com a gente!"
+    },
+    {
+        "id": "swift",
+        "chave": 5,
+        "logo": "https",
+        "legenda_academia": "A academia Swift transforma os estudantes em vendedores natos, nossa tarefa é preparar pessoas carismáticas e que fazem a diferença no ambiente o qual estão. <br/><br/>Vamos começar?"
+    }
+]

@@ -5,14 +5,25 @@ import L_swift from '../../assets/swift.png';
 import L_friboi from '../../assets/friboi.png';
 import './styles/academias.css';
 
+import { useEffect } from 'react';
+
+import { BsFillCaretLeftFill } from 'react-icons/fa';
+import { BsFillCaretRightFill } from 'react-icons/fa';
+
+
 const Academias = () => {
+
+
     return (
-        <div id='parte-academias'>
+        <div id='container-academias'>
             <h1>ACADEMIAS</h1>
+            <div id="academia-traco"></div>
             <div id='quebrar-page'>
                 <h3>Conheça nosso modelo de ensino:</h3>
                 <p>Dividido em academias que separam os aprendizados em módulos de conhecimento, a Germinare propõe aos estudantes se aventurarem no mundo dos negócios.</p>
+                <div className="scrollandinho">
                     <div id='cards-academias'>
+                        <div className="card-ajuste"> <p>AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE </p></div>
                         <div className='card-academia' id='picpay'>
                             <p>PicPay</p>
                             <h6>Nossa academia de tecnologia desafia os alunos a entrarem de cabeça no mundo os computadores e descobrir as maravilhas da programação 🚀.</h6>
@@ -38,7 +49,9 @@ const Academias = () => {
                             <h6>A academia Swift transforma os estudantes em vendedores natos, nossa tarefa é preparar pessoas carismáticas e que fazem a diferença no ambiente o qual estão </h6>
                             <h6>Vamos começar?</h6>
                         </div>
+                        <div className="card-ajuste"> <p>AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE </p></div>
                     </div>
+                </div>
                 <div className="btns-academias">
                     <button> esquerda </button>
                     <button> direita </button>
