@@ -19,7 +19,7 @@ const Demonstrativos = () => {
                 <a className='demonstrativos-anos' target='_blank'  href='http://www.escolagerminare.org.br/wp-content/uploads/2015/08/demonstrativo_Instit uhref-Germinare.pdf'>Demostrativo 2017</a>
                 <a className='demonstrativos-anos' target='_blank'  href='http://www.escolagerminare.org.br/wp-content/uploads/2015/08/demonstrativo_Instit uhref-Germinare.pdf'>Demostrativo 2018</a>
                 <a className='demonstrativos-anos' target='_blank'  href='http://www.escolagerminare.org.br/wp-content/uploads/2015/08/demonstrativo_Instit uhref-Germinare.pdf'>Demostrativo 2019</a>
-                <a className='demonstrativos-anos' target='_blank'  href='http://www.escolagerminare.org.br/wp-content/uploads/2015/08/1171-21_Rel ahrefrio-de-Aud ihrefria-_Germinare_2020-3.pdf'>Demostrativo 2020</a>
+                <a className='demonstrativos-anos' target='_blank'  href='http://www.escolagerminare.org.br/wp-content/uploads/2015/08/1171-21_Relatorio-de-Auditoria-_Germinare_2020-3.pdf'>Demostrativo 2020</a>
             </div>
             <p className='explicacao-demonstrativos' id='to-be-black'>Publicamos nosso demonstrativos financeiros como forma de manter a transparência junto a sociedade e apoiadores da Escola Germinare.</p>
         </div>

@@ -1,23 +1,27 @@
 import fotolgpd from '../../../assets/foto-lgpd-1.png'
 import julia from '../../../assets/Julia da Paz 1.png'
+import vertical from '../../../assets/vertical-lgpd.png'
 
 
 import '../styles/lgpd.css'
 
 const Lgpd = () => {
     return (
+
         <div className='Lgpd-page'>
             <div className="titulo">
                 <h1>LGPD</h1>
             </div>
+
             <div id="id-compromisso">
                 <p id="text-compromisso-1">O compromisso da Escola Germinare com a Privacidade e Proteção de Dados.</p>
                 <p id="text-compromisso-2">Se você utiliza o nosso site, esta Política de Privacidade se aplica a “VOCÊ”.</p>
             </div>
-            <div className="colunas-lgpd-1">
-                <div className="coluna-1-lgpd">
+
+            <div id="colunas-lgpd-1">
+                <div id="coluna-1-lgpd">
                     <h1 id="tit-dados">Dados coletados no processo  seletivo de admissão</h1>
-                    <ul>
+                    <ul id='lista-dados'>
                         <li className="item">Nome</li>
                         <li className="item">Nome Social</li>
                         <li className="item">E-mail</li>
@@ -31,23 +35,28 @@ const Lgpd = () => {
                         <li className="item">Tipo de Instituição</li>
                     </ul>
                 </div>
-                <div className="coluna-2-lgpd">
-                <h1 id="tit-cookies">Cookies</h1>
+                <img src={vertical} alt="" id='vertical' />
+                <div id="coluna-2-lgpd">
+                    <h1 id="tit-cookies">Cookies</h1>
                     <p id="text-cookies">Cookies estão inclusos em nossos sites para distinguir usuários únicos, atribuindo um número gerado  aleatoriamente como um identificador com o objetivo de calcular acessos dos visitantes para os relatórios analíticos de sites e para poder entender melhor duas necessidades e interesses. Oferecendo um melhor serviço ou fornecendo informação relacionada. Por padrão, ele é definido para expirar.</p>
                 </div>
             </div>
-            <div className="colunas-lgpd-2">
-                <div className="column-1-lgpd">
+            
+            <div id="colunas-lgpd-2">
+
+                <div id="column-1-lgpd">
                     <img id="img1-id" src={fotolgpd}/>
                 </div>
-                <div className="column-2-lgpd">
+
+                <div id="column-2-lgpd">
                     <h2 id="tit-como">
-                        Como, quais e por que a Escola Germinare coleta seus dados
+                        Como, quais e por que a Escola <br/>Germinare coleta seus dados
                     </h2>
                     <p id="text-como">
                     Para que possamos prestar nossos serviços com qualidade, podemos coletar diferentes tipos de dados sobre você (coletadas através dos nossos sites e/ou com conexão a outras atividades que fazem parte da operação de nossos negócios). Para que possamos ser transparentes, listamos abaixo algumas das finalidades as quais poderemos tratar os seus dados pessoais:
                     </p>
                 </div>
+
             </div>
             <div className="container-lgpd-1">
                 <h1 id="tit-coleta">Coleta de dados sensíveis e coleta de dados de menor</h1>
