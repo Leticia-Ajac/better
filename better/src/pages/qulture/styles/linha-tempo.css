@@ -1,0 +1,156 @@
+.container-linha {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-linhat {
+    margin: 0 auto 2rem auto;
+    width: 75vw;
+    background: url('../../../assets/divisor-linhatempo.png') no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.titulo-linhat > h1 {
+    color: #001489;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.ano-topic {
+    font-weight: 900;
+    width: 175px;
+}
+
+.ano {
+    color: #010D52;
+    font-size: 24px;
+    margin-bottom: -0.5rem;
+}
+
+.linha-cima,.linha-baixo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 633px;
+}
+
+.linha-cima{
+    margin-left: -2rem;
+}
+
+
+
+.linha-baixo {
+    margin: 0 2rem 0 auto;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .container-linha {
+        margin: 5rem auto;
+    }
+    
+    .titulo-linhat {
+        margin: 0 auto 2rem auto;
+    }
+    
+    .titulo-linhat > h1 {
+        font-size: 1.5rem;
+        margin: auto auto;
+    }
+    
+    .ano-topic {
+        font-weight: 900;
+        width: 135px;
+    }
+    
+    .ano {
+        font-size: 20px;
+        margin-bottom: -0.3rem;
+    }
+
+    .topic {
+        font-size: 0.75rem;
+    }
+    
+    .linha-cima,.linha-baixo {
+        width: 485px;
+    }
+    
+    .linha-cima{
+        margin-left: -2rem;
+    }
+    
+    .linha-baixo {
+        margin: 0 1.5rem 0 auto;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .container-linha {
+        margin: 3.5rem auto;
+    }
+    
+    .titulo-linhat {
+        margin: 0 auto 2rem auto;
+    }
+    
+    .titulo-linhat > h1 {
+        font-size: 1.15rem;
+        margin: auto auto;
+    }
+    
+    .ano-topic {
+        width: 110px;
+    }
+    
+    .ano {
+        font-size: 16px;
+        margin-bottom: -0.3rem;
+    }
+
+    .topic {
+        font-size: 0.60rem;
+    }
+    
+    .linha-cima,.linha-baixo {
+        width: 360px;
+    }
+    
+    .linha-cima{
+        margin-left: -1.55rem;
+    }
+    
+    .linha-baixo {
+        margin: 0 0.8rem 0 auto;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .container-linha {
+        margin: 3.5rem auto;
+    }
+    
+    .titulo-linhat {
+        margin: 0 auto 2rem auto;
+    }
+    
+    .titulo-linhat > h1 {
+        font-size: 0.825rem;
+        margin: auto auto;
+    }
+
+    .linha-cima,.linha-baixo {
+        display: none;
+    }
+
+    .container-desenho > picture > img {
+        width: 160px;
+    }
+}

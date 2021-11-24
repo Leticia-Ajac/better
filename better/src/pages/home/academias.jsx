@@ -39,6 +39,10 @@ const Academias = () => {
                             <h6>Vamos começar?</h6>
                         </div>
                     </div>
+                <div className="btns-academias">
+                    <button> esquerda </button>
+                    <button> direita </button>
+                </div>
             </div>
         </div>
     )
