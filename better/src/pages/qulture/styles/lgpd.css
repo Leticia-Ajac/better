@@ -185,7 +185,7 @@
 #container-lgpd-2{
 	display: flex;
 	flex-direction: column;
-	width: fit-content;
+	margin-top: 60px;
 }
 
 #tit-compartilhamento{
@@ -204,5 +204,52 @@
 	font-size: 18px;
 	font-weight: 500;
 	font-style: italic;
-	
+	width: 640px;
+	text-align: left;
+	align-self: center;
+	justify-content: center;
+	color: black;
+}
+
+.text-compart{
+	position: relative;
+	left: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: italic;
+	width: 710px;
+	text-align: left;
+	align-self: center;
+	justify-content: center;
+	color: #001489;
+}
+
+#container-lgpd-3{
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+}
+
+#tit-direitos{
+	font-weight: bold;
+	font-size: 25px;
+	color: #001489;
+	width: fit-content;
+	align-self: center;
+	justify-content: center;
+	text-align: left;
+	margin-bottom: 30px;
+	border-bottom: #001489 3px solid;
+	padding-bottom: 10px;
+}
+
+#text-direitos{
+	color: #F28622;
+	font-weight: 500;
+	font-size: 14px;
+	font-style: italic;
+	align-self: center;
+	justify-content: center;
+	text-align: left;
+	width: 730px;
 }
