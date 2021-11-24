@@ -51,7 +51,7 @@
 #cards-academias {
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    overflow-x: auto ;
 }
 
 #cards-academias::-webkit-scrollbar{
@@ -62,10 +62,39 @@
     height: 20rem;
     min-width: 20rem;
     margin: auto 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container-text-card {
+    margin-bottom: 2rem;
+    width: 15rem;
+    height: 18rem;
+    height: min-content;
+}
+
+.container-text-card > img {
+    width: 8.5vw;
+    margin: 1rem 0 1.5rem;
+}
+
+#picpay > .container-text-card > img {
+    width: 13vw;
+}
+
+#original > .container-text-card > img {
+    width: 13vw;
+}
+
+.container-text-card > h6 {
+    color: white;
 }
 
 .card-ajuste {
-    width: 10.5rem;
+    max-width: 20vw;
     height: 20rem;
     margin: auto 1rem;
     flex: none;
@@ -75,9 +104,7 @@
     color: #ffffff00;
 }
 
-.btns-academias {
-    margin: -2rem auto 4rem;
-}
+
 
 
 /* BACKGROUNDS */
@@ -107,3 +134,30 @@
     font-weight: 500;
 }
 
+
+/* BOTOES */
+
+.btns-academias {
+    margin: -2rem auto 4rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btns-academias > button {
+    border: none;
+    background: none;
+}
+
+#btn-academias {
+    font-size: 2rem;
+    color:white;
+}
+
+#academia-traco2 {
+    margin: -3.5rem auto 4.5rem;
+    height: 5px;
+    width: 60vw;
+    background-color: white;
+}
