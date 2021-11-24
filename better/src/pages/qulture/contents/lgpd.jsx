@@ -58,16 +58,19 @@ const Lgpd = () => {
                 </div>
 
             </div>
-            <div className="container-lgpd-1">
+            <div id="container-lgpd-1">
                 <h1 id="tit-coleta">Coleta de dados sensíveis e coleta de dados de menor</h1>
-                <div className="coluna-container">
+
+                <div id="coluna-container">
                     <p id="text-coleta1">Em alguns casos, podemos realizar a coleta de alguns dados pessoais considerados como sensíveis conforme definição da Lei Geral de Proteção de Dados  ou a coleta de algum dado pessoal que possa vir a revelar algum dado sensível. Nesses casos, apenas iremos realizar o tratamento desses dados de acordo com alguma das bases legais disponíveis no artigo 11 da LGPD.</p>
                     <img id="img2-id" src={julia}/>
                 </div>
+
                 <p id="text-coleta2">Além disso, durante a prestação de nossos serviços, podemos também coletar dados de menores de 12 anos. Nesses casos, sempre buscaremos a autorização de seu representante legal ou de um de seus pais, conforme regra presente no artigo 14 da LGPD.
                 </p>
             </div>
-            <div className="container-lgpd-2">
+            
+            <div id="container-lgpd-2">
                 <h1 id="tit-compartilhamento">Compartilhamento de dados</h1>
                 <p id="text-compartilhamento">A Escola Germinare não compartilha, vende ou transfere seus dados pessoais para nenhuma empresa ou individuo, exceto nas seguintes hipóteses:
 
