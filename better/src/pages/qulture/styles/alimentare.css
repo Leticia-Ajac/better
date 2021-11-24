@@ -1,15 +1,28 @@
 .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 44px;
+    font-weight: bold;
     color: #001489;
-    margin-top: 40px;
-    font-weight: 800;
-    font-size: 2rem;
+    text-shadow: 2px 1px rgb(214, 214, 214);
+}
+#to-have-margin{
+    margin-top: 12px;
+}
+.titulo-alimentare {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 50%;
+    margin: 0 auto;
+    border-bottom: 3px solid #001489;
+    padding-bottom: 15px;
+    border-radius: 2px;
 }
 
 .alimentare-content {
     margin-top: 155px;
 }
-
-
 
 .columns {
     display: flex;
@@ -25,10 +38,93 @@
     justify-content: left;
     text-align: left;
     flex-direction: column;
-    margin: 0 0 0 5%;
+    margin: 0 0 0 25px;
     width: 425px;
 }
 
 .img-1 {
     padding-top: 40px;
+} 
+
+.content-1 {
+    width: 35%;
+}
+
+.columns > p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 400px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .columns {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .columns > p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        color: #000000;
+        margin-top: 30px;
+    }
+
+    .content-1 {
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .columns > p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        color: #000000;
+        margin-top: 30px;
+    }
+
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: bold;
+        color: #001489;
+        text-shadow: 2px 1px rgb(214, 214, 214);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .columns > p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        color: #000000;
+        margin-top: 30px;
+        width: 280px;
+    }
+
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+        font-size: 26px;
+        line-height: 44px;
+        font-weight: bold;
+        color: #001489;
+        text-shadow: 2px 1px rgb(214, 214, 214);
+        width: 280px;
+    }
+    .content-1 {
+        width: 280px;
+    }
 }

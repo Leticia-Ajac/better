@@ -16,28 +16,28 @@ const Inscricoes = () => {
                 </div>
                 <div className="inline-content">
                     <div id='tomba'>
-                    <div className="container">
+                    <div className="container-1">
                         <h1>1</h1>
                         <p>Inscrição</p>
                     </div>
-                    <div className="container">
+                    <div className="container-1">
                         <h1>2</h1>
                         <p className="break">Pesquisa de Perfil Avaliação cognitiva</p>
                     </div>
                     </div>
                     <div id='tomba2'>
-                    <div className="container">
+                    <div className="container-1">
                         <h1>3</h1>
                         <p>Entrevista</p>
                     </div>
-                    <div className="container">
+                    <div className="container-1">
                         <h1>4</h1>
                         <p>Resultado</p>
                     </div>
                     </div>
                 </div>
                 <div>
-                    <Link to="/admissão" onClick={()=>{if (document.readyState === 'complete') {window.scroll(0, 0)}}} className="btn-home" >Inscreva-se</Link>
+                    <Link to="/admissão" onClick={()=>{if (document.readyState === 'complete') {window.scroll(0, 0)}}} className="btn-home3" >Inscreva-se</Link>
                 </div>
             </div>
             <img className="linha-emcima" src={linha_cima} alt="linha azul"/>
