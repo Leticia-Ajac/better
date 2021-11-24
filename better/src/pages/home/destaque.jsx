@@ -1,5 +1,5 @@
 import traço from '../../assets/traço.png';
-import odete from '../../assets/odete.png';
+import luis from '../../assets/Luísa_Cabral-removebg-preview 1.png';
 import traço_canto from '../../assets/traço-canto.png';
 
 import './styles/destaque.css'
@@ -22,8 +22,8 @@ const Destaque = () => {
                 </div>
                 
                 <div className="img-destaque">
-                    <img id="mariaOdete" src={odete} alt="Maria Odete"/>
-                    <p className="legenda">Maria Odete, Diretora Pedagógica</p>
+                    <img id="mariaOdete" src={luis} alt="Maria Odete"/>
+                    <p className="legenda">Luisa Cabral, Aluna do Instituto</p>
                 </div>
             </div>
             <img className="traço" src={traço_canto}/>

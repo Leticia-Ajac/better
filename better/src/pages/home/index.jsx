@@ -9,7 +9,6 @@ import Carrossel from './carrossel'
 import './carousel.css'
 
 
-
 const Home = () => {
     return(
         <div id='page-home'>

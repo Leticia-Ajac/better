@@ -1,0 +1,58 @@
+
+.video-institucional{
+    margin-top: 60px;
+}
+
+.container-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cima{
+    margin-top: -450px;
+    margin-right: -80px;}
+
+.baixo{
+    margin-top: 20px;
+    margin-left: -75px ;
+}
+
+@media screen and (max-width: 711px){
+    .cima, .baixo{
+        display: none;
+    }
+
+    .video-instituto {
+        padding: 5px;
+        border: 5px solid #001489;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .cima, .baixo{
+        display: none;
+    }
+
+    .video-instituto {
+        width: 300px;
+        padding: 5px;
+        border: 5px solid #001489;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .cima, .baixo{
+        display: none;
+    }
+
+    .video-instituto {
+        width: 260px;
+        padding: 5px;
+        border: 5px solid #001489;
+        border-radius: 10px;
+    }
+}

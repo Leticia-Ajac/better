@@ -1,6 +1,6 @@
 .container-inscrições{
     margin-top: 5rem;
-    height: 550px;
+    height: 580px;
     background-color: #010D52;
     box-shadow: 0 0 1em #3b3b3b;
 }
@@ -37,12 +37,13 @@
     display: inline-flex;
 }
 
-.container {
+.container-1 {
     display: inline-flex;
     margin-bottom: 70px;
+    height: 100px;
 }
 
-.container > h1 {
+.container-1 > h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -57,7 +58,7 @@
 
 }
 
-.container > p {
+.container-1 > p {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -70,10 +71,9 @@
 
 .break {
     width: 200px;
-    flex-direction: column;
 }
 
-.btn-home {
+.btn-home3{
     border: 4px solid white;
     box-sizing: border-box;
     border-radius: 0.625rem;
@@ -85,10 +85,9 @@
     padding: 10px 90px 10px 90px;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
-    
 }
 
-.btn-home:hover{
+.btn-home3:hover{
     background-color: rgba(245, 119, 16, 0.712);
     color: rgb(255, 255, 255);
 }
@@ -140,17 +139,17 @@
         border: 3px solid white;
         padding: 5px 10px 5px 10px;
     }
-    .container>p{
+    .container-1>p{
         display: flex;
         font-size: 1rem;
         padding: 0px;
         margin: 0px;
         text-align: left;
     }
-    .container>h1{
+    .container-1>h1{
         margin-left: 0px;
     }
-    .btn-home {
+    .btn-home3{
         border: 4px solid white;
         box-sizing: border-box;
         border-radius: 0.625rem;
@@ -185,13 +184,17 @@
         margin-left: -3.6rem;
     }
 
-    .container>p{
+    .container-1>p{
         font-size: 0.9rem;
         font-weight: 500;
     }
-    .container>h1{
+    .container-1>h1{
         font-size: 1.5rem;
         margin-right: 0.5rem;
+    }
+    .container-1{
+        margin-left: 20px;
+        height: 70px;
     }
 }
 
@@ -203,18 +206,18 @@
     }
 
 
-    .container {
+    .container-1 {
         margin-bottom: 0rem;
     }
 
-    .container>p{
+    .container-1>p{
         display: flex;
         font-size: 1rem;
         padding: 0px;
         margin: 0px;
         text-align: left;
     }
-    .container>h1{
+    .container-1>h1{
         margin-left: 0px;
     }
 
@@ -232,7 +235,7 @@
         margin-left: 0rem;
     }
 
-    .btn-home {
+    .btnhome33 {
         font-size: 1rem;
         color: #ffffff;
         cursor: pointer;
@@ -253,7 +256,7 @@
     
     .inline-content {
         margin-top: 1.5rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
 
     #tomba, #tomba2{
@@ -262,11 +265,11 @@
         width: fit-content;
     }
 
-    .container {
+    .container-1 {
         margin: 0.5rem 0 0.5rem 0px;
     }
 
-    .container>p{
+    .container-1>p{
         display: flex;
         font-size: 0.75rem;
     }
@@ -278,7 +281,7 @@
         max-width: 10rem;
     }
 
-    .btn-home {
+    .btn-home3{
         align-items: center;
         font-size: 0.8rem;
         padding-left: 30px;
@@ -294,10 +297,11 @@
     }
 }
 
-.container>p, .container>h1{
+.container-1>p, .container-1>h1{
     color: white;
 }
 .elements >h1{
     color: white;
+    font-size: 24px;
     border-color: white;
 }
