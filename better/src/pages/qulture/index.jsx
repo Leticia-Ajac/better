@@ -22,11 +22,11 @@ const Qulture = () => {
 
             <Alimentare />
 
+            <Doacao />
+
             <Demonstrativos/>
 
             <Lgpd/>
-      
-            <Doacao />
 
         </div>
 
