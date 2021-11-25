@@ -48,13 +48,14 @@
 }
 
 .img-destaque > img {
-    width: 16.25rem;
+    width: 20.5rem;
 }
 
 
 .legenda {
+    margin: 10px;
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #001489;
 }
 
