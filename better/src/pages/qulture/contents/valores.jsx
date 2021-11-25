@@ -7,7 +7,9 @@ import crianca from "../../../assets/src_valores/crianca.png"
 const Valores = () => {
     return(
 		<>
-
+			<div className="titulo-linhat">
+                <h1>NOSSOS VALORES</h1>
+            </div>
 
 			<div id='quebrar'>
 
