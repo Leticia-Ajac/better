@@ -80,24 +80,34 @@
     width: 15rem;
     height: 18rem;
     height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-text-card > img {
     width: 8.5vw;
-    margin: 1rem 0 1.5rem;
+    margin: 1rem auto 1.5rem;
+
 }
 
 #picpay > .container-text-card > img {
     width: 13vw;
+    margin: 1rem auto 1.5rem;
+
 }
 
 #original > .container-text-card > img {
     width: 13vw;
+    margin: 1rem auto 1.5rem;
+
 }
 
 .container-text-card > h6 {
     color: white;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .card-ajuste {
