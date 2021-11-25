@@ -20,6 +20,12 @@
     border-radius: 2px;
 }
 
+<<<<<<< HEAD
+=======
+.alimentare-content {
+    margin-top: 75px;
+}
+>>>>>>> e196c5b4aeae07f90eea4c61b17c18705aa82326
 
 .columns {
     display: flex;

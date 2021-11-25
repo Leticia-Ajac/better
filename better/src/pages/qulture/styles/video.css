@@ -2,7 +2,13 @@
 
 
 .video-institucional{
+<<<<<<< HEAD
     margin: 8.5rem auto 8.5rem;
+=======
+    margin: 20px 0px 20px;
+    width: 100vw;
+    height: fit-content;
+>>>>>>> e196c5b4aeae07f90eea4c61b17c18705aa82326
 }
 
 .container-video {
@@ -26,9 +32,13 @@
         display: none;
     }
 
+    .container-video {
+        background: #010D52;
+    }
+
     .video-instituto {
         padding: 5px;
-        border: 5px solid #001489;
+        border: 5px solid #ffffff;
         border-radius: 10px;
     }
 }
@@ -41,7 +51,7 @@
     .video-instituto {
         width: 300px;
         padding: 5px;
-        border: 5px solid #001489;
+        border: 5px solid #ffffff;
         border-radius: 10px;
     }
 }
@@ -54,7 +64,7 @@
     .video-instituto {
         width: 260px;
         padding: 5px;
-        border: 5px solid #001489;
+        border: 5px solid #ffffff;
         border-radius: 10px;
     }
 }

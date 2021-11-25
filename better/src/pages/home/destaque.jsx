@@ -22,7 +22,7 @@ const Destaque = () => {
                 </div>
                 
                 <div className="img-destaque">
-                    <img id="mariaOdete" src={luis} alt="Maria Odete"/>
+                    <img id="mariaOdete" src={luis} alt="Foto de uma aluna"/>
                     <p className="legenda">Luisa Cabral, Aluna do Instituto</p>
                 </div>
             </div>

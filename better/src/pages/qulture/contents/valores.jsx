@@ -8,9 +8,16 @@ import crianca from "../../../assets/src_valores/crianca.png"
 const Valores = () => {
     return(
 		<>
+<<<<<<< HEAD
 			<div className="noticias-title">
 				<h2>VALORES</h2>
 			</div>
+=======
+			<div className="titulo-linhat">
+                <h1>NOSSOS VALORES</h1>
+            </div>
+
+>>>>>>> e196c5b4aeae07f90eea4c61b17c18705aa82326
 			<div id='quebrar'>
 
 				<div className="cards-valores" id="disciplina">
