@@ -6,12 +6,6 @@ import L_friboi from '../../assets/friboi.png';
 import './styles/academias.css';
 import React from 'react';
 
-import { useEffect } from 'react';
-
-import { BsFillCaretLeftFill } from 'react-icons/bs';
-import { BsFillCaretRightFill } from 'react-icons/bs';
-
-
 
 const Academias = () => {
     var x = 0
