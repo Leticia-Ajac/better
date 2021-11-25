@@ -1,6 +1,7 @@
 import fotolgpd from '../../../assets/foto-lgpd-1.png'
 import julia from '../../../assets/julia.png'
 import vertical from '../../../assets/vertical-lgpd.png'
+import horizontal from '../../../assets/horizontal.png'
 
 import '../styles/lgpd2.css'
 import '../styles/lgpd.css'
@@ -36,6 +37,7 @@ const Lgpd = () => {
                     </ul>
                 </div>
                 <img src={vertical} alt="" id='vertical' />
+                <img src={horizontal} alt="" id='horizontal' />
                 <div id="coluna-2-lgpd">
                     <h1 id="tit-cookies">Cookies</h1>
                     <p id="text-cookies">Cookies estão inclusos em nossos sites para distinguir usuários únicos, atribuindo um número gerado  aleatoriamente como um identificador com o objetivo de calcular acessos dos visitantes para os relatórios analíticos de sites e para poder entender melhor duas necessidades e interesses. Oferecendo um melhor serviço ou fornecendo informação relacionada. Por padrão, ele é definido para expirar.</p>
@@ -50,7 +52,7 @@ const Lgpd = () => {
 
                 <div id="column-2-lgpd">
                     <h2 id="tit-como">
-                        Como, quais e por que a Escola <br/>Germinare coleta seus dados
+                        Como, quais e por que a Escola Germinare coleta seus dados
                     </h2>
                     <p id="text-como">
                     Para que possamos prestar nossos serviços com qualidade, podemos coletar diferentes tipos de dados sobre você (coletadas através dos nossos sites e/ou com conexão a outras atividades que fazem parte da operação de nossos negócios). Para que possamos ser transparentes, listamos abaixo algumas das finalidades as quais poderemos tratar os seus dados pessoais:
@@ -78,7 +80,7 @@ const Lgpd = () => {
 
                 <p className='text-compart'> - Podemos compartilhar seus dados pessoais para hospedagem em plataformas de tecnologia de nossos parceiros;</p>
 
-                <p className='text-compart'> - Garantir a disponibilidade de nossos serviços por meio de nosso site
+                <p className='text-compart'> - Garantir a disponibilidade de nossos serviços por meio de nosso site.
                 </p>
             </div>
             <div id="container-lgpd-3">
@@ -91,49 +93,42 @@ const Lgpd = () => {
                     <p className="text-topico" id="text-acesso">
                     Este direito permite que você possa requisitar e receber uma cópia dos seus dados pessoais que nós possuímos, bem como requerer a confirmação do tratamento que estamos realizando em seus dados pessoais e/ou qualquer outra informação que seja importante.
                     </p>
-                    <p className="saiba" id="saiba-acesso">Saiba Mais</p>
                 </div>
                 <div id="retificacao">
                     <h2 className="tit-topico" id="tit-retificacao">Retificação</h2>
                     <p className="text-topico" id="text-retificacao">
                     Este direito permite que você possa solicitar a correção e/ou retificação dos seus dados pessoais, caso identifique qualquer erro neles que alguns deles estão incorretos. Contudo, para ser efetivada essa correção, teremos que checar a validade dos dados que você nos fornece.
                     </p>
-                    <p className="saiba" id="saiba-retificacao">Saiba Mais</p>
                 </div>
                 <div id="exclusao">
                     <h2 className="tit-topico" id="tit-exclusao">Exclusão</h2>
                     <p className="text-topico" id="text-exclusao">
                     Este direito permite que você possa nos solicitar a exclusão dos seus dados pessoais de nossos sistemas. Todos os dados coletados serão excluídos de nossos servidores quando você assim requisitar ou quando estes não forem mais necessários ou relevantes para lhe oferecermos os nossos Serviços, salvo se houver qualquer outra razão para a sua manutenção, como eventual obrigação legal de retenção de dados ou necessidade de preservação destes para resguardo de direitos da Escola Germinare.
                     </p>
-                    <p className="saiba" id="saiba-exclusao">Saiba Mais</p>
                 </div>
                 <div id="oposicao">
                     <h2 className="tit-topico" id="tit-oposicao">Oposição ao processamento</h2>
                     <p className="text-topico" id="text-oposicao">
                     Você também tem o direito de contestar onde e em que contexto estamos tratando seus dados pessoais para diferentes finalidades. Em determinadas situações, podemos demonstrar que temos motivos legítimos para tratar seus dados, os quais se sobrepõem aos seus direitos, caso, por exemplo, sejam essenciais para o fornecimento do nosso Serviço.
                     </p>
-                    <p className="saiba" id="saiba-oposicao">Saiba Mais</p>
                 </div>
                 <div id="solicitar">
                     <h2 className="tit-topico" id="tit-solicitar">Solicitar anonimização, bloqueio ou eliminação de dados</h2>
                     <p className="text-topico" id="text-solicitar">
                     Você também tem o direito de contestar onde e em que contexto estamos tratando seus dados pessoais para diferentes finalidades. Em determinadas situações, podemos demonstrar que temos motivos legítimos para tratar seus dados, os quais se sobrepõem aos seus direitos, caso, por exemplo, sejam essenciais para o fornecimento do nosso Serviço.
                     </p>
-                    <p className="saiba" id="saiba-solicitar">Saiba Mais</p>
                 </div>
                 <div id="portabilidade">
                     <h2 className="tit-topico" id="tit-portabilidade">Portabilidade de dados</h2>
                     <p className="text-topico" id="text-portabilidade">
                     Forneceremos a você, ou a terceiros que você escolheu, seus dados pessoais em formato estruturado.
                     </p>
-                    <p className="saiba" id="saiba-portabilidade">Saiba Mais</p>
                 </div>
                 <div id="retirar">
                     <h2 className="tit-topico" id="tit-retirar">Retirar o seu consentimento</h2>
                     <p className="text-topico" id="text-retirar">
                     Você tem o direito de retirar o seu consentimento, no entanto, isso não afetará a legalidade de qualquer processamento realizado anteriormente. Se você retirar o seu consentimento, talvez não possamos fornecer determinados serviços. E se for este o caso, iremos avisá-lo no momento em que isso ocorrer.
                     </p>
-                    <p className="saiba" id="saiba-retirar">Saiba Mais</p>
                 </div>
             </div>
             {/* <div className="container-lgpd-5">
