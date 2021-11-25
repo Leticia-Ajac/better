@@ -1,95 +1,119 @@
-
-#parte-academias{
+#container-academias{
     margin-top: 100px;
     background-color: #010D52;
-    height: 500px;
     box-shadow: 0 0 2em #3b3b3b;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.card-academia>h6{
+#container-academias > h1{
+    font-weight: 700;
+    color: white;
+    margin-top: 2.5rem;
+}
+
+#academia-traco {
+    margin: 1rem auto 1rem;
+    height: 5px;
+    width: 60vw;
+    background-color: white;
+}
+
+#quebrar-page {
     display: flex;
-    width: 130px;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-left: 9px;
-    margin-top: 10px;
-    line-height: 18px;
-}
-#seara>p{
-    margin-top: -20px;
-    margin-bottom: 20px;
-}
-#picpay, #original, #seara, #friboi, #swift{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-}
-
-#parte-academias>h1{
-    margin-top: 40px;
-    margin-bottom: 30px;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 28.734px;
-    line-height: 45px;
-    color: white;
-    padding-bottom: 10px;
-    border-bottom: 3px solid white;
-}
-
-#quebrar-page>p{
-    text-align: left;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    margin-left: 20px;
-    width: 150px;
-    margin-top: 70px;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+    overflow-x: auto;
 }
 
 #quebrar-page>h3{
     display: flex;
-    position: absolute;
-    margin-left: 20px;
-    width: 130px;
     align-items: center;
-    text-align: left;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
+    font-style: italic;
+    font-weight: 500;
 }
-#cards-academias{
+
+#quebrar-page > p{
+    width: 75vw;
+    color: white;
+    margin: 0.5rem 15% 0;
+}
+
+.scrollandinho {
+    width: 75vw;
+    margin: 2.75rem auto 3.5rem;
+    padding: 1rem;
+}
+
+#cards-academias {
     display: flex;
-    max-height: 340px;
-    overflow-x: auto;
-    margin-left: 200px;
-    margin-bottom: 30px;
-    border: none;
+    flex-direction: row;
+    overflow-x: auto ;
+    scroll-behavior: smooth
+    ;
 }
 
 #cards-academias::-webkit-scrollbar{
     display: none;
 }
 
-#cards-academias > .card-academia {
-    min-width: 150px;
-    height: 340px;
-    line-height: 110px;
-    background-color: #ddd;
-    margin-right: 30px;
-    border-radius: 10px;
+.card-academia {
+    height: 20rem;
+    min-width: 43.5%;
+    margin: auto 1rem;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
+
+.container-text-card {
+    margin-bottom: 2rem;
+    width: 15rem;
+    height: 18rem;
+    height: min-content;
+}
+
+.container-text-card > img {
+    width: 8.5vw;
+    margin: 1rem 0 1.5rem;
+}
+
+#picpay > .container-text-card > img {
+    width: 13vw;
+}
+
+#original > .container-text-card > img {
+    width: 13vw;
+}
+
+.container-text-card > h6 {
+    color: white;
+    flex-wrap: wrap;
+}
+
+.card-ajuste {
+    max-width: 15vw;
+    height: 20rem;
+    margin: auto 1rem;
+    flex: none;
+}
+
+.card-ajuste > p {
+    color: #ffffff00;
+}
+
+
+.classex {
+    transform: scale(1.5);
+}
+
+
+/* BACKGROUNDS */
 
 #picpay{
     background-image: linear-gradient(to bottom, #44DA74, #30A060);
@@ -110,110 +134,208 @@
     background-image: linear-gradient(to bottom, #ffc800ce, #FFC700);
 }
 
-#cards-academias > .card-academia > p {
+#picpay, #original, #seara, #friboi, #swift{
     color: white;
-    margin-top: -10px;
-    margin-bottom: 30px;
-    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
-@media screen and (min-width: 720px){
-    #cards-academias{
-        min-width: 200px;
-    }
-    .card-academia>h6{
-        display: none;
-        width: 130px;
-        font-size: 12px;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        margin-left: 9px;
-        margin-top: 10px;
-        line-height: 18px;
-    }
-    
-    .card-academia:hover > h6{
-        display: flex;
-    }
-    #parte-academias{
+
+
+/* BOTOES */
+
+.btns-academias {
+    margin: -2rem auto 4rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btns-academias > button {
+    border: none;
+    background: none;
+}
+
+#btn-academias {
+    font-size: 2rem;
+    color:white;
+}
+
+#academia-traco2 {
+    margin: -3.5rem auto 4.5rem;
+    height: 5px;
+    width: 60vw;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1023px) {
+    #container-academias{
         margin-top: 100px;
         background-color: #010D52;
-        height: 600px;
-    }
-    #quebrar-page>p{
-        position: unset;
-        display: flex;
-        font-size: 18px;
-        width: 95vw;
-        margin-top: 30px;
-        margin-right: 15px;
-    }
-    #quebrar-page>h3{
-        position: unset;
-        display: flex;
-        font-size: 24px;
-        width: 95vw;
-        justify-content: center;
-    }
-    #cards-academias{
-        display: flex;
-        max-height: 300px;
-        overflow-x: scroll;
-        margin-left: 50px;
-        margin-bottom: 30px;
-        border: none;
-        border-radius: 10px;
-    }
-    #cards-academias{
-        min-width: 130px;
-        justify-content: space-between;
-    }
-}
-
-@media screen and (min-width: 948px){
-    .card-academia>h6{
-        display: none;
-        width: 130px;
-        font-size: 14px;
+        box-shadow: 0 0 2em #3b3b3b;
         font-family: 'Montserrat', sans-serif;
-        color: white;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        margin-left: 9px;
-        margin-top: 10px;
-        line-height: 18px;
     }
     
-    .card-academia:hover > h6{
-        display: flex;
+    #container-academias > h1{
+        font-weight: 700;
+        color: white;
+        margin-top: 2.5rem;
     }
-    #cards-academias{
-        min-width: 200px;
+    
+    #academia-traco {
+        margin: 1rem auto 1rem;
+        height: 5px;
+        width: 60vw;
+        background-color: white;
     }
-    #cards-academias> .card-academia{
+    
+    #quebrar-page {
         display: flex;
-        min-width: 180px;
+        flex-direction: column;
         justify-content: center;
-        max-height: 300px;
+        align-items: center;
+        overflow-x: auto;
     }
-    #quebrar-page>p{
+    
+    #quebrar-page>h3{
         display: flex;
-        justify-content: unset;
-        width: 70vw;
-        margin-left: 210px;
-        text-align: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: white;
+        font-style: italic;
+        font-weight: 500;
     }
-    #parte-academias{
-        height: 650px;
+    
+    #quebrar-page > p{
+        width: 75vw;
+        color: white;
+        margin: 0.5rem 15% 0;
     }
-    .card-academia>h6{
-        padding: 15px;
-        margin-left: 0px;
-        width: 250px;
+    
+    .scrollandinho {
+        width: 75vw;
+        margin: 2.75rem auto 3.5rem;
+        padding: 1rem;
+    }
+    
+    #cards-academias {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto ;
+        scroll-behavior: smooth
+        ;
+    }
+    
+    #cards-academias::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .card-academia {
+        height: 20rem;
+        min-width: 43.5%;
+        margin: auto 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .container-text-card {
+        margin-bottom: 2rem;
+        width: 15rem;
+        height: 18rem;
+        height: min-content;
+    }
+    
+    .container-text-card > img {
+        width: 8.5vw;
+        margin: 1rem 0 1.5rem;
+    }
+    
+    #picpay > .container-text-card > img {
+        width: 13vw;
+    }
+    
+    #original > .container-text-card > img {
+        width: 13vw;
+    }
+    
+    .container-text-card > h6 {
+        color: white;
+        flex-wrap: wrap;
+    }
+    
+    .card-ajuste {
+        max-width: 15vw;
+        height: 20rem;
+        margin: auto 1rem;
+        flex: none;
+    }
+    
+    .card-ajuste > p {
+        color: #ffffff00;
+    }
+    
+    
+    .classex {
+        transform: scale(1.5);
+    }
+    
+    
+    /* BACKGROUNDS */
+    
+    #picpay{
+        background-image: linear-gradient(to bottom, #44DA74, #30A060);
+    }
+    
+    #original{
+        background-image: linear-gradient(to left bottom, #000, #002D16, #00C55F);
+    }
+    
+    #friboi{
+        background-image: linear-gradient(to bottom, #ED1C24, #9C090F);
+    }
+    
+    #seara{
+        background-image: linear-gradient(to bottom, #EE7026, #ff7b00);
+    }
+    #swift{
+        background-image: linear-gradient(to bottom, #ffc800ce, #FFC700);
+    }
+    
+    #picpay, #original, #seara, #friboi, #swift{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+    
+    
+    /* BOTOES */
+    
+    .btns-academias {
+        margin: -2rem auto 4rem;
+        width: 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .btns-academias > button {
+        border: none;
+        background: none;
+    }
+    
+    #btn-academias {
+        font-size: 2rem;
+        color:white;
+    }
+    
+    #academia-traco2 {
+        margin: -3.5rem auto 4.5rem;
+        height: 5px;
+        width: 60vw;
+        background-color: white;
     }
 }
-
-

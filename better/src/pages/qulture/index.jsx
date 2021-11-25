@@ -1,6 +1,7 @@
 import Image from './contents/image.jsx'
 import Missao from './contents/missao.jsx'
 import Alimentare from './contents/alimentare.jsx'
+import Linha_Tempo from './contents/linha-tempo.jsx';
 import Valores from './contents/valores.jsx'
 import Demonstrativos from './contents/demonstrativos.jsx'
 import Video from './contents/video.jsx'
@@ -15,6 +16,8 @@ const Qulture = () => {
             <Image />
 
             <Missao />
+
+            <Linha_Tempo />
 
             <Valores />
 
