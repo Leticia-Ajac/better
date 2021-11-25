@@ -233,7 +233,7 @@
     
     .card-academia {
         height: 20rem;
-        min-width: 43.5%;
+        min-width: 20rem;
         margin: auto 1rem;
         display: flex;
         flex-direction: column;
