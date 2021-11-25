@@ -14,7 +14,7 @@ import { BsFillCaretRightFill } from 'react-icons/bs';
 
 
 const Academias = () => {
-
+    var x = 0
 
     return (
         <div id='container-academias'>
@@ -76,10 +76,39 @@ const Academias = () => {
                     </div>
                 </div>
                 <div className="btns-academias">
-                    <button>
+                    <button onClick={()=> {
+                        x = x - 350
+                        const container = document.querySelector("#cards-academias")
+                        
+                        if (x < 0) {
+                            x = 0
+                        }
+
+                        console.log(x)
+                        container.scrollTo(x,0)
+                        
+                        console.log(x)
+                    }} >
                         <p id='btn-academias' >◀</p>
                     </button>
-                    <button  >
+                    <button onClick={()=> {
+                        x = x + 350
+                        const container = document.querySelector("#cards-academias")
+                        const card = document.querySelector('.card-academia')
+
+                        console.log(x)
+                        container.scrollTo(x,0)
+                        if(card.scrollTo == x){
+                            card.classList.add('.classex')
+                        }
+                        
+                        if (x > 1400) {
+                            x = 1400
+                        }
+
+
+                        console.log(x)
+                    }} >
                         <p id='btn-academias'  >▶</p>
                     </button>
                 </div>
