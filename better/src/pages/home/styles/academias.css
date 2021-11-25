@@ -3,12 +3,14 @@
     background-color: #010D52;
     box-shadow: 0 0 2em #3b3b3b;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 0.1rem;
 }
 
 #container-academias > h1{
     font-weight: 700;
     color: white;
-    margin-top: 2.5rem;
+    margin: 2.5rem auto 0;
 }
 
 #academia-traco {
