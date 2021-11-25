@@ -7,7 +7,7 @@ import Demonstrativos from './contents/demonstrativos.jsx'
 import Video from './contents/video.jsx'
 import Lgpd from './contents/lgpd.jsx'
 import Doacao from './contents/doacao.jsx'
-import Linha_Tempo from './contents/linha-tempo.jsx'
+
 
 const Qulture = () => {
     return (
