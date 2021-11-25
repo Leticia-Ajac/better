@@ -17,14 +17,15 @@
 }
 
 .noticias-title > h2 {
-    min-width: 80vw;
+    max-width: 80vw;
     background: url('../../../assets/noticas_divisao.png') no-repeat;
     background-size: 100%;
     background-position-x: center;
+    background-position-y: center;
     color: #001489;
     font-weight: 800;
     font-size: 2rem;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
 }
 
 

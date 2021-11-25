@@ -4,6 +4,7 @@ import L_seara from '../../assets/seara.png';
 import L_swift from '../../assets/swift.png';
 import L_friboi from '../../assets/friboi.png';
 import './styles/academias.css';
+import './styles/academias.css'
 import React from 'react';
 
 
@@ -71,7 +72,7 @@ const Academias = () => {
                 </div>
                 <div className="btns-academias">
                     <button onClick={()=> {
-                        x = x - 350
+                        x = x - 400
                         const container = document.querySelector("#cards-academias")
                         
                         if (x < 0) {
@@ -86,7 +87,7 @@ const Academias = () => {
                         <p id='btn-academias' >◀</p>
                     </button>
                     <button onClick={()=> {
-                        x = x + 350
+                        x = x + 400
                         const container = document.querySelector("#cards-academias")
                         const card = document.querySelector('.card-academia')
 

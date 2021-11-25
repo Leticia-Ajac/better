@@ -2,6 +2,10 @@
 	font-family: 'Montsserrat', sans-serif;
 }
 
+.Lgpd-page {
+	margin-top: 9rem;
+}
+
 #id-compromisso{
 	display: flex;
 	justify-content: center;

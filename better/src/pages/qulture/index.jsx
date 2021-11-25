@@ -16,8 +16,6 @@ const Qulture = () => {
 
             <Missao />
 
-            <Linha_Tempo />
-
             <Valores />
 
             <Video/>

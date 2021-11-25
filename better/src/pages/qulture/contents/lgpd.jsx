@@ -5,13 +5,14 @@ import horizontal from '../../../assets/horizontal.png'
 
 import '../styles/lgpd2.css'
 import '../styles/lgpd.css'
+import '../../home/styles/noticias.css'
 
 const Lgpd = () => {
     return (
 
         <div className='Lgpd-page'>
-            <div className="titulo">
-                <h1>LGPD</h1>
+            <div className="noticias-title">
+                <h2>LGPD</h2>
             </div>
 
             <div id="id-compromisso">
