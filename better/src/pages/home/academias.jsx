@@ -52,7 +52,7 @@ const Academias = () => {
                             <div className="container-text-card">
                                 <img src={L_friboi} />
                                 <h6>Nossa academia Friboi torna acessível aos estudantes o entedimento completo da cadeia de produção do nosso grupo.</h6>
-                                <h6>Carne confiável tem nome</h6>
+                                <h6>Carne confiável tem nome.</h6>
                             </div>
 
 
@@ -62,11 +62,11 @@ const Academias = () => {
                             <div className="container-text-card">
                                 <img src={L_swift} />
                                 <h6>A academia Swift transforma os estudantes em vendedores natos, preparamos pessoas carismáticas e que fazem a diferença</h6>
-                                <h6>Alimentando uma vida melhor</h6>
+                                <h6>Alimentando uma vida melhor!</h6>
                             </div>
 
                         </div>
-                        <div className="card-ajuste"> <p>AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE </p></div>
+                        <div className="card-ajuste"> <p>JUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE AJUSTE </p></div>
                     </div>
                 </div>
                 <div className="btns-academias">

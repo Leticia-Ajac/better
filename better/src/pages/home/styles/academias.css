@@ -1,3 +1,4 @@
+
 #container-academias{
     margin-top: 100px;
     background-color: #010D52;
@@ -5,6 +6,16 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding-top: 0.1rem;
+}
+#btn-academias{
+    transition: 0.4s all ease-out;
+}
+
+#container-academias::-webkit-scrollbar{
+    display: none;
+}
+#btn-academias:hover{
+    transform: scale(125%);
 }
 
 #container-academias > h1{
