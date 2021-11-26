@@ -74,15 +74,11 @@ const Academias = () => {
                     <button onClick={()=> {
                         x = x - 435
                         const container = document.querySelector("#cards-academias")
-                        
                         if (x < 0) {
                             x = 0
                         }
-
-                        console.log(x)
                         container.scrollTo(x,0)
                         
-                        console.log(x)
                     }} >
                         <p id='btn-academias' >◀</p>
                     </button>
@@ -91,7 +87,6 @@ const Academias = () => {
                         const container = document.querySelector("#cards-academias")
                         const card = document.querySelector('.card-academia')
 
-                        console.log(x)
                         container.scrollTo(x,0)
                         if(card.scrollTo == x){
                             card.classList.add('.classex')
@@ -100,9 +95,6 @@ const Academias = () => {
                         if (x > 1400) {
                             x = 1400
                         }
-
-
-                        console.log(x)
                     }} >
                         <p id='btn-academias'  >▶</p>
                     </button>
