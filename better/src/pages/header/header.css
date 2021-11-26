@@ -6,13 +6,75 @@ input{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    overflow-x: hidden
+}
+.burger-items{
+    display: none;
+}
+#logogerminare2{
+    display: none;
+}
+
+.toggle{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: none;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 80%;
+    margin-top: 10px;
+    z-index: 4;
+    transition: 0.4s all ease-out;
+    opacity: 0;
 }
 
 
+
+.toggle > span{
+    position: absolute;
+    border-radius: 10px;
+    width: 40px;
+    height: 5px;
+    background: white;
+    transition: 0.5s;
+}
+.toggle > span:nth-child(1){
+    transform: translateY(-15px);
+    width: 40px;
+}
+
+.toggle > span:nth-child(2){
+    transform: translateY(15px);
+    width: 40px;
+}
+
+.toggle:focus > span:nth-child(3){
+    transform: translateX(60px)
+}
+.toggle:focus > span:nth-child(1){
+    width: 40px;
+    transform: translateY(0px) rotate(45deg);
+}
+.toggle:focus > span:nth-child(2){
+    width: 40px;
+    transform: translateY(0px) rotate(315deg);
+}
+#logogerminare2{
+    width: 120px;
+    height: 100px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;
+    opacity: 0;
+}
 header{
     background-color: #010D52;
-    height: 6.8rem;
+    height: 8.8rem;
     width:100vw;
     display: flex;
     align-items: center;
@@ -31,10 +93,21 @@ header{
     margin-left: 7.5rem;
     width: 60%;
 }
-
+#azul-pf{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 100vw;
+    background-color: blue;
+    height: 6.8rem;
+    width: 100vw;
+    opacity: 1;
+    z-index: 2;
+    transition: 0.4s all ease-out;
+    align-items: center;
+}
 #listatopicos > a{
     width: 3.125rem;
-    white-space: nowrap;
     height: fit-content;
     transition: all ease-in-out 0.2s;
     text-decoration: none;
@@ -43,6 +116,8 @@ header{
 #listatopicos > a > .topicos{
     width: 0.75rem;
     color: white;
+    overflow-x: visible;
+    white-space: nowrap;
     border-bottom: 0.125rem solid white;
     transition: all ease-in-out 0.2s;
     list-style: none;
@@ -81,6 +156,7 @@ header{
     color: white;
     text-decoration: none;
     list-style: none;
+    white-space: nowrap;
 }
 #portal_aluno:hover{
     background: rgba(255, 255, 255, 0.123);
@@ -118,7 +194,13 @@ header{
     margin-right: 50px;
     justify-content: space-evenly;
 }
+#invisible-header-text>{
+    flex-direction: row;
+}
 
+#invisible-header-text>a{
+    gap: 40px;
+}
 #portal_aluno:hover > .nicks> a{
     display: flex;
     align-items: center;
@@ -139,31 +221,116 @@ header{
     .topicos{
         display: none;
     }
-
+    #second-burger{
+        font-size: 12px;
+    }
+    #second-burger>a>p{
+        width: 120px;
+    }
+    header{
+        height: 180px;
+    }
+    .toggle{
+        opacity: 1;
+        transform: scale(0.9);
+        margin-bottom: 30px;
+    }
     .nome{
         display: none;
     }
-    .nome{
+    #invisible-header-text{
+        flex-direction: row;
+        display: flex;
+        gap: 40px;
+        width: 100vw;
+    }
+    #logogerminare{
+        display: none;
+    }
+    .burger-items{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 30px;
+        margin-left: -12%;
+        opacity: 1;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
-        width: 200px;
-        height: 250px;
-        font-size: 14px;
-        background-color: rgb(231, 154, 91);
-        position: absolute;
-        right: 0px;
-        margin-top: 357px;
-        border: 3px solid rgb(255, 255, 255);
-        border-top: 1px solid #010D52;
-        border-bottom-left-radius: 10%;
-        z-index: 10;
+        z-index: 2;
     }
 
-    .nome > p {
-        margin-left: -20px;
-        font-weight: 200px;
+    .burger-original-items{
+        display: flex;
+        height: 60px;
+        flex-direction: row;
+        width: 0px;
+        margin-top: 10px;
+        overflow-x: hidden;
+        opacity: 1;
+        z-index: 2;
+        transition: 0.4s all ease-out;
     }
+
+    
+    .toggle:focus ~ .burger-original-items{
+        opacity: 1;
+        width: 480px;
+    }
+
+    .toggle:focus + #azul-pf{
+        opacity: 1;
+    }
+
+
+    .burger-original-items>a{
+        text-decoration: none;
+    }
+
+    .burger-original-items>a>p{
+        color: white;
+        width: 120px;        
+        font-size: 12px;
+        border-bottom: 2px solid white;
+        padding-bottom: 3px;
+        font-weight: 700;
+        opacity: 1;
+    }
+    .toggle:focus #azul-pf{
+        opacity: 1;
+    }
+    .toggle:focus .coluna-amem{
+        opacity: 1;
+    }
+
+    .burger-items>a>p, .burger-items>.coluna-amem>a>p{
+        width: 140px;
+        display: flex;    
+        color: white;  
+        flex-direction: column;
+        font-family: 'Montserrat';
+        font-size: 14px;   
+        height: 40px;
+        font-weight: 700;
+        text-decoration: none;  
+        padding-bottom: 1px;
+    }
+    .burger-items>a, .coluna-amem>a{
+        text-decoration: none;
+        margin-top: 25px;
+        height: 63px;
+        height: 40px;
+    }
+    #listatopicos{
+        display: none;
+    }
+
+    #invisible-header-text{
+        margin-left: -20px;
+    }
+    .coluna-amem>#margin-nerfada{
+        margin-left: -80px;
+    }
+
     .linha-carousel{
         display: none;
     }
@@ -173,7 +340,7 @@ header{
     .icone{
         z-index: 10;
     }
-    input:checked + .nome {
+    .nome:focus {
         display: flex;
     }
     .nome > a{
@@ -202,19 +369,130 @@ header{
         #portal_aluno{
             display: none;
         }
+        #logogerminare2{
+            width: 100px;
+            display: unset;
+            height: 80px;
+            position: relative;
+            margin-left: 40px;
+            opacity: 1;
+        }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 755px) {
     .icons{
         transform: scale(1.75);
     }
-    .nome{
-        font-size: 12;
-        width: 200px;
+    .burger-original-items{
+        transform: scale(0.7);
     }
+
+    
     #logogerminare{
         transform: scale(0.75);
         margin-left: 0px;
     }
+
+    .toggle{
+        opacity: 1;
+        transform: scale(0.70);
+        margin-left: 70%;
+        margin-bottom: 40px;
+    }
+    #invisible-header-text>a{
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin-left: 20px;
+        width: 150px;
+        margin-top: 70px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+    #logogerminare2{
+        width: 60px;
+        height: 50px;
+        margin-left: 18px;
+        margin-top: 0px;
+    }
+
 }
+
+@media only screen and (max-width: 500px) {
+
+    .burger-original-items{
+        margin-top: 20px;
+        font-size: 12px;
+        max-width: 480px;
+        margin-top: -120px;
+        position: absolute;
+        margin-left: 3%;
+    }
+    #azul-pf{
+        opacity: 1;
+        z-index: 2;
+        position: absolute;
+    }
+
+    .toggle{
+        position: absolute;
+    }
+    #first-burger{
+        margin-top: 100px;
+        position: absolute;
+        margin-left: -5%;
+    }
+
+    #first-burger>a>p{
+        font-size: 15px;
+        width: 111px;
+    }
+    
+    .burger-original-items>a>p{
+        font-size: 12px;
+        margin-left: 5px;
+        width: 100px;
+    }
+    #second-burger>a>p{
+        font-size: 12px;
+        width: 110px;
+    }
+    #second-burger{
+        margin-left: 0%;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    .burger-original-items>a>p{
+        font-size: 12px;
+        margin-left: 5px;
+        width: 100px;
+    }
+    .toggle{
+        margin-left: 50%;
+    }
+    .burger-original-items{
+        margin-left: 0px;
+    }
+    #second-burger>a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #second-burger>a>p{
+        width: 100px;
+        vertical-align: middle;
+        height: 45px;
+        border: none;
+        text-align: center;
+    }
+    #first-burger>a>p{
+        font-size: 12px;
+        width: 100px;
+    }
+}
+
 
