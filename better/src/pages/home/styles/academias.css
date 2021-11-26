@@ -48,7 +48,7 @@
 
 .scrollandinho {
     width: 75vw;
-    margin: 2.75rem auto 3.5rem;
+    margin: 2rem auto 3.5rem;
     padding: 1rem;
 }
 
@@ -219,5 +219,186 @@
     
     #cards-academias::-webkit-scrollbar-thumb:hover {
         background: #ffa844; 
+    }
+}
+
+
+@media screen and (max-width: 869px) {
+    #container-academias{
+        padding-top: 0.7rem;
+    }
+    
+    
+    #container-academias > h1{
+        font-weight: 700;
+        color: white;
+        margin: 2.5rem auto;
+        width: min-content;
+        font-size: 1.8rem;
+    }
+    
+    #academia-traco {
+        margin: 1rem auto 1rem;
+        height: 5px;
+        width: 60vw;
+        background-color: white;
+    }
+    
+    #quebrar-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: auto;
+    }
+    
+    #quebrar-page>h3{
+        display: flex;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color: white;
+        font-style: italic;
+        font-weight: 500;
+    }
+    
+    #quebrar-page > p{
+        width: 65vw;
+        color: white;
+        margin: 0.5rem 15% 0;
+        font-size: 14px;
+    }
+    
+    
+    #cards-academias::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .container-text-card > img {
+        width: 8.9vw;
+        margin: 1rem auto 1.5rem;
+    
+    }
+    
+    #picpay > .container-text-card > img {
+        width: 13vw;
+        margin: 1rem auto 1.5rem;
+    
+    }
+    
+    #original > .container-text-card > img {
+        width: 13vw;
+        margin: 1rem auto 1.5rem;
+    
+    }
+    
+    .container-text-card > h6 {
+        color: white;
+        margin: 0 2rem;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    
+    .card-ajuste {
+        max-width: 12vw;
+        height: 20rem;
+        margin: auto 1rem;
+        flex: none;
+    }
+    
+    .card-ajuste > p {
+        color: #ffffff00;
+    }
+}
+
+@media screen and (max-width:665px) {
+    #container-academias{
+        padding-top: 0.7rem;
+    }
+    
+    
+    #container-academias > h1{
+        font-weight: 700;
+        color: white;
+        margin: 1.8rem auto;
+        width: min-content;
+        font-size: 1.4rem;
+    }
+    
+    #academia-traco {
+        margin: 1rem auto 1rem;
+        height: 5px;
+        width: 55vw;
+        background-color: white;
+    }
+    
+    #quebrar-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: auto;
+    }
+    
+    #quebrar-page>h3{
+        display: flex;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: white;
+        font-style: italic;
+        font-weight: 500;
+    }
+    
+    #quebrar-page > p{
+        width: 50vw;
+        color: white;
+        margin: 0.5rem 15% -1rem;
+        font-size: 10px;
+    }
+    
+    
+    #cards-academias::-webkit-scrollbar{
+        display: none;
+    }
+
+    .card-academia {
+        height: 15rem;
+    }
+    
+    .container-text-card > img {
+        width: 8.9vw;
+        margin: 1rem auto 1.5rem;
+    
+    }
+    
+    #picpay > .container-text-card > img {
+        width: 13vw;
+        margin: 1rem auto 1.5rem;
+    
+    }
+    
+    #original > .container-text-card > img {
+        width: 13vw;
+        margin: 1rem auto 1.5rem;
+    
+    }
+    
+    .container-text-card > h6 {
+        color: white;
+        margin: 0 2rem;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    
+    .card-ajuste {
+        max-width: 12vw;
+        height: 15rem;
+        margin: auto 1rem;
+        flex: none;
+    }
+    
+    .card-ajuste > p {
+        color: #ffffff00;
     }
 }
