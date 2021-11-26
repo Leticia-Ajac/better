@@ -23,8 +23,6 @@ const Home = () => {
 
             <Destaque />
 
-            <Academias />
-
             <Noticias />
 
         </div>

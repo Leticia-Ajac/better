@@ -72,7 +72,7 @@ const Academias = () => {
                 </div>
                 <div className="btns-academias">
                     <button onClick={()=> {
-                        x = x - 400
+                        x = x - 435
                         const container = document.querySelector("#cards-academias")
                         
                         if (x < 0) {
@@ -87,7 +87,7 @@ const Academias = () => {
                         <p id='btn-academias' >◀</p>
                     </button>
                     <button onClick={()=> {
-                        x = x + 400
+                        x = x + 435
                         const container = document.querySelector("#cards-academias")
                         const card = document.querySelector('.card-academia')
 

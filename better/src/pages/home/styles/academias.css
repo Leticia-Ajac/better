@@ -44,6 +44,8 @@
     width: 75vw;
     color: white;
     margin: 0.5rem 15% 0;
+    text-align: center;
+
 }
 
 .scrollandinho {
@@ -228,7 +230,6 @@
         padding-top: 0.7rem;
     }
     
-    
     #container-academias > h1{
         font-weight: 700;
         color: white;
@@ -401,4 +402,165 @@
     .card-ajuste > p {
         color: #ffffff00;
     }
+}
+
+@media only screen and (max-width:619px){
+    #container-academias{
+        padding-top: -0.4rem;
+    }
+    
+    
+    #container-academias > h1{
+        font-weight: 700;
+        color: white;
+        margin: 1.8rem auto;
+        width: min-content;
+        font-size: 1.3rem;
+    }
+    
+    #academia-traco {
+        margin: 0.6rem auto 1rem;
+        height: 5px;
+        width: 50vw;
+        background-color: white;
+    }
+    
+    
+    #quebrar-page>h3{
+        font-size: 14px;
+    }
+    
+    #quebrar-page > p{
+        width: 52vw;
+        color: white;
+        margin: 0.5rem 15% -1rem;
+        font-size: 10px;
+    }
+
+    .scrollandinho {
+        margin-top: 0.5rem;
+    }
+    
+    .card-academia {
+        height: 12.5rem;
+    }
+    
+    .container-text-card > img {
+        width: 8.5vw;
+        margin: 1rem auto 1.5rem;
+    
+    }
+    
+    #picpay > .container-text-card > img {
+        width: 13vw;
+        margin: 1rem auto 1.5rem;
+    
+    }
+    
+    #original > .container-text-card > img {
+        width: 13vw;
+        margin: 0.5rem auto 1.5rem;
+    
+    }
+    
+    .container-text-card > h6 {
+        width: 8rem;
+        color: white;
+        margin: 0 2rem;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+    
+    .card-ajuste {
+        max-width: 12vw;
+        height: 15rem;
+        margin: auto 1rem;
+        flex: none;
+    }
+    
+    .card-ajuste > p {
+        color: #ffffff00;
+    }
+
+}
+
+
+@media only screen and (max-width:479px){
+    #container-academias{
+        padding-top: -0.4rem;
+    }
+    
+    
+    #container-academias > h1{
+        font-weight: 700;
+        color: white;
+        margin: 1.8rem auto;
+        width: min-content;
+        font-size: 1.2rem;
+    }
+    
+    #academia-traco {
+        margin: 0.6rem auto 1rem;
+        height: 5px;
+        width: 50vw;
+        background-color: white;
+    }
+    
+    
+    #quebrar-page>h3{
+        font-size: 13px;
+    }
+    
+    #quebrar-page > p{
+        width: 52vw;
+        color: white;
+        margin: 0.5rem 15% -1rem;
+        font-size: 9px;
+    }
+
+    .scrollandinho {
+        margin-top: 0.5rem;
+    }
+    
+    .card-academia {
+        height: 12.5rem;
+    }
+    
+    .container-text-card > img {
+        width: 8.8vw;
+        margin: 1rem auto 1.5rem;
+    
+    }
+    
+    #picpay > .container-text-card > img {
+        width: 13vw;
+        margin: 1rem auto 1.5rem;
+    
+    }
+    
+    #original > .container-text-card > img {
+        width: 13vw;
+        margin: 0.5rem auto 1.5rem;
+    
+    }
+    
+    .container-text-card > h6 {
+        width: 6.5rem;
+        color: white;
+        margin: 0 2rem;
+        text-align: center;
+        font-size: 0.6rem;
+    }
+    
+    .card-ajuste {
+        max-width: 7vw;
+        height: 15rem;
+        margin: auto 1rem;
+        flex: none;
+    }
+    
+    .card-ajuste > p {
+        color: #ffffff00;
+    }
+
 }
