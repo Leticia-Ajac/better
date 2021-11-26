@@ -2,10 +2,9 @@
 	font-family: 'Montsserrat', sans-serif;
 }
 
-.Lgpd-page {
-	margin-top: 9rem;
+.Lgpd-page{
+	margin-top: 80px;
 }
-
 #id-compromisso{
 	display: flex;
 	justify-content: center;
@@ -27,7 +26,14 @@
 	color: #000;
 	font-weight: 400;
 }
-
+.titulo-da-lgpd>h1{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 44px;
+    font-weight: bold;
+    color: #001489;
+    text-shadow: 2px 1px rgb(214, 214, 214);
+}
 #colunas-lgpd-1{
 	margin-top: 50px;
 	display: flex;
@@ -119,6 +125,7 @@
 #img1-id{
 	height: 335px;
 	align-self: center;
+	border-radius: 10px;
 	justify-content: center;
 }
 
@@ -179,6 +186,7 @@
 }
 #img2-id{
 	height: 350px;
+	border-radius: 10px;
 }
 
 #text-coleta2{
@@ -210,6 +218,7 @@
 }
 
 #text-compartilhamento1{
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
 	font-style: italic;
@@ -342,5 +351,18 @@
 	#text-direitos{
 		width: 310px;
 		font: 12px;
+	}
+}
+
+
+@media screen and (max-width: 470px) {
+	#img2-id{
+		height: 280px;
+		width: 300px;
+		border-radius: 10px;
+	}
+	.titulo-da-lgpd>h1{
+		font-family: 'Montserrat', sans-serif;
+		margin-left: 30%;
 	}
 }
