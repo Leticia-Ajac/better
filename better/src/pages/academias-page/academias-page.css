@@ -89,6 +89,8 @@
 }
 
 #titulo-galeria{
+    position: relative;
+    top: 20px;
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -110,7 +112,8 @@
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
-    width: 1100px;
+    width: 90vw;
+    align-self: center;
     margin-top: 20px;
     margin-bottom: 40px;
     color: #F28622;
@@ -527,9 +530,9 @@
         width: 280px;
     }
     #estagio-foto{
-        width: 300px;
+        width: 280px;
         height: 265px;
-        margin-left: 0px;
+        margin: 0 auto;
     }
     #estagio> #toColumn > p{
         display: flex;
