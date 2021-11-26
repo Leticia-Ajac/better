@@ -25,6 +25,9 @@ import bia from '../../assets/bia.png';
 import marbets from '../../assets/marbets.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import Academias from '../home/academias';
+import '../home/styles/academias.css'
+
 const academias = () => { AOS.init();
     return (
         <div id='academias-all'>
@@ -47,6 +50,9 @@ const academias = () => { AOS.init();
                     <p id='empresas-participantes'>Empresas Participantes do Programa de Estágio: Friboi, Seara, Flora, Swift, PicPay e Banco Original.</p>
                     </div>
             </div>
+
+            <Academias />
+
             <div id='estagio-galeria'>
                 <div id='titulo-galeria'>
                     <h1>GALERIA</h1>

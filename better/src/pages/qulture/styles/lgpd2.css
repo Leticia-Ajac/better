@@ -1,0 +1,186 @@
+.container-lgpd-4 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#tit-acesso {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#text-acesso {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0px 0px 10px;
+}
+
+#tit-retificacao {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 10px 0px 0px;
+}
+
+#text-retificacao {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0px 0px 10px;
+}
+
+#tit-exclusao {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 10px 0px 0px;
+}
+
+#text-exclusao {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0px 0px 10px;
+}
+
+#tit-oposicao {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 10px 0px 0px;
+}
+
+#text-oposicao {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0px 0px 10px;
+}
+
+#tit-solicitar {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 10px 0px 0px;
+}
+
+#text-solicitar {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0px 0px 10px;
+}
+
+
+#tit-portabilidade {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 10px 0px 0px;
+}
+
+#text-portabilidade {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0px 0px 10px;
+}
+
+#tit-retirar {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 10px 0px 0px;
+}
+
+#text-retirar {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0px 0px 10px;
+}
+
+@media screen and (max-width: 750px) {
+    .container-lgpd-4 {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .container-lgpd-4 {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+        width: 350px;
+        margin: 0 auto;
+    }
+}
+ 
+@media screen and (max-width: 400px) {
+    .container-lgpd-4 {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+        width: 250px;
+        margin: 0 auto;
+    }
+}

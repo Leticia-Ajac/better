@@ -2,6 +2,10 @@
 	font-family: 'Montsserrat', sans-serif;
 }
 
+.Lgpd-page {
+	margin-top: 9rem;
+}
+
 #id-compromisso{
 	display: flex;
 	justify-content: center;
@@ -68,7 +72,12 @@
 	height: 290px;
 }
 
+#horizontal{
+	display: none;
+}
+
 #coluna-2-lgpd{
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	width: fit-content;
@@ -88,7 +97,7 @@
 	align-self: center;
 	justify-content: center;
 	text-align: left;
-	width: 245px;
+	width: 270px;
 }
 
 #colunas-lgpd-2{
@@ -108,30 +117,33 @@
 }
 
 #img1-id{
-	width: 254px;
-	height: 328px;
+	height: 335px;
 	align-self: center;
 	justify-content: center;
 }
 
 #column-2-lgpd{
 	flex-direction: column;
-	justify-content: center;
+	position: relative;
+	top: 10px;
 }
 
 #tit-como{
+	text-align: left;
 	font-weight: bold;
-	font-size: 22px;
+	align-self: center;
+	font-size: 25px;
 	color: #001489;
-	text-align: center;
-	width: fit-content;
+	width: 500px;
+	border-bottom: #001489 3px solid;
+	padding-bottom: 10px;
 }
 
 #text-como{
-	width: 322px;
+	width: 371px;
 	text-align: left;
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 #container-lgpd-1{
@@ -142,29 +154,193 @@
 
 #tit-coleta{
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 25px;
 	color: #001489;
+	width: fit-content;
+	align-self: center;
 	text-align: center;
+	margin-bottom: 30px;
+	border-bottom: #001489 3px solid;
+	padding-bottom: 10px;
 }
 
 #coluna-container{
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
-	align-items: center;
 	align-self: center;
 }
 
 #text-coleta1{
 	font-size: 18px;
 	font-weight: 500;
-	width: 300px;
 	text-align: left;
-	justify-content: center;
-	height: 281px;
+	width: 305px;
+}
+#img2-id{
+	height: 350px;
 }
 
-#img2-id{
-	width: 300px;
-	height: 237px;
+#text-coleta2{
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 500;
+	width: 637px;
+	align-self: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#container-lgpd-2{
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+}
+
+#tit-compartilhamento{
+	font-weight: bold;
+	font-size: 25px;
+	color: #001489;
+	width: fit-content;
+	align-self: center;
+	text-align: left;
+	margin-bottom: 30px;
+	border-bottom: #001489 3px solid;
+	padding-bottom: 10px;
+}
+
+#text-compartilhamento1{
+	font-size: 18px;
+	font-weight: 500;
+	font-style: italic;
+	width: 640px;
+	text-align: left;
+	align-self: center;
+	justify-content: center;
+	color: black;
+}
+
+.text-compart{
+	position: relative;
+	left: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: italic;
+	width: 710px;
+	text-align: left;
+	align-self: center;
+	justify-content: center;
+	color: #001489;
+}
+
+#container-lgpd-3{
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+}
+
+#tit-direitos{
+	font-weight: bold;
+	font-size: 25px;
+	color: #001489;
+	width: fit-content;
+	align-self: center;
+	justify-content: center;
+	text-align: left;
+	margin-bottom: 30px;
+	border-bottom: #001489 3px solid;
+	padding-bottom: 10px;
+}
+
+#text-direitos{
+	color: #F28622;
+	font-weight: 500;
+	font-size: 14px;
+	font-style: italic;
+	align-self: center;
+	text-align: left;
+	width: 730px;
+}
+
+@media screen and (max-width: 850px) {
+	#colunas-lgpd-1{
+		flex-direction: column;
+	}
+	#vertical{
+		display: none;
+	}
+	#horizontal{
+		display: unset;
+		width: 290px;
+		margin: 40px 20px;
+	}
+
+	#column-1-lgpd{
+		display: none;
+	}
+
+	#column-2-lgpd{
+		position: unset;
+		margin-left: 2px;
+	}
+
+	#tit-como{
+		font-size: 20px;
+		width: 310px;
+		align-self: center;
+	}
+
+	#text-como{
+		font-size: 16px;
+		width: 310px;
+	}
+
+	#img1-id{
+		display: none;
+	}
+
+	#tit-coleta{
+		font-size: 20px;
+		width: 310px;
+	}
+
+	#coluna-container{
+		flex-direction: column;
+	}
+
+	#text-coleta1{
+		font-size: 16px;
+		align-self: center;
+	}
+
+	#text-coleta2{
+		width: 310px;
+		font-size: 12px;
+	}
+
+	#tit-compartilhamento{
+		width: fit-content;
+		font-size: 20px;
+	}
+
+	#text-compartilhamento1{
+		width: 310px;
+		font-size: 16px;
+	}
+
+	.text-compart{
+		width: 310px;
+		font-size: 16px;
+		left: 00px;
+	}
+
+	#tit-direitos{
+		width: 310px;
+		font-size: 20px;
+	}
+
+	#text-direitos{
+		width: 310px;
+		font: 12px;
+	}
 }
