@@ -22,6 +22,7 @@ import estagioswift from '../../assets/estagioswift.jpeg';
 import marba from '../../assets/marba.jpg';
 import carol from '../../assets/carol.png';
 import bia from '../../assets/bia.png';
+import marbets from '../../assets/marbets.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import Academias from '../home/academias';
@@ -90,7 +91,7 @@ const academias = () => { AOS.init();
                             <img className='fotos'src={fefe}/>
                             <img className='fotos'src={estagioswift}/>
                             <img className='fotos'src={seara}/>
-                            <img className='fotos'src={marba}/>
+                            <img className='fotos'src={marbets}/>
                     </div>
                 </div>
         </div>
